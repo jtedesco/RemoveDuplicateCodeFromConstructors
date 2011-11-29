@@ -1,0 +1,96 @@
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclarationVisitor}{
+\section{edu.illinois.canistelCassabanana.visitors.ConstructorDeclarationVisitor Class Reference}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclarationVisitor}\index{edu::illinois::canistelCassabanana::visitors::ConstructorDeclarationVisitor@{edu::illinois::canistelCassabanana::visitors::ConstructorDeclarationVisitor}}
+}
+
+
+Inherits org::eclipse::jdt::core::dom::ASTVisitor.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclarationVisitor_ac5d0769146e570f94a92eb59f92f57c8}{ConstructorDeclarationVisitor} ()
+\item 
+boolean \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclarationVisitor_afafd417f2801c19676e2d7c1b1b53b26}{visit} (MethodDeclaration node)
+\item 
+Set$<$ MethodDeclaration $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclarationVisitor_a013cd441eb841119c3e29e0c669f6cb8}{getConstructorDeclarations} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Set$<$ MethodDeclaration $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclarationVisitor_a1b3b20e50f658bd0b2e3e8b189fc3119}{constructorDeclarations}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Collects the constructor declarations found in the AST subtree from the starting root node, and exposes the results.
+
+\begin{DoxyAuthor}{Author}
+jon 
+\end{DoxyAuthor}
+
+
+Definition at line 17 of file ConstructorDeclarationVisitor.java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclarationVisitor_ac5d0769146e570f94a92eb59f92f57c8}{
+\index{edu::illinois::canistelCassabanana::visitors::ConstructorDeclarationVisitor@{edu::illinois::canistelCassabanana::visitors::ConstructorDeclarationVisitor}!ConstructorDeclarationVisitor@{ConstructorDeclarationVisitor}}
+\index{ConstructorDeclarationVisitor@{ConstructorDeclarationVisitor}!edu::illinois::canistelCassabanana::visitors::ConstructorDeclarationVisitor@{edu::illinois::canistelCassabanana::visitors::ConstructorDeclarationVisitor}}
+\subsubsection[{ConstructorDeclarationVisitor}]{\setlength{\rightskip}{0pt plus 5cm}edu.illinois.canistelCassabanana.visitors.ConstructorDeclarationVisitor.ConstructorDeclarationVisitor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclarationVisitor_ac5d0769146e570f94a92eb59f92f57c8}
+
+
+Definition at line 24 of file ConstructorDeclarationVisitor.java.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclarationVisitor_a013cd441eb841119c3e29e0c669f6cb8}{
+\index{edu::illinois::canistelCassabanana::visitors::ConstructorDeclarationVisitor@{edu::illinois::canistelCassabanana::visitors::ConstructorDeclarationVisitor}!getConstructorDeclarations@{getConstructorDeclarations}}
+\index{getConstructorDeclarations@{getConstructorDeclarations}!edu::illinois::canistelCassabanana::visitors::ConstructorDeclarationVisitor@{edu::illinois::canistelCassabanana::visitors::ConstructorDeclarationVisitor}}
+\subsubsection[{getConstructorDeclarations}]{\setlength{\rightskip}{0pt plus 5cm}Set$<$MethodDeclaration$>$ edu.illinois.canistelCassabanana.visitors.ConstructorDeclarationVisitor.getConstructorDeclarations (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclarationVisitor_a013cd441eb841119c3e29e0c669f6cb8}
+
+
+Definition at line 41 of file ConstructorDeclarationVisitor.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclarationVisitor_afafd417f2801c19676e2d7c1b1b53b26}{
+\index{edu::illinois::canistelCassabanana::visitors::ConstructorDeclarationVisitor@{edu::illinois::canistelCassabanana::visitors::ConstructorDeclarationVisitor}!visit@{visit}}
+\index{visit@{visit}!edu::illinois::canistelCassabanana::visitors::ConstructorDeclarationVisitor@{edu::illinois::canistelCassabanana::visitors::ConstructorDeclarationVisitor}}
+\subsubsection[{visit}]{\setlength{\rightskip}{0pt plus 5cm}boolean edu.illinois.canistelCassabanana.visitors.ConstructorDeclarationVisitor.visit (
+\begin{DoxyParamCaption}
+\item[{MethodDeclaration}]{node}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclarationVisitor_afafd417f2801c19676e2d7c1b1b53b26}
+Collects this method declaration if it is a constructor, and prevents further recursion. 
+
+Definition at line 34 of file ConstructorDeclarationVisitor.java.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclarationVisitor_a1b3b20e50f658bd0b2e3e8b189fc3119}{
+\index{edu::illinois::canistelCassabanana::visitors::ConstructorDeclarationVisitor@{edu::illinois::canistelCassabanana::visitors::ConstructorDeclarationVisitor}!constructorDeclarations@{constructorDeclarations}}
+\index{constructorDeclarations@{constructorDeclarations}!edu::illinois::canistelCassabanana::visitors::ConstructorDeclarationVisitor@{edu::illinois::canistelCassabanana::visitors::ConstructorDeclarationVisitor}}
+\subsubsection[{constructorDeclarations}]{\setlength{\rightskip}{0pt plus 5cm}Set$<$MethodDeclaration$>$ {\bf edu.illinois.canistelCassabanana.visitors.ConstructorDeclarationVisitor.constructorDeclarations}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclarationVisitor_a1b3b20e50f658bd0b2e3e8b189fc3119}
+The set of constructors (declarations) found 
+
+Definition at line 22 of file ConstructorDeclarationVisitor.java.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/\hyperlink{ConstructorDeclarationVisitor_8java}{ConstructorDeclarationVisitor.java}\end{DoxyCompactItemize}

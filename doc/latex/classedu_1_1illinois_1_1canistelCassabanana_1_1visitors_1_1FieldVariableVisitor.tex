@@ -1,0 +1,137 @@
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor}{
+\section{edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor Class Reference}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor}\index{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor@{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}}
+}
+
+
+Inherits org::eclipse::jdt::core::dom::ASTVisitor.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_ac48087402164194e11b127dfc1a2789b}{FieldVariableVisitor} ()
+\item 
+boolean \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_a027f6af8c69c787b9069f291fd8ea62b}{visit} (SimpleName node)
+\item 
+Set$<$ IVariableBinding $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_a3e516c7f4c19ade2a76e27986faa2922}{getFields} ()
+\item 
+Set$<$ Statement $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_a0b493a138734da451d99c34052d3197a}{getFieldAssignmentStatements} ()
+\item 
+void \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_a5bda72a70f1f5afaea622dbe82505dc2}{setFieldAssignmentStatements} (Set$<$ Statement $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_ad5f3c20acac29bcad4c77622dca4268b}{fieldAssignmentStatements})
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Set$<$ IVariableBinding $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_acaed6c0711716585d83b8b742b21ff15}{fields}
+\item 
+Set$<$ Statement $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_ad5f3c20acac29bcad4c77622dca4268b}{fieldAssignmentStatements}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Collects the field variables found in the AST subtree from the starting root node.
+
+\begin{DoxyAuthor}{Author}
+jon 
+\end{DoxyAuthor}
+
+
+Definition at line 19 of file FieldVariableVisitor.java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_ac48087402164194e11b127dfc1a2789b}{
+\index{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor@{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}!FieldVariableVisitor@{FieldVariableVisitor}}
+\index{FieldVariableVisitor@{FieldVariableVisitor}!edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor@{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}}
+\subsubsection[{FieldVariableVisitor}]{\setlength{\rightskip}{0pt plus 5cm}edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor.FieldVariableVisitor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_ac48087402164194e11b127dfc1a2789b}
+
+
+Definition at line 31 of file FieldVariableVisitor.java.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_a0b493a138734da451d99c34052d3197a}{
+\index{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor@{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}!getFieldAssignmentStatements@{getFieldAssignmentStatements}}
+\index{getFieldAssignmentStatements@{getFieldAssignmentStatements}!edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor@{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}}
+\subsubsection[{getFieldAssignmentStatements}]{\setlength{\rightskip}{0pt plus 5cm}Set$<$Statement$>$ edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor.getFieldAssignmentStatements (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_a0b493a138734da451d99c34052d3197a}
+
+
+Definition at line 65 of file FieldVariableVisitor.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_a3e516c7f4c19ade2a76e27986faa2922}{
+\index{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor@{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}!getFields@{getFields}}
+\index{getFields@{getFields}!edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor@{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}}
+\subsubsection[{getFields}]{\setlength{\rightskip}{0pt plus 5cm}Set$<$IVariableBinding$>$ edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor.getFields (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_a3e516c7f4c19ade2a76e27986faa2922}
+
+
+Definition at line 61 of file FieldVariableVisitor.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_a5bda72a70f1f5afaea622dbe82505dc2}{
+\index{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor@{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}!setFieldAssignmentStatements@{setFieldAssignmentStatements}}
+\index{setFieldAssignmentStatements@{setFieldAssignmentStatements}!edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor@{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}}
+\subsubsection[{setFieldAssignmentStatements}]{\setlength{\rightskip}{0pt plus 5cm}void edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor.setFieldAssignmentStatements (
+\begin{DoxyParamCaption}
+\item[{Set$<$ Statement $>$}]{fieldAssignmentStatements}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_a5bda72a70f1f5afaea622dbe82505dc2}
+
+
+Definition at line 69 of file FieldVariableVisitor.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_a027f6af8c69c787b9069f291fd8ea62b}{
+\index{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor@{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}!visit@{visit}}
+\index{visit@{visit}!edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor@{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}}
+\subsubsection[{visit}]{\setlength{\rightskip}{0pt plus 5cm}boolean edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor.visit (
+\begin{DoxyParamCaption}
+\item[{SimpleName}]{node}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_a027f6af8c69c787b9069f291fd8ea62b}
+
+
+Definition at line 41 of file FieldVariableVisitor.java.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_ad5f3c20acac29bcad4c77622dca4268b}{
+\index{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor@{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}!fieldAssignmentStatements@{fieldAssignmentStatements}}
+\index{fieldAssignmentStatements@{fieldAssignmentStatements}!edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor@{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}}
+\subsubsection[{fieldAssignmentStatements}]{\setlength{\rightskip}{0pt plus 5cm}Set$<$Statement$>$ {\bf edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor.fieldAssignmentStatements}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_ad5f3c20acac29bcad4c77622dca4268b}
+The statements corresponding to assignments to fields 
+
+Definition at line 29 of file FieldVariableVisitor.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_acaed6c0711716585d83b8b742b21ff15}{
+\index{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor@{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}!fields@{fields}}
+\index{fields@{fields}!edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor@{edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}}
+\subsubsection[{fields}]{\setlength{\rightskip}{0pt plus 5cm}Set$<$IVariableBinding$>$ {\bf edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor.fields}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor_acaed6c0711716585d83b8b742b21ff15}
+The fields that appear in any simple name nodes we visit. 
+
+Definition at line 24 of file FieldVariableVisitor.java.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/\hyperlink{FieldVariableVisitor_8java}{FieldVariableVisitor.java}\end{DoxyCompactItemize}

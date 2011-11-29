@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="edu.illinois.canistelCassabanana.CodingActionSet"
+            label="Java Coding"
+            visible="true">
+         <menu
+               label="Refac&amp;tor"
+               path="edit"
+               id="org.eclipse.jdt.ui.refactoring.menu">
+            <separator name="undoRedoGroup"/>
+            <separator name="reorgGroup"/>
+            <separator name="codingGroup"/>
+            <separator name="reorgGroup2"/>
+            <separator name="typeGroup"/>
+            <separator name="typeGroup2"/>
+            <separator name="codingGroup2"/>
+            <separator name="typeGroup3"/>
+            <separator name="scriptGroup"/>
+         </menu>
+         <action
+               label="&amp;Remove Duplicate Code in Constructors..."
+               class="edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsAction"
+               menubarPath="org.eclipse.jdt.ui.refactoring.menu/typeGroup2"
+               id="edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsAction"
+			   style="push"
+               tooltip="Remove Duplicate Code in Constructors">
+         </action>
+      </actionSet>
+   </extension>
+</plugin>

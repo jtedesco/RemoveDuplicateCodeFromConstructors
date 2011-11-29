@@ -1,0 +1,96 @@
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorInvocationVisitor}{
+\section{edu.illinois.canistelCassabanana.visitors.ConstructorInvocationVisitor Class Reference}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorInvocationVisitor}\index{edu::illinois::canistelCassabanana::visitors::ConstructorInvocationVisitor@{edu::illinois::canistelCassabanana::visitors::ConstructorInvocationVisitor}}
+}
+
+
+Inherits org::eclipse::jdt::core::dom::ASTVisitor.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorInvocationVisitor_abd0e8d59b108668ecabc355557d9a76c}{ConstructorInvocationVisitor} ()
+\item 
+boolean \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorInvocationVisitor_a054819da9d46acfb8fa40315e2097a8c}{visit} (ConstructorInvocation node)
+\item 
+Set$<$ ConstructorInvocation $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorInvocationVisitor_a21d38f0c9c6844c2f19c9702b9ca1bca}{getConstructorInvocations} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Set$<$ ConstructorInvocation $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorInvocationVisitor_afd9567d556bd92a417d0dfdd61e0d77f}{constructorInvocations}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Collects the constructor invocations found in the AST subtree from the starting root node, and exposes the results.
+
+\begin{DoxyAuthor}{Author}
+jon 
+\end{DoxyAuthor}
+
+
+Definition at line 20 of file ConstructorInvocationVisitor.java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorInvocationVisitor_abd0e8d59b108668ecabc355557d9a76c}{
+\index{edu::illinois::canistelCassabanana::visitors::ConstructorInvocationVisitor@{edu::illinois::canistelCassabanana::visitors::ConstructorInvocationVisitor}!ConstructorInvocationVisitor@{ConstructorInvocationVisitor}}
+\index{ConstructorInvocationVisitor@{ConstructorInvocationVisitor}!edu::illinois::canistelCassabanana::visitors::ConstructorInvocationVisitor@{edu::illinois::canistelCassabanana::visitors::ConstructorInvocationVisitor}}
+\subsubsection[{ConstructorInvocationVisitor}]{\setlength{\rightskip}{0pt plus 5cm}edu.illinois.canistelCassabanana.visitors.ConstructorInvocationVisitor.ConstructorInvocationVisitor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorInvocationVisitor_abd0e8d59b108668ecabc355557d9a76c}
+
+
+Definition at line 27 of file ConstructorInvocationVisitor.java.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorInvocationVisitor_a21d38f0c9c6844c2f19c9702b9ca1bca}{
+\index{edu::illinois::canistelCassabanana::visitors::ConstructorInvocationVisitor@{edu::illinois::canistelCassabanana::visitors::ConstructorInvocationVisitor}!getConstructorInvocations@{getConstructorInvocations}}
+\index{getConstructorInvocations@{getConstructorInvocations}!edu::illinois::canistelCassabanana::visitors::ConstructorInvocationVisitor@{edu::illinois::canistelCassabanana::visitors::ConstructorInvocationVisitor}}
+\subsubsection[{getConstructorInvocations}]{\setlength{\rightskip}{0pt plus 5cm}Set$<$ConstructorInvocation$>$ edu.illinois.canistelCassabanana.visitors.ConstructorInvocationVisitor.getConstructorInvocations (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorInvocationVisitor_a21d38f0c9c6844c2f19c9702b9ca1bca}
+
+
+Definition at line 42 of file ConstructorInvocationVisitor.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorInvocationVisitor_a054819da9d46acfb8fa40315e2097a8c}{
+\index{edu::illinois::canistelCassabanana::visitors::ConstructorInvocationVisitor@{edu::illinois::canistelCassabanana::visitors::ConstructorInvocationVisitor}!visit@{visit}}
+\index{visit@{visit}!edu::illinois::canistelCassabanana::visitors::ConstructorInvocationVisitor@{edu::illinois::canistelCassabanana::visitors::ConstructorInvocationVisitor}}
+\subsubsection[{visit}]{\setlength{\rightskip}{0pt plus 5cm}boolean edu.illinois.canistelCassabanana.visitors.ConstructorInvocationVisitor.visit (
+\begin{DoxyParamCaption}
+\item[{ConstructorInvocation}]{node}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorInvocationVisitor_a054819da9d46acfb8fa40315e2097a8c}
+Collects this method invocation if it is a constructor, and prevents further recursion. 
+
+Definition at line 37 of file ConstructorInvocationVisitor.java.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorInvocationVisitor_afd9567d556bd92a417d0dfdd61e0d77f}{
+\index{edu::illinois::canistelCassabanana::visitors::ConstructorInvocationVisitor@{edu::illinois::canistelCassabanana::visitors::ConstructorInvocationVisitor}!constructorInvocations@{constructorInvocations}}
+\index{constructorInvocations@{constructorInvocations}!edu::illinois::canistelCassabanana::visitors::ConstructorInvocationVisitor@{edu::illinois::canistelCassabanana::visitors::ConstructorInvocationVisitor}}
+\subsubsection[{constructorInvocations}]{\setlength{\rightskip}{0pt plus 5cm}Set$<$ConstructorInvocation$>$ {\bf edu.illinois.canistelCassabanana.visitors.ConstructorInvocationVisitor.constructorInvocations}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorInvocationVisitor_afd9567d556bd92a417d0dfdd61e0d77f}
+The set of constructor calls found 
+
+Definition at line 25 of file ConstructorInvocationVisitor.java.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/\hyperlink{ConstructorInvocationVisitor_8java}{ConstructorInvocationVisitor.java}\end{DoxyCompactItemize}

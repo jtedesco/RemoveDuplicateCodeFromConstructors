@@ -1,0 +1,259 @@
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage}{
+\section{edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsInputPage Class Reference}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage}\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}}
+}
+
+
+Inherits org::eclipse::ltk::ui::refactoring::UserInputWizardPage.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a948970b751b4ec66157662eab46a2c0d}{RemoveDuplicateCodeInConstructorsInputPage} (String name, List$<$ IMethod $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_acdcd523154c691ec0083de31b628b54d}{constructors})
+\item 
+void \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a49d2739e45f9245f1a2bce6922688172}{createControl} (Composite parent)
+\end{DoxyCompactItemize}
+\subsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ IMethod $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_acdcd523154c691ec0083de31b628b54d}{constructors}
+\item 
+\hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsRefactoring}{RemoveDuplicateCodeInConstructorsRefactoring} \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a70db3718069b9b46170f0cc912086da2}{refactoring}
+\item 
+Combo \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_ad900b2c0bfbdbac5a701b3e5834f1962}{accessModifierComboBox}
+\item 
+Button \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_ae4b00020b66a4de901af986961ea91e4}{helperMethodCheckBox}
+\item 
+Text \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a55a3b8c570da15f43d270768908aeab3}{helperMethodTextBox}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a9d523dfb5ee2d5cc7291b443ae27f48e}{buildHelperMethodOptions} (Composite composite)
+\item 
+void \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a10d164d3a8635fec5038274620a1ad58}{buildAccessModifierOptions} (Composite composite)
+\item 
+void \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a240da4f4f9c7d6a035752c09e159a0cc}{handleInput} ()
+\item 
+\hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsRefactoring}{RemoveDuplicateCodeInConstructorsRefactoring} \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a90f01a38343d273b9f0e74308fdb50d8}{getRemoveDuplicateCodeInConstructorsRefactoring} ()
+\item 
+void \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a37c78a173d55c36fcdfeebc22ae670a5}{enableDisableHelperMethodTextBox} ()
+\item 
+SelectionListener \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a58bda71e4e39f368ec1d1419b2c65825}{getHelperMethodCheckBoxListener} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The input page for the refactoring wizard. This class will set the fields corresponding to user input on the refactoring object.
+
+\begin{DoxyAuthor}{Author}
+jon 
+\end{DoxyAuthor}
+
+
+Definition at line 33 of file RemoveDuplicateCodeInConstructorsInputPage.java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a948970b751b4ec66157662eab46a2c0d}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}!RemoveDuplicateCodeInConstructorsInputPage@{RemoveDuplicateCodeInConstructorsInputPage}}
+\index{RemoveDuplicateCodeInConstructorsInputPage@{RemoveDuplicateCodeInConstructorsInputPage}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}}
+\subsubsection[{RemoveDuplicateCodeInConstructorsInputPage}]{\setlength{\rightskip}{0pt plus 5cm}edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsInputPage.RemoveDuplicateCodeInConstructorsInputPage (
+\begin{DoxyParamCaption}
+\item[{String}]{name, }
+\item[{List$<$ IMethod $>$}]{constructors}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a948970b751b4ec66157662eab46a2c0d}
+Create this input page, initializing the refactoring object and list of constructors.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name to display on the input page \\
+\hline
+{\em constructors} & The constructors to selected to refactor \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 68 of file RemoveDuplicateCodeInConstructorsInputPage.java.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a10d164d3a8635fec5038274620a1ad58}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}!buildAccessModifierOptions@{buildAccessModifierOptions}}
+\index{buildAccessModifierOptions@{buildAccessModifierOptions}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}}
+\subsubsection[{buildAccessModifierOptions}]{\setlength{\rightskip}{0pt plus 5cm}void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsInputPage.buildAccessModifierOptions (
+\begin{DoxyParamCaption}
+\item[{Composite}]{composite}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a10d164d3a8635fec5038274620a1ad58}
+Create the GUI components for the access modifier options, and add them to the parent controls GUI element.
+
+
+\begin{DoxyParams}{Parameters}
+{\em composite} & The parent for these controls \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 137 of file RemoveDuplicateCodeInConstructorsInputPage.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a9d523dfb5ee2d5cc7291b443ae27f48e}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}!buildHelperMethodOptions@{buildHelperMethodOptions}}
+\index{buildHelperMethodOptions@{buildHelperMethodOptions}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}}
+\subsubsection[{buildHelperMethodOptions}]{\setlength{\rightskip}{0pt plus 5cm}void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsInputPage.buildHelperMethodOptions (
+\begin{DoxyParamCaption}
+\item[{Composite}]{composite}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a9d523dfb5ee2d5cc7291b443ae27f48e}
+Create the GUI components for the helper method options, and add them to the parent controls GUI element.
+
+
+\begin{DoxyParams}{Parameters}
+{\em composite} & The parent for these controls \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 110 of file RemoveDuplicateCodeInConstructorsInputPage.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a49d2739e45f9245f1a2bce6922688172}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}!createControl@{createControl}}
+\index{createControl@{createControl}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}}
+\subsubsection[{createControl}]{\setlength{\rightskip}{0pt plus 5cm}void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsInputPage.createControl (
+\begin{DoxyParamCaption}
+\item[{Composite}]{parent}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a49d2739e45f9245f1a2bce6922688172}
+Create the GUI controls for the input page
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & The parent composite object to which to attach all controls \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 81 of file RemoveDuplicateCodeInConstructorsInputPage.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a37c78a173d55c36fcdfeebc22ae670a5}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}!enableDisableHelperMethodTextBox@{enableDisableHelperMethodTextBox}}
+\index{enableDisableHelperMethodTextBox@{enableDisableHelperMethodTextBox}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}}
+\subsubsection[{enableDisableHelperMethodTextBox}]{\setlength{\rightskip}{0pt plus 5cm}void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsInputPage.enableDisableHelperMethodTextBox (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a37c78a173d55c36fcdfeebc22ae670a5}
+Enables or disable the helper method text box based on the check box state. 
+
+Definition at line 194 of file RemoveDuplicateCodeInConstructorsInputPage.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a58bda71e4e39f368ec1d1419b2c65825}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}!getHelperMethodCheckBoxListener@{getHelperMethodCheckBoxListener}}
+\index{getHelperMethodCheckBoxListener@{getHelperMethodCheckBoxListener}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}}
+\subsubsection[{getHelperMethodCheckBoxListener}]{\setlength{\rightskip}{0pt plus 5cm}SelectionListener edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsInputPage.getHelperMethodCheckBoxListener (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a58bda71e4e39f368ec1d1419b2c65825}
+Gets the listener for the helper method check box, which enables/disables the corresponding input text box field.
+
+\begin{DoxyReturn}{Returns}
+The selection listener to trigger enabling/disabling the helper method input box 
+\end{DoxyReturn}
+
+
+Definition at line 209 of file RemoveDuplicateCodeInConstructorsInputPage.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a90f01a38343d273b9f0e74308fdb50d8}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}!getRemoveDuplicateCodeInConstructorsRefactoring@{getRemoveDuplicateCodeInConstructorsRefactoring}}
+\index{getRemoveDuplicateCodeInConstructorsRefactoring@{getRemoveDuplicateCodeInConstructorsRefactoring}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}}
+\subsubsection[{getRemoveDuplicateCodeInConstructorsRefactoring}]{\setlength{\rightskip}{0pt plus 5cm}{\bf RemoveDuplicateCodeInConstructorsRefactoring} edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsInputPage.getRemoveDuplicateCodeInConstructorsRefactoring (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a90f01a38343d273b9f0e74308fdb50d8}
+Gets the refactoring associated with this input page from the parent input page.
+
+\begin{DoxyReturn}{Returns}
+The refactoring associated with this input page 
+\end{DoxyReturn}
+
+
+Definition at line 186 of file RemoveDuplicateCodeInConstructorsInputPage.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a240da4f4f9c7d6a035752c09e159a0cc}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}!handleInput@{handleInput}}
+\index{handleInput@{handleInput}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}}
+\subsubsection[{handleInput}]{\setlength{\rightskip}{0pt plus 5cm}void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsInputPage.handleInput (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a240da4f4f9c7d6a035752c09e159a0cc}
+Handle the user input, setting the corresponding options on the refactoring object. 
+
+Definition at line 161 of file RemoveDuplicateCodeInConstructorsInputPage.java.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_ad900b2c0bfbdbac5a701b3e5834f1962}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}!accessModifierComboBox@{accessModifierComboBox}}
+\index{accessModifierComboBox@{accessModifierComboBox}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}}
+\subsubsection[{accessModifierComboBox}]{\setlength{\rightskip}{0pt plus 5cm}Combo {\bf edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsInputPage.accessModifierComboBox}\hspace{0.3cm}{\ttfamily  \mbox{[}package\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_ad900b2c0bfbdbac5a701b3e5834f1962}
+Combo box to select the access modifier for the new constructor or helper method 
+
+Definition at line 48 of file RemoveDuplicateCodeInConstructorsInputPage.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_acdcd523154c691ec0083de31b628b54d}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}!constructors@{constructors}}
+\index{constructors@{constructors}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}}
+\subsubsection[{constructors}]{\setlength{\rightskip}{0pt plus 5cm}List$<$IMethod$>$ {\bf edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsInputPage.constructors}\hspace{0.3cm}{\ttfamily  \mbox{[}package\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_acdcd523154c691ec0083de31b628b54d}
+The list of selected constructors, to pass to the refactoring 
+
+Definition at line 38 of file RemoveDuplicateCodeInConstructorsInputPage.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_ae4b00020b66a4de901af986961ea91e4}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}!helperMethodCheckBox@{helperMethodCheckBox}}
+\index{helperMethodCheckBox@{helperMethodCheckBox}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}}
+\subsubsection[{helperMethodCheckBox}]{\setlength{\rightskip}{0pt plus 5cm}Button {\bf edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsInputPage.helperMethodCheckBox}\hspace{0.3cm}{\ttfamily  \mbox{[}package\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_ae4b00020b66a4de901af986961ea91e4}
+Check box to specify whether or not the user would prefer to create a helper method over a new constructor, if it is necessary. 
+
+Definition at line 54 of file RemoveDuplicateCodeInConstructorsInputPage.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a55a3b8c570da15f43d270768908aeab3}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}!helperMethodTextBox@{helperMethodTextBox}}
+\index{helperMethodTextBox@{helperMethodTextBox}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}}
+\subsubsection[{helperMethodTextBox}]{\setlength{\rightskip}{0pt plus 5cm}Text {\bf edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsInputPage.helperMethodTextBox}\hspace{0.3cm}{\ttfamily  \mbox{[}package\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a55a3b8c570da15f43d270768908aeab3}
+Text box to specify the name of the helper method to create instead of a constructor, if the checkbox option has been set. 
+
+Definition at line 60 of file RemoveDuplicateCodeInConstructorsInputPage.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a70db3718069b9b46170f0cc912086da2}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}!refactoring@{refactoring}}
+\index{refactoring@{refactoring}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}}
+\subsubsection[{refactoring}]{\setlength{\rightskip}{0pt plus 5cm}{\bf RemoveDuplicateCodeInConstructorsRefactoring} {\bf edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsInputPage.refactoring}\hspace{0.3cm}{\ttfamily  \mbox{[}package\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage_a70db3718069b9b46170f0cc912086da2}
+The refactoring to launch 
+
+Definition at line 43 of file RemoveDuplicateCodeInConstructorsInputPage.java.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/\hyperlink{RemoveDuplicateCodeInConstructorsInputPage_8java}{RemoveDuplicateCodeInConstructorsInputPage.java}\end{DoxyCompactItemize}

@@ -1,0 +1,122 @@
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor}{
+\section{edu.illinois.canistelCassabanana.visitors.AssignmentExpressionVisitor Class Reference}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor}\index{edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor@{edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor}}
+}
+
+
+Inherits org::eclipse::jdt::core::dom::ASTVisitor.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor_a5ea83b7421d24595a65560d133cdbccb}{AssignmentExpressionVisitor} ()
+\item 
+boolean \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor_ad339d0bcf7d83b92c4998808129ced2e}{visit} (Assignment assignment)
+\item 
+Set$<$ Expression $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor_a56dfe8499bdcff66e471f94e8dadad49}{getLeftHandSideAssigmentExpressions} ()
+\item 
+Set$<$ Expression $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor_a7894ac027ea5fc805fb0f547501c8311}{getRightHandSideAssignmentExpressions} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Set$<$ Expression $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor_a0eb79a8557c115e43423caf3df7bef85}{leftHandSideAssignmentExpressions}
+\item 
+Set$<$ Expression $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor_a8cb4c3612d7c07ef325acdeff6401101}{rightHandSideAssignmentExpressions}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Collects the assignments found in the AST subtree from the starting root node, and exposes the results.
+
+\begin{DoxyAuthor}{Author}
+jon 
+\end{DoxyAuthor}
+
+
+Definition at line 23 of file AssignmentExpressionVisitor.java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor_a5ea83b7421d24595a65560d133cdbccb}{
+\index{edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor@{edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor}!AssignmentExpressionVisitor@{AssignmentExpressionVisitor}}
+\index{AssignmentExpressionVisitor@{AssignmentExpressionVisitor}!edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor@{edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor}}
+\subsubsection[{AssignmentExpressionVisitor}]{\setlength{\rightskip}{0pt plus 5cm}edu.illinois.canistelCassabanana.visitors.AssignmentExpressionVisitor.AssignmentExpressionVisitor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor_a5ea83b7421d24595a65560d133cdbccb}
+
+
+Definition at line 31 of file AssignmentExpressionVisitor.java.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor_a56dfe8499bdcff66e471f94e8dadad49}{
+\index{edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor@{edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor}!getLeftHandSideAssigmentExpressions@{getLeftHandSideAssigmentExpressions}}
+\index{getLeftHandSideAssigmentExpressions@{getLeftHandSideAssigmentExpressions}!edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor@{edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor}}
+\subsubsection[{getLeftHandSideAssigmentExpressions}]{\setlength{\rightskip}{0pt plus 5cm}Set$<$Expression$>$ edu.illinois.canistelCassabanana.visitors.AssignmentExpressionVisitor.getLeftHandSideAssigmentExpressions (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor_a56dfe8499bdcff66e471f94e8dadad49}
+
+
+Definition at line 50 of file AssignmentExpressionVisitor.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor_a7894ac027ea5fc805fb0f547501c8311}{
+\index{edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor@{edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor}!getRightHandSideAssignmentExpressions@{getRightHandSideAssignmentExpressions}}
+\index{getRightHandSideAssignmentExpressions@{getRightHandSideAssignmentExpressions}!edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor@{edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor}}
+\subsubsection[{getRightHandSideAssignmentExpressions}]{\setlength{\rightskip}{0pt plus 5cm}Set$<$Expression$>$ edu.illinois.canistelCassabanana.visitors.AssignmentExpressionVisitor.getRightHandSideAssignmentExpressions (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor_a7894ac027ea5fc805fb0f547501c8311}
+
+
+Definition at line 54 of file AssignmentExpressionVisitor.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor_ad339d0bcf7d83b92c4998808129ced2e}{
+\index{edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor@{edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor}!visit@{visit}}
+\index{visit@{visit}!edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor@{edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor}}
+\subsubsection[{visit}]{\setlength{\rightskip}{0pt plus 5cm}boolean edu.illinois.canistelCassabanana.visitors.AssignmentExpressionVisitor.visit (
+\begin{DoxyParamCaption}
+\item[{Assignment}]{assignment}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor_ad339d0bcf7d83b92c4998808129ced2e}
+Collects the expressions that appear in the left hand side of assignments. 
+
+Definition at line 42 of file AssignmentExpressionVisitor.java.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor_a0eb79a8557c115e43423caf3df7bef85}{
+\index{edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor@{edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor}!leftHandSideAssignmentExpressions@{leftHandSideAssignmentExpressions}}
+\index{leftHandSideAssignmentExpressions@{leftHandSideAssignmentExpressions}!edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor@{edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor}}
+\subsubsection[{leftHandSideAssignmentExpressions}]{\setlength{\rightskip}{0pt plus 5cm}Set$<$Expression$>$ {\bf edu.illinois.canistelCassabanana.visitors.AssignmentExpressionVisitor.leftHandSideAssignmentExpressions}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor_a0eb79a8557c115e43423caf3df7bef85}
+The expressions that appear in the left hand side of assignments. 
+
+Definition at line 28 of file AssignmentExpressionVisitor.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor_a8cb4c3612d7c07ef325acdeff6401101}{
+\index{edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor@{edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor}!rightHandSideAssignmentExpressions@{rightHandSideAssignmentExpressions}}
+\index{rightHandSideAssignmentExpressions@{rightHandSideAssignmentExpressions}!edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor@{edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor}}
+\subsubsection[{rightHandSideAssignmentExpressions}]{\setlength{\rightskip}{0pt plus 5cm}Set$<$Expression$>$ {\bf edu.illinois.canistelCassabanana.visitors.AssignmentExpressionVisitor.rightHandSideAssignmentExpressions}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor_a8cb4c3612d7c07ef325acdeff6401101}
+
+
+Definition at line 29 of file AssignmentExpressionVisitor.java.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/\hyperlink{AssignmentExpressionVisitor_8java}{AssignmentExpressionVisitor.java}\end{DoxyCompactItemize}

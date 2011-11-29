@@ -1,0 +1,3953 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.8.25)  29 NOV 2011 01:07
+entering extended mode
+ %&-line parsing enabled.
+**refman.tex
+(./refman.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/bk10.clo
+File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf-texlive/tex/latex/tools/multicol.sty
+Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
+\c@tracingmulticols=\count89
+\mult@box=\box26
+\multicol@leftmargin=\dimen105
+\c@unbalance=\count90
+\c@collectmore=\count91
+\doublecol@number=\count92
+\multicoltolerance=\count93
+\multicolpretolerance=\count94
+\full@width=\dimen106
+\page@free=\dimen107
+\premulticols=\dimen108
+\postmulticols=\dimen109
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count95
+\c@finalcolumnbadness=\count96
+\last@try=\dimen110
+\multicolovershoot=\dimen111
+\multicolundershoot=\dimen112
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+)
+(/usr/share/texmf-texlive/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count97
+\float@exts=\toks15
+\float@box=\box52
+\@float@everytoks=\toks16
+\@floatcapt=\box53
+)
+(/usr/share/texmf-texlive/tex/latex/listings/listings.sty
+\lst@mode=\count98
+\lst@gtempboxa=\box54
+\lst@token=\toks17
+\lst@length=\count99
+\lst@currlwidth=\dimen113
+\lst@column=\count100
+\lst@pos=\count101
+\lst@lostspace=\dimen114
+\lst@width=\dimen115
+\lst@newlines=\count102
+\lst@lineno=\count103
+\lst@maxwidth=\dimen116
+
+(/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count104
+\lst@skipnumbers=\count105
+\lst@framebox=\box55
+)
+(/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texmf-texlive/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
+
+(/usr/share/texmf-texlive/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen117
+\extrarowheight=\dimen118
+\NC@list=\toks18
+\extratabsurround=\skip45
+\backup@length=\skip46
+)
+\everycr=\toks19
+\minrowclearance=\skip47
+)
+LaTeX Info: Redefining \color on input line 702.
+\rownum=\count106
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texmf-texlive/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/share/texmf-texlive/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 311.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 312.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 313.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 314.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 315.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 316.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 317.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 318.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 319.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 320.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 321.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 322.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 323.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
+)
+(/usr/share/texmf-texlive/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
+O)
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2009/10/02 xcolor patch
+))
+\@linkdim=\dimen119
+\Hy@linkcounter=\count107
+\Hy@pagecounter=\count108
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)
+(/usr/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 2864.
+Package hyperref Info: Option `unicode' set `true' on input line 2864.
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/puenc.def
+File: puenc.def 2009/10/09 v6.79a Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 2975.
+Package hyperref Info: Link nesting OFF on input line 2980.
+Package hyperref Info: Hyper index ON on input line 2983.
+Package hyperref Info: Plain pages OFF on input line 2990.
+Package hyperref Info: Backreferencing ON on input line 2993.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3191.
+(/usr/share/texmf-texlive/tex/latex/hyperref/backref.sty
+Package: backref 2006/09/05 v1.28 Bibliographical back referencing
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3428.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)))
+\Fld@menulength=\count109
+\Field@Width=\dimen120
+\Fld@charsize=\dimen121
+\Field@toks=\toks20
+Package hyperref Info: Hyper figures OFF on input line 4377.
+Package hyperref Info: Link nesting OFF on input line 4382.
+Package hyperref Info: Hyper index ON on input line 4385.
+Package hyperref Info: backreferencing ON on input line 4390.
+Package hyperref Info: Link coloring ON on input line 4395.
+Package hyperref Info: Link coloring with OCG OFF on input line 4402.
+Package hyperref Info: PDF/A mode OFF on input line 4407.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count110
+\c@Item=\count111
+\c@Hfootnote=\count112
+)
+*hyperref using driver hpdftex*
+(/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
+\Fld@listcount=\count113
+)
+(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks21
+\inpenc@posthook=\toks22
+
+(/usr/share/texmf-texlive/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texmf-texlive/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texmf-texlive/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/share/texmf-texlive/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texmf-texlive/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/usr/share/texmf-texlive/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(/usr/share/texmf-texlive/tex/latex/psnfss/courier.sty
+Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+) (./doxygen.sty
+Package: doxygen 
+
+(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count114
+\calc@Bcount=\count115
+\calc@Adimen=\dimen122
+\calc@Bdimen=\dimen123
+\calc@Askip=\skip48
+\calc@Bskip=\skip49
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count116
+\calc@Cskip=\skip50
+)
+(/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip51
+\f@ncyO@elh=\skip52
+\f@ncyO@erh=\skip53
+\f@ncyO@olh=\skip54
+\f@ncyO@orh=\skip55
+\f@ncyO@elf=\skip56
+\f@ncyO@erf=\skip57
+\f@ncyO@olf=\skip58
+\f@ncyO@orf=\skip59
+)
+(/usr/share/texmf-texlive/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip60
+\LTright=\skip61
+\LTpre=\skip62
+\LTpost=\skip63
+\LTchunksize=\count117
+\LTcapwidth=\dimen124
+\LT@head=\box56
+\LT@firsthead=\box57
+\LT@foot=\box58
+\LT@lastfoot=\box59
+\LT@cols=\count118
+\LT@rows=\count119
+\c@LT@tables=\count120
+\c@LT@chunks=\count121
+\LT@p@ftn=\toks23
+)
+(/usr/share/texmf-texlive/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks24
+\verbatim@line=\toks25
+\verbatim@in@stream=\read1
+)
+(/usr/share/texmf-texlive/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+(/usr/share/texmf-texlive/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2009/09/04 v2.3d parameterised ToC, etc., typesetting
+
+
+Package tocloft Note: The document has chapter divisions.
+
+\cftparskip=\skip64
+\cftbeforetoctitleskip=\skip65
+\cftaftertoctitleskip=\skip66
+\cftbeforepartskip=\skip67
+\cftpartnumwidth=\skip68
+\cftpartindent=\skip69
+\cftbeforechapskip=\skip70
+\cftchapindent=\skip71
+\cftchapnumwidth=\skip72
+\cftbeforesecskip=\skip73
+\cftsecindent=\skip74
+\cftsecnumwidth=\skip75
+\cftbeforesubsecskip=\skip76
+\cftsubsecindent=\skip77
+\cftsubsecnumwidth=\skip78
+\cftbeforesubsubsecskip=\skip79
+\cftsubsubsecindent=\skip80
+\cftsubsubsecnumwidth=\skip81
+\cftbeforeparaskip=\skip82
+\cftparaindent=\skip83
+\cftparanumwidth=\skip84
+\cftbeforesubparaskip=\skip85
+\cftsubparaindent=\skip86
+\cftsubparanumwidth=\skip87
+\cftbeforeloftitleskip=\skip88
+\cftafterloftitleskip=\skip89
+\cftbeforefigskip=\skip90
+\cftfigindent=\skip91
+\cftfignumwidth=\skip92
+\c@lofdepth=\count122
+\c@lotdepth=\count123
+\cftbeforelottitleskip=\skip93
+\cftafterlottitleskip=\skip94
+\cftbeforetabskip=\skip95
+\cfttabindent=\skip96
+\cfttabnumwidth=\skip97
+)
+\tmplength=\skip98
+ (/usr/share/texmf-texlive/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)))
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+)
+\@indexfile=\write3
+\openout3 = `refman.idx'.
+
+
+Writing index file refman.idx
+(./refman.aux)
+\openout1 = `refman.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 38.
+ (/usr/share/texmf-texlive/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 38.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count124
+\scratchdimen=\dimen125
+\scratchbox=\box60
+\nofMPsegments=\count125
+\nofMParguments=\count126
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count127
+\MPscratchDim=\dimen126
+\MPnumerator=\count128
+\everyMPtoPDFconversion=\toks27
+)
+\c@lstlisting=\count129
+Package hyperref Info: Link coloring ON on input line 38.
+ (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+\c@section@level=\count130
+)
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+ (./refman.out)
+(./refman.out)
+\@outlinefile=\write4
+\openout4 = `refman.out'.
+
+\AtBeginShipoutBox=\box61
+\big@size=\dimen127
+Package hyperref Info: Option `pageanchor' set `false' on input line 39.
+ [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 52.
+
+(./refman.toc
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 1.
+
+ (/usr/share/texmf-texlive/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 1.
+
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 1.
+
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 1.
+
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 1.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+
+Overfull \hbox (1.77606pt too wide) in paragraph at lines 25--25
+ [][] [][][]\T1/ptm/m/n/10 edu.illinois.canistelCassabanana.visitors.Assignment
+ExpressionVisitor 
+ []
+
+[1]
+Overfull \hbox (3.42595pt too wide) in paragraph at lines 36--36
+ [][] [][][]\T1/ptm/m/n/10 edu.illinois.canistelCassabanana.visitors.Constructo
+rDeclarationVisitor 
+ []
+
+
+Overfull \hbox (22.5159pt too wide) in paragraph at lines 45--45
+ [][] [][][]\T1/ptm/m/n/10 edu.illinois.canistelCassabanana.visitors.Constructo
+rInvocationVisitor Class 
+ []
+
+
+Overfull \hbox (6.67569pt too wide) in paragraph at lines 54--54
+ [][] [][][]\T1/ptm/m/n/10 edu.illinois.canistelCassabanana.visitors.FieldVaria
+bleVisitor Class Ref- 
+ []
+
+
+Overfull \hbox (30.10643pt too wide) in paragraph at lines 66--66
+ [][] [][][]\T1/ptm/m/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCode
+InConstructorsAction 
+ []
+
+
+Overfull \hbox (42.33617pt too wide) in paragraph at lines 78--78
+ [][] [][][]\T1/ptm/m/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCode
+InConstructorsConstants 
+ []
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 81.
+[2]
+Overfull \hbox (45.09618pt too wide) in paragraph at lines 91--91
+ [][] [][][]\T1/ptm/m/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCode
+InConstructorsDescriptor 
+ []
+
+
+Overfull \hbox (43.2865pt too wide) in paragraph at lines 101--101
+ [][] [][][]\T1/ptm/m/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCode
+InConstructorsInputPage 
+ []
+
+
+Overfull \hbox (49.99619pt too wide) in paragraph at lines 119--119
+ [][] [][][]\T1/ptm/m/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCode
+InConstructorsRefactoring 
+ []
+
+[3]
+Overfull \hbox (31.91649pt too wide) in paragraph at lines 161--161
+ [][] [][][]\T1/ptm/m/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCode
+InConstructorsWizard 
+ []
+
+[4]
+Overfull \hbox (153.36403pt too wide) in paragraph at lines 187--187
+ \T1/ptm/m/n/10 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/s
+rc/edu/illinois/canistelCassabanana/Activator.java 
+ []
+
+
+Overfull \hbox (296.3227pt too wide) in paragraph at lines 188--188
+ \T1/ptm/m/n/10 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/s
+rc/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsAction.jav
+a 
+ []
+
+
+Overfull \hbox (308.55243pt too wide) in paragraph at lines 189--189
+ \T1/ptm/m/n/10 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/s
+rc/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsConstants.
+java 
+ []
+
+
+Overfull \hbox (310.76251pt too wide) in paragraph at lines 190--190
+ \T1/ptm/m/n/10 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/s
+rc/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsDescriptor
+.java 
+ []
+
+
+Overfull \hbox (309.50276pt too wide) in paragraph at lines 191--191
+ \T1/ptm/m/n/10 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/s
+rc/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsInputPage.
+java 
+ []
+
+
+Overfull \hbox (316.21245pt too wide) in paragraph at lines 192--192
+ \T1/ptm/m/n/10 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/s
+rc/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsRefactorin
+g.java 
+ []
+
+
+Overfull \hbox (298.13275pt too wide) in paragraph at lines 193--193
+ \T1/ptm/m/n/10 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/s
+rc/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsWizard.jav
+a 
+ []
+
+
+Overfull \hbox (168.79335pt too wide) in paragraph at lines 194--194
+ \T1/ptm/m/n/10 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/s
+rc/edu/illinois/canistelCassabanana/utility/Utility.java 
+ []
+
+
+Overfull \hbox (267.72229pt too wide) in paragraph at lines 195--195
+ \T1/ptm/m/n/10 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/s
+rc/edu/illinois/canistelCassabanana/visitors/AssignmentExpressionVisitor.java 
+ []
+
+
+Overfull \hbox (269.37218pt too wide) in paragraph at lines 196--196
+ \T1/ptm/m/n/10 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/s
+rc/edu/illinois/canistelCassabanana/visitors/ConstructorDeclarationVisitor.java
+ 
+ []
+
+
+Overfull \hbox (264.89256pt too wide) in paragraph at lines 197--197
+ \T1/ptm/m/n/10 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/s
+rc/edu/illinois/canistelCassabanana/visitors/ConstructorInvocationVisitor.java 
+
+ []
+
+
+Overfull \hbox (229.38255pt too wide) in paragraph at lines 198--198
+ \T1/ptm/m/n/10 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/s
+rc/edu/illinois/canistelCassabanana/visitors/FieldVariableVisitor.java 
+ []
+
+
+Overfull \hbox (241.90271pt too wide) in paragraph at lines 199--199
+ \T1/ptm/m/n/10 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/s
+rc/edu/illinois/canistelCassabanana/visitors/TypeDeclarationVisitor.java 
+ []
+
+)
+\tf@toc=\write5
+\openout5 = `refman.toc'.
+
+
+Underfull \vbox (badness 1742) has occurred while \output is active []
+
+ [5]
+[6]
+Package hyperref Info: Option `pageanchor' set `true' on input line 55.
+
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 56.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 56.
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/bc/n' will be
+(Font)              scaled to size 18.66588pt on input line 56.
+LaTeX Font Info:    Font shape `OT1/phv/bc/n' will be
+(Font)              scaled to size 22.39185pt on input line 56.
+ (./namespaces.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/phv/bc/n' will be
+(Font)              scaled to size 12.9599pt on input line 1.
+)
+[1
+
+
+] [2
+
+]
+Chapter 2.
+(./annotated.tex
+Overfull \hbox (6.33272pt too wide) in paragraph at lines 8--8
+ [][] [][]\T1/ptm/m/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeIn
+ConstructorsAction[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+ []  
+ []
+
+
+Overfull \hbox (18.56245pt too wide) in paragraph at lines 9--9
+ [][] [][]\T1/ptm/m/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeIn
+ConstructorsConstants[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+ []  
+ []
+
+
+Overfull \hbox (21.32246pt too wide) in paragraph at lines 10--10
+ [][] [][]\T1/ptm/m/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeIn
+ConstructorsDescriptor[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+ []  
+ []
+
+
+Overfull \hbox (19.51279pt too wide) in paragraph at lines 11--11
+ [][] [][]\T1/ptm/m/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeIn
+ConstructorsInputPage[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+ []  
+ []
+
+
+Overfull \hbox (26.22247pt too wide) in paragraph at lines 12--12
+ [][] [][]\T1/ptm/m/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeIn
+ConstructorsRefactoring[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+ []  
+ []
+
+
+Overfull \hbox (8.14278pt too wide) in paragraph at lines 13--13
+ [][] [][]\T1/ptm/m/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeIn
+ConstructorsWizard[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+ []  
+ []
+
+) [3] [4
+
+]
+Chapter 3.
+(./files.tex
+Overfull \hbox (145.69063pt too wide) in paragraph at lines 3--3
+ \T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/
+illinois/canistelCassabanana/[][]Activator.java[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--3
+ []  
+ []
+
+
+Overfull \hbox (288.64929pt too wide) in paragraph at lines 4--4
+ \T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/
+illinois/canistelCassabanana/[][]RemoveDuplicateCodeInConstructorsAction.java[]
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+ []  
+ []
+
+
+Overfull \hbox (300.87903pt too wide) in paragraph at lines 5--5
+ \T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/
+illinois/canistelCassabanana/[][]RemoveDuplicateCodeInConstructorsConstants.jav
+a[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+ []  
+ []
+
+
+Overfull \hbox (303.08911pt too wide) in paragraph at lines 6--6
+ \T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/
+illinois/canistelCassabanana/[][]RemoveDuplicateCodeInConstructorsDescriptor.ja
+va[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+ []  
+ []
+
+
+Overfull \hbox (301.82936pt too wide) in paragraph at lines 7--7
+ \T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/
+illinois/canistelCassabanana/[][]RemoveDuplicateCodeInConstructorsInputPage.jav
+a[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+ []  
+ []
+
+
+Overfull \hbox (308.53905pt too wide) in paragraph at lines 8--8
+ \T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/
+illinois/canistelCassabanana/[][]RemoveDuplicateCodeInConstructorsRefactoring.j
+ava[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+ []  
+ []
+
+
+Overfull \hbox (290.45935pt too wide) in paragraph at lines 9--9
+ \T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/
+illinois/canistelCassabanana/[][]RemoveDuplicateCodeInConstructorsWizard.java[]
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+ []  
+ []
+
+
+Overfull \hbox (161.11995pt too wide) in paragraph at lines 10--10
+ \T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/
+illinois/canistelCassabanana/utility/[][]Utility.java[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+ []  
+ []
+
+
+Overfull \hbox (260.04889pt too wide) in paragraph at lines 11--11
+ \T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/
+illinois/canistelCassabanana/visitors/[][]AssignmentExpressionVisitor.java[][] 
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+ []  
+ []
+
+
+Overfull \hbox (261.69878pt too wide) in paragraph at lines 12--12
+ \T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/
+illinois/canistelCassabanana/visitors/[][]ConstructorDeclarationVisitor.java[][
+] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+ []  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Overfull \hbox (257.21916pt too wide) in paragraph at lines 13--13
+ \T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/
+illinois/canistelCassabanana/visitors/[][]ConstructorInvocationVisitor.java[][]
+ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+ []  
+ []
+
+
+Overfull \hbox (221.70915pt too wide) in paragraph at lines 14--14
+ \T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/
+illinois/canistelCassabanana/visitors/[][]FieldVariableVisitor.java[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+ []  
+ []
+
+
+Overfull \hbox (234.22931pt too wide) in paragraph at lines 15--15
+ \T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/
+illinois/canistelCassabanana/visitors/[][]TypeDeclarationVisitor.java[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+ []  
+ []
+
+) [6]
+Chapter 4.
+(./namespaceedu.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `OT1/phv/bc/n' will be
+(Font)              scaled to size 10.79993pt on input line 5.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 8.
+ (/usr/share/texmf-texlive/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+))
+(./namespaceedu_1_1illinois.tex)
+(./namespaceedu_1_1illinois_1_1canistelCassabanana.tex)
+(./namespaceedu_1_1illinois_1_1canistelCassabanana_1_1utility.tex [7
+
+])
+(./namespaceedu_1_1illinois_1_1canistelCassabanana_1_1visitors.tex) [8]
+Chapter 5.
+(./classedu_1_1illinois_1_1canistelCassabanana_1_1Activator.tex
+LaTeX Font Info:    Font shape `OT1/phv/bc/n' will be
+(Font)              scaled to size 8.99994pt on input line 50.
+ [9
+
+]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 66.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+
+LaTeX Font Warning: Font shape `OT1/pcr/bc/n' undefined
+(Font)              using `OT1/pcr/m/n' instead on input line 66.
+
+LaTeX Font Info:    Font shape `OT1/phv/bc/it' in size <10> not available
+(Font)              Font shape `OT1/phv/bc/sl' tried instead on input line 84.
+LaTeX Font Info:    Font shape `OT1/phv/bc/sl' will be
+(Font)              scaled to size 8.99994pt on input line 84.
+
+Overfull \hbox (92.96419pt too wide) in paragraph at lines 128--128
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/[][]Activator.java[][] 
+ []
+
+)
+(./classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpress
+ionVisitor.tex
+Overfull \hbox (44.06107pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 edu.illinois.canistelCassabanana.visitors.AssignmentExpres
+sionVisitor
+ []
+
+[10]
+Overfull \hbox (44.10455pt too wide) in paragraph at lines 49--49
+[]\OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.visitors.AssignmentExpressi
+onVisitor.AssignmentExpressionVisitor 
+ []
+
+
+Overfull \hbox (147.81528pt too wide) in paragraph at lines 65--65
+[]\OT1/phv/bc/n/10 Set$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 Expression$\OML/zt
+mcm/m/it/10 >$ \OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.visitors.Assig
+nmentExpressionVisitor.getLeftHandSideAssigmentExpressions 
+ []
+
+
+Overfull \hbox (157.65192pt too wide) in paragraph at lines 78--78
+[]\OT1/phv/bc/n/10 Set$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 Expression$\OML/zt
+mcm/m/it/10 >$ \OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.visitors.Assig
+nmentExpressionVisitor.getRightHandSideAssignmentExpressions 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
+Overfull \hbox (213.54265pt too wide) in paragraph at lines 103--103
+[]\OT1/phv/bc/n/10 Set$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 Expression$\OML/zt
+mcm/m/it/10 >$ \T1/ptm/b/n/10 edu.illinois.canistelCassabanana.visitors.Assignm
+entExpressionVisitor.leftHandSideAssignmentExpressions 
+ []
+
+
+Overfull \hbox (220.77263pt too wide) in paragraph at lines 112--112
+[]\OT1/phv/bc/n/10 Set$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 Expression$\OML/zt
+mcm/m/it/10 >$ \T1/ptm/b/n/10 edu.illinois.canistelCassabanana.visitors.Assignm
+entExpressionVisitor.rightHandSideAssignmentExpressions 
+ []
+
+
+Overfull \hbox (207.32245pt too wide) in paragraph at lines 122--122
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/visitors/[][]AssignmentExpressionVisitor.java[][] 
+ []
+
+)
+(./classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclar
+ationVisitor.tex
+Overfull \hbox (44.4369pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 edu.illinois.canistelCassabanana.visitors.ConstructorDecla
+rationVisitor
+ []
+
+[12]
+Overfull \hbox (44.62656pt too wide) in paragraph at lines 45--45
+[]\OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.visitors.ConstructorDeclara
+tionVisitor.ConstructorDeclarationVisitor 
+ []
+
+
+Overfull \hbox (131.78673pt too wide) in paragraph at lines 61--61
+[]\OT1/phv/bc/n/10 Set$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 MethodDeclaration$
+\OML/ztmcm/m/it/10 >$ \OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.visitor
+s.ConstructorDeclarationVisitor.getConstructorDeclarations 
+ []
+
+
+Overfull \hbox (191.44809pt too wide) in paragraph at lines 86--86
+[]\OT1/phv/bc/n/10 Set$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 MethodDeclaration$
+\OML/ztmcm/m/it/10 >$ \T1/ptm/b/n/10 edu.illinois.canistelCassabanana.visitors.
+ConstructorDeclarationVisitor.constructorDeclarations 
+ []
+
+
+Overfull \hbox (208.97234pt too wide) in paragraph at lines 96--96
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/visitors/[][]ConstructorDeclarationVisitor.java[][]
+ 
+ []
+
+)
+(./classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorInvoca
+tionVisitor.tex
+Overfull \hbox (39.1751pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 edu.illinois.canistelCassabanana.visitors.ConstructorInvoc
+ationVisitor
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13]
+Overfull \hbox (37.31848pt too wide) in paragraph at lines 45--45
+[]\OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.visitors.ConstructorInvocat
+ionVisitor.ConstructorInvocationVisitor 
+ []
+
+
+Overfull \hbox (136.81717pt too wide) in paragraph at lines 61--61
+[]\OT1/phv/bc/n/10 Set$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 ConstructorInvocat
+ion$\OML/ztmcm/m/it/10 >$ \OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.vis
+itors.ConstructorInvocationVisitor.getConstructorInvocations 
+ []
+
+
+Overfull \hbox (193.92696pt too wide) in paragraph at lines 86--86
+[]\OT1/phv/bc/n/10 Set$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 ConstructorInvocat
+ion$\OML/ztmcm/m/it/10 >$ \T1/ptm/b/n/10 edu.illinois.canistelCassabanana.visit
+ors.ConstructorInvocationVisitor.constructorInvocations 
+ []
+
+[14]
+Overfull \hbox (204.49272pt too wide) in paragraph at lines 96--96
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/visitors/[][]ConstructorInvocationVisitor.java[][] 
+
+ []
+
+)
+(./classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisi
+tor.tex
+Overfull \hbox (22.0036pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 edu.illinois.canistelCassabanana.visitors.FieldVariableVis
+itor Class
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15]
+Overfull \hbox (77.18512pt too wide) in paragraph at lines 67--67
+[]\OT1/phv/bc/n/10 Set$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 Statement$\OML/ztm
+cm/m/it/10 >$ \OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.visitors.FieldV
+ariableVisitor.getFieldAssignmentStatements 
+ []
+
+
+Overfull \hbox (21.34094pt too wide) in paragraph at lines 80--80
+[]\OT1/phv/bc/n/10 Set$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 IVariableBinding$\
+OML/ztmcm/m/it/10 >$ \OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.visitors
+.FieldVariableVisitor.getFields 
+ []
+
+
+Overfull \hbox (28.96689pt too wide) in paragraph at lines 93--93
+[]\OT1/phv/bc/n/10 void edu.illinois.canistelCassabanana.visitors.FieldVariable
+Visitor.setFieldAssignmentStatements 
+ []
+
+
+Overfull \hbox (128.84106pt too wide) in paragraph at lines 118--118
+[]\OT1/phv/bc/n/10 Set$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 Statement$\OML/ztm
+cm/m/it/10 >$ \T1/ptm/b/n/10 edu.illinois.canistelCassabanana.visitors.FieldVar
+iableVisitor.fieldAssignmentStatements 
+ []
+
+
+Overfull \hbox (57.58916pt too wide) in paragraph at lines 127--127
+[]\OT1/phv/bc/n/10 Set$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 IVariableBinding$\
+OML/ztmcm/m/it/10 >$ \T1/ptm/b/n/10 edu.illinois.canistelCassabanana.visitors.F
+ieldVariableVisitor.fields 
+ []
+
+
+Overfull \hbox (168.98271pt too wide) in paragraph at lines 137--137
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/visitors/[][]FieldVariableVisitor.java[][] 
+ []
+
+[16])
+(./classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstruc
+torsAction.tex
+Overfull \hbox (76.88806pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInCons
+tructorsAction
+ []
+
+
+Overfull \hbox (3.1569pt too wide) in paragraph at lines 25--26
+[]\T1/ptm/m/n/10 void [][]launchRefac-tor-ing[][] ([][]Re-moveDu-pli-cate-CodeI
+n-Con-struc-torsRefac-tor-ing[][] refac-
+ []
+
+
+Overfull \hbox (6.75552pt too wide) in paragraph at lines 56--56
+[]\OT1/phv/bc/n/10 void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInC
+onstructorsAction.dispose 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 34.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17]
+Overfull \hbox (43.5916pt too wide) in paragraph at lines 83--83
+[]\OT1/phv/bc/n/10 void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInC
+onstructorsAction.launchRefactoring 
+ []
+
+
+Overfull \hbox (54.1575pt too wide) in paragraph at lines 97--97
+[]\OT1/phv/bc/n/10 void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInC
+onstructorsAction.refactorTreeSelection 
+ []
+
+
+Overfull \hbox (21.88861pt too wide) in alignment at lines 100--105
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 105
+ []
+
+
+Overfull \hbox (42.50253pt too wide) in paragraph at lines 131--131
+[]\OT1/phv/bc/n/10 void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInC
+onstructorsAction.selectionChanged 
+ []
+
+
+Overfull \hbox (98.6514pt too wide) in paragraph at lines 143--143
+[]\OT1/phv/bc/n/10 ICompilationUnit \T1/ptm/b/n/10 edu.illinois.canistelCassaba
+nana.RemoveDuplicateCodeInConstructorsAction.unit 
+ []
+
+
+Overfull \hbox (125.55142pt too wide) in paragraph at lines 152--152
+[]\OT1/phv/bc/n/10 IWorkbenchWindow \T1/ptm/b/n/10 edu.illinois.canistelCassaba
+nana.RemoveDuplicateCodeInConstructorsAction.window 
+ []
+
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 154.
+(/usr/share/texmf-texlive/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) [18]
+Overfull \hbox (235.92285pt too wide) in paragraph at lines 162--162
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/[][]RemoveDuplicateCodeInConstructorsAction.java[][
+] 
+ []
+
+)
+(./classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstruc
+torsConstants.tex
+Overfull \hbox (95.78334pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInCons
+tructorsConstants
+ []
+
+
+Overfull \hbox (4.72652pt too wide) in paragraph at lines 8--10
+[]\T1/ptm/m/n/10 static fi-nal String [][]NO_-DUPLICATE_-CODE_-MESSAGE[][] = "T
+his refac-tor-ing must
+ []
+
+
+Overfull \hbox (138.78256pt too wide) in paragraph at lines 49--49
+[]\OT1/phv/bc/n/10 final String \T1/ptm/b/n/10 edu.illinois.canistelCassabanana
+.RemoveDuplicateCodeInConstructorsConstants.CHECKING_- 
+ []
+
+
+Overfull \hbox (1.196pt too wide) has occurred while \output is active
+\T1/ptm/b/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructo
+rsConstants 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 34.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19]
+Overfull \hbox (98.22302pt too wide) in paragraph at lines 58--58
+[]\OT1/phv/bc/n/10 final String \T1/ptm/b/n/10 edu.illinois.canistelCassabanana
+.RemoveDuplicateCodeInConstructorsConstants.NO_- 
+ []
+
+
+Overfull \hbox (98.22302pt too wide) in paragraph at lines 67--67
+[]\OT1/phv/bc/n/10 final String \T1/ptm/b/n/10 edu.illinois.canistelCassabanana
+.RemoveDuplicateCodeInConstructorsConstants.NO_- 
+ []
+
+
+Overfull \hbox (111.00294pt too wide) in paragraph at lines 76--76
+[]\OT1/phv/bc/n/10 final String \T1/ptm/b/n/10 edu.illinois.canistelCassabanana
+.RemoveDuplicateCodeInConstructorsConstants.NULL_- 
+ []
+
+
+Overfull \hbox (104.89294pt too wide) in paragraph at lines 85--85
+[]\OT1/phv/bc/n/10 final String \T1/ptm/b/n/10 edu.illinois.canistelCassabanana
+.RemoveDuplicateCodeInConstructorsConstants.ONE_- 
+ []
+
+
+Overfull \hbox (156.59276pt too wide) in paragraph at lines 94--94
+[]\OT1/phv/bc/n/10 final String \T1/ptm/b/n/10 edu.illinois.canistelCassabanana
+.RemoveDuplicateCodeInConstructorsConstants.REFACTORING_- 
+ []
+
+
+Overfull \hbox (156.59276pt too wide) in paragraph at lines 103--103
+[]\OT1/phv/bc/n/10 final String \T1/ptm/b/n/10 edu.illinois.canistelCassabanana
+.RemoveDuplicateCodeInConstructorsConstants.REFACTORING_- 
+ []
+
+
+Overfull \hbox (156.59276pt too wide) in paragraph at lines 112--112
+[]\OT1/phv/bc/n/10 final String \T1/ptm/b/n/10 edu.illinois.canistelCassabanana
+.RemoveDuplicateCodeInConstructorsConstants.REFACTORING_- 
+ []
+
+[20]
+Overfull \hbox (124.69289pt too wide) in paragraph at lines 121--121
+[]\OT1/phv/bc/n/10 final String \T1/ptm/b/n/10 edu.illinois.canistelCassabanana
+.RemoveDuplicateCodeInConstructorsConstants.UNABLE_- 
+ []
+
+
+Overfull \hbox (156.2166pt too wide) in paragraph at lines 130--130
+[]\OT1/phv/bc/n/10 final String \T1/ptm/b/n/10 edu.illinois.canistelCassabanana
+.RemoveDuplicateCodeInConstructorsConstants.UNEXPECTED_- 
+ []
+
+
+Overfull \hbox (248.15259pt too wide) in paragraph at lines 140--140
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/[][]RemoveDuplicateCodeInConstructorsConstants.java
+[][] 
+ []
+
+)
+(./classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstruc
+torsDescriptor.tex
+Overfull \hbox (96.97556pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInCons
+tructorsDescriptor
+ []
+
+
+Overfull \hbox (48.67593pt too wide) in paragraph at lines 19--20
+[]\T1/ptm/m/n/10 static fi-nal String [][]REFACTORING_-ID[][] = "org.eclipse.re
+move.duplicate.code.in.constructors" 
+ []
+
+
+Overfull \hbox (3.95587pt too wide) has occurred while \output is active
+\T1/ptm/b/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructo
+rsDescriptor 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 34.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21]
+Overfull \hbox (145.80219pt too wide) in paragraph at lines 56--56
+[]\OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstr
+uctorsDescriptor.RemoveDuplicateCodeInConstructorsDescriptor 
+ []
+
+
+Overfull \hbox (81.17487pt too wide) in paragraph at lines 72--72
+[]\OT1/phv/bc/n/10 Refactoring edu.illinois.canistelCassabanana.RemoveDuplicate
+CodeInConstructorsDescriptor.createRefactoring 
+ []
+
+
+Overfull \hbox (42.17888pt too wide) in paragraph at lines 85--85
+[]\OT1/phv/bc/n/10 Map edu.illinois.canistelCassabanana.RemoveDuplicateCodeInCo
+nstructorsDescriptor.getArguments 
+ []
+
+
+Overfull \hbox (98.80237pt too wide) in paragraph at lines 97--97
+[]\OT1/phv/bc/n/10 Map \T1/ptm/b/n/10 edu.illinois.canistelCassabanana.RemoveDu
+plicateCodeInConstructorsDescriptor.arguments 
+ []
+
+
+Overfull \hbox (158.35262pt too wide) in paragraph at lines 106--106
+[]\OT1/phv/bc/n/10 final String \T1/ptm/b/n/10 edu.illinois.canistelCassabanana
+.RemoveDuplicateCodeInConstructorsDescriptor.REFACTORING_- 
+ []
+
+
+Overfull \hbox (250.36267pt too wide) in paragraph at lines 116--116
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/[][]RemoveDuplicateCodeInConstructorsDescriptor.jav
+a[][] 
+ []
+
+)
+(./classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstruc
+torsInputPage.tex
+Overfull \hbox (94.90196pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInCons
+tructorsInputPage
+ []
+
+[22]
+Overfull \hbox (143.49808pt too wide) in paragraph at lines 67--67
+[]\OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstr
+uctorsInputPage.RemoveDuplicateCodeInConstructorsInputPage 
+ []
+
+
+Overfull \hbox (2.76605pt too wide) has occurred while \output is active
+\T1/ptm/b/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructo
+rsInputPage 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 34.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23]
+Overfull \hbox (21.88861pt too wide) in alignment at lines 72--77
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 77
+ []
+
+
+Overfull \hbox (91.44324pt too wide) in paragraph at lines 92--92
+[]\OT1/phv/bc/n/10 void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInC
+onstructorsInputPage.buildAccessModifierOptions 
+ []
+
+
+Overfull \hbox (21.88861pt too wide) in alignment at lines 97--100
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 100
+ []
+
+
+Overfull \hbox (86.09732pt too wide) in paragraph at lines 112--112
+[]\OT1/phv/bc/n/10 void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInC
+onstructorsInputPage.buildHelperMethodOptions 
+ []
+
+
+Overfull \hbox (21.88861pt too wide) in alignment at lines 117--120
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 120
+ []
+
+
+Overfull \hbox (39.36174pt too wide) in paragraph at lines 132--132
+[]\OT1/phv/bc/n/10 void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInC
+onstructorsInputPage.createControl 
+ []
+
+
+Overfull \hbox (21.88861pt too wide) in alignment at lines 137--140
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 140
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+Overfull \hbox (118.59567pt too wide) in paragraph at lines 152--152
+[]\OT1/phv/bc/n/10 void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInC
+onstructorsInputPage.enableDisableHelperMethodTextBox 
+ []
+
+
+Overfull \hbox (162.87463pt too wide) in paragraph at lines 165--165
+[]\OT1/phv/bc/n/10 SelectionListener edu.illinois.canistelCassabanana.RemoveDup
+licateCodeInConstructorsInputPage.getHelperMethodCheckBoxListener 
+ []
+
+
+Overfull \hbox (160.17465pt too wide) in paragraph at lines 183--183
+\OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstruc
+torsInputPage.getRemoveDuplicateCodeInConstructorsRefactoring 
+ []
+
+
+Overfull \hbox (33.34064pt too wide) in paragraph at lines 201--201
+[]\OT1/phv/bc/n/10 void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInC
+onstructorsInputPage.handleInput 
+ []
+
+
+Overfull \hbox (174.91765pt too wide) in paragraph at lines 213--213
+[]\OT1/phv/bc/n/10 Combo \T1/ptm/b/n/10 edu.illinois.canistelCassabanana.Remove
+DuplicateCodeInConstructorsInputPage.accessModifierComboBox 
+ []
+
+
+Overfull \hbox (148.67033pt too wide) in paragraph at lines 222--222
+[]\OT1/phv/bc/n/10 List$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 IMethod$\OML/ztmc
+m/m/it/10 >$ \T1/ptm/b/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCod
+eInConstructorsInputPage.constructors 
+ []
+
+
+Overfull \hbox (2.76605pt too wide) has occurred while \output is active
+\T1/ptm/b/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructo
+rsInputPage 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 34.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25]
+Overfull \hbox (166.61064pt too wide) in paragraph at lines 231--231
+[]\OT1/phv/bc/n/10 Button \T1/ptm/b/n/10 edu.illinois.canistelCassabanana.Remov
+eDuplicateCodeInConstructorsInputPage.helperMethodCheckBox 
+ []
+
+
+Overfull \hbox (148.78506pt too wide) in paragraph at lines 240--240
+[]\OT1/phv/bc/n/10 Text \T1/ptm/b/n/10 edu.illinois.canistelCassabanana.RemoveD
+uplicateCodeInConstructorsInputPage.helperMethodTextBox 
+ []
+
+
+Overfull \hbox (84.4169pt too wide) in paragraph at lines 249--249
+\T1/ptm/b/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructo
+rsInputPage.refactoring 
+ []
+
+
+Overfull \hbox (249.10292pt too wide) in paragraph at lines 259--259
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/[][]RemoveDuplicateCodeInConstructorsInputPage.java
+[][] 
+ []
+
+)
+(./classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstruc
+torsRefactoring.tex
+Overfull \hbox (108.78181pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInCons
+tructorsRefactoring
+ []
+
+
+Overfull \hbox (21.10597pt too wide) in paragraph at lines 20--22
+[]\T1/ptm/m/n/10 RefactoringStatus [][]check-Ini-tial-Con-di-tions[][] (IPro-gr
+ess-Mon-i-tor pro-gress-Mon-i-tor) throws
+ []
+
+[26]
+Overfull \hbox (17.77617pt too wide) in paragraph at lines 22--24
+[]\T1/ptm/m/n/10 RefactoringStatus [][]check-Fi-nal-Con-di-tions[][] (IPro-gres
+s-Mon-i-tor pro-gress-Mon-i-tor) throws
+ []
+
+
+Overfull \hbox (5.42589pt too wide) in paragraph at lines 37--39
+[]\T1/ptm/m/n/10 RefactoringStatus [][]check-Com-pileEr-rors[][] (Refac-tor-ing
+Sta-tus sta-tus, Refac-tor-ingSta-
+ []
+
+
+Overfull \hbox (13.8562pt too wide) in paragraph at lines 43--45
+[]\T1/ptm/m/n/10 void [][]re-move-Fi-nal-Fiel-d-As-sign-ments[][] (AS-TRewrite 
+as-tRewrite, Map$\OML/ztmcm/m/it/10 <$ \T1/ptm/m/n/10 IVari-ableBind-
+ []
+
+
+Overfull \hbox (4.13574pt too wide) in paragraph at lines 45--47
+[]\T1/ptm/m/n/10 void [][]cre-ateMas-ter-Con-struc-tor-Call[][] (AS-TRewrite as
+-tRewrite, List$\OML/ztmcm/m/it/10 <$ \T1/ptm/m/n/10 IVari-ableBind-
+ []
+
+
+Overfull \hbox (9.97607pt too wide) in paragraph at lines 45--47
+\T1/ptm/m/n/10 ing $\OML/ztmcm/m/it/10 >$ \T1/ptm/m/n/10 field-sAs-signedI-nOrd
+er, List$\OML/ztmcm/m/it/10 <$ \T1/ptm/m/n/10 State-ment $\OML/ztmcm/m/it/10 >$
+ \T1/ptm/m/n/10 state-ments, Map$\OML/ztmcm/m/it/10 <$ \T1/ptm/m/n/10 IVari-abl
+eBind-
+ []
+
+
+Overfull \hbox (8.956pt too wide) has occurred while \output is active
+\T1/ptm/b/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructo
+rsRefactoring 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 34.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27]
+Overfull \hbox (158.52788pt too wide) in paragraph at lines 114--114
+[]\OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstr
+uctorsRefactoring.RemoveDuplicateCodeInConstructorsRefactoring 
+ []
+
+
+Overfull \hbox (21.88861pt too wide) in alignment at lines 119--122
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 122
+ []
+
+
+Overfull \hbox (158.52788pt too wide) in paragraph at lines 134--134
+[]\OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstr
+uctorsRefactoring.RemoveDuplicateCodeInConstructorsRefactoring 
+ []
+
+
+Overfull \hbox (158.52788pt too wide) in paragraph at lines 147--147
+[]\OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstr
+uctorsRefactoring.RemoveDuplicateCodeInConstructorsRefactoring 
+ []
+
+
+Overfull \hbox (21.88861pt too wide) in alignment at lines 152--155
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 155
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+Overfull \hbox (121.36812pt too wide) in paragraph at lines 171--171
+[]\OT1/phv/bc/n/10 RefactoringStatus edu.illinois.canistelCassabanana.RemoveDup
+licateCodeInConstructorsRefactoring.checkCompileErrors 
+ []
+
+
+Overfull \hbox (21.88861pt too wide) in alignment at lines 176--181
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 181
+ []
+
+
+Overfull \hbox (126.10165pt too wide) in paragraph at lines 196--196
+[]\OT1/phv/bc/n/10 RefactoringStatus edu.illinois.canistelCassabanana.RemoveDup
+licateCodeInConstructorsRefactoring.checkFinalConditions 
+ []
+
+
+Overfull \hbox (21.88861pt too wide) in alignment at lines 201--204
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 204
+ []
+
+
+Overfull \hbox (128.15353pt too wide) in paragraph at lines 219--219
+[]\OT1/phv/bc/n/10 RefactoringStatus edu.illinois.canistelCassabanana.RemoveDup
+licateCodeInConstructorsRefactoring.checkInitialConditions 
+ []
+
+
+Overfull \hbox (21.88861pt too wide) in alignment at lines 228--231
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 231
+ []
+
+
+Overfull \hbox (8.956pt too wide) has occurred while \output is active
+\T1/ptm/b/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructo
+rsRefactoring 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 34.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29]
+Overfull \hbox (152.65134pt too wide) in paragraph at lines 246--246
+[]\OT1/phv/bc/n/10 RefactoringStatus edu.illinois.canistelCassabanana.RemoveDup
+licateCodeInConstructorsRefactoring.checkNumberOfConstructors 
+ []
+
+
+Overfull \hbox (21.88861pt too wide) in alignment at lines 251--254
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 254
+ []
+
+
+Overfull \hbox (133.18443pt too wide) in paragraph at lines 269--269
+[]\OT1/phv/bc/n/10 boolean edu.illinois.canistelCassabanana.RemoveDuplicateCode
+InConstructorsRefactoring.constructorsOverlapAssignments 
+ []
+
+
+Overfull \hbox (62.06827pt too wide) in paragraph at lines 287--287
+[]\OT1/phv/bc/n/10 Change edu.illinois.canistelCassabanana.RemoveDuplicateCodeI
+nConstructorsRefactoring.createChange 
+ []
+
+
+Overfull \hbox (21.88861pt too wide) in alignment at lines 292--295
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 295
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+Overfull \hbox (88.33878pt too wide) in paragraph at lines 311--311
+[]\OT1/phv/bc/n/10 Block edu.illinois.canistelCassabanana.RemoveDuplicateCodeIn
+ConstructorsRefactoring.createConstructorBody 
+ []
+
+
+Overfull \hbox (21.88861pt too wide) in alignment at lines 316--321
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 321
+ []
+
+
+Overfull \hbox (85.27887pt too wide) in paragraph at lines 337--337
+[]\OT1/phv/bc/n/10 ASTNode edu.illinois.canistelCassabanana.RemoveDuplicateCode
+InConstructorsRefactoring.createDefaultValue 
+ []
+
+
+Overfull \hbox (140.10562pt too wide) in paragraph at lines 351--351
+[]\OT1/phv/bc/n/10 MethodDeclaration edu.illinois.canistelCassabanana.RemoveDup
+licateCodeInConstructorsRefactoring.createMasterConstructor 
+ []
+
+
+Overfull \hbox (21.88861pt too wide) in alignment at lines 356--361
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 361
+ []
+
+
+Overfull \hbox (106.41026pt too wide) in paragraph at lines 380--380
+[]\OT1/phv/bc/n/10 void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInC
+onstructorsRefactoring.createMasterConstructorCall 
+ []
+
+
+Overfull \hbox (8.956pt too wide) has occurred while \output is active
+\T1/ptm/b/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructo
+rsRefactoring 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 34.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31]
+Overfull \hbox (21.88861pt too wide) in alignment at lines 385--396
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 396
+ []
+
+
+Overfull \hbox (212.33714pt too wide) in paragraph at lines 408--408
+[]\OT1/phv/bc/n/10 MethodDeclaration edu.illinois.canistelCassabanana.RemoveDup
+licateCodeInConstructorsRefactoring.getConstructorContainingAllAssignedFields 
+ []
+
+
+Overfull \hbox (140.84966pt too wide) in paragraph at lines 421--421
+[]\OT1/phv/bc/n/10 Set$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 MethodDeclaration$
+\OML/ztmcm/m/it/10 >$ \OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.RemoveD
+uplicateCodeInConstructorsRefactoring.getConstructors 
+ []
+
+
+Overfull \hbox (21.88861pt too wide) in alignment at lines 426--431
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 431
+ []
+
+
+Overfull \hbox (63.30115pt too wide) in paragraph at lines 446--446
+\OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstruc
+torsRefactoring.getFieldAssignments 
+ []
+
+[32]
+Overfull \hbox (21.88861pt too wide) in alignment at lines 451--454
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 454
+ []
+
+
+Overfull \hbox (116.09375pt too wide) in paragraph at lines 469--469
+\OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstruc
+torsRefactoring.getFieldAssignmentsInConstructors 
+ []
+
+
+Overfull \hbox (21.88861pt too wide) in alignment at lines 474--477
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 477
+ []
+
+
+Overfull \hbox (203.20863pt too wide) in paragraph at lines 492--492
+[]\OT1/phv/bc/n/10 Set$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 IVariableBinding$\
+OML/ztmcm/m/it/10 >$ \OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.RemoveDu
+plicateCodeInConstructorsRefactoring.getFieldsAssignedInAnyConstructor 
+ []
+
+
+Overfull \hbox (42.71886pt too wide) in paragraph at lines 510--510
+[]\OT1/phv/bc/n/10 String edu.illinois.canistelCassabanana.RemoveDuplicateCodeI
+nConstructorsRefactoring.getName 
+ []
+
+
+Overfull \hbox (21.88861pt too wide) in alignment at lines 515--518
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 518
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (8.956pt too wide) has occurred while \output is active
+\T1/ptm/b/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructo
+rsRefactoring 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 34.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33]
+Overfull \hbox (125.63072pt too wide) in paragraph at lines 530--530
+[]\OT1/phv/bc/n/10 List$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 IProblem$\OML/ztm
+cm/m/it/10 >$ \OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.RemoveDuplicate
+CodeInConstructorsRefactoring.initializeConstructors 
+ []
+
+
+Overfull \hbox (61.10533pt too wide) in paragraph at lines 548--548
+[]\OT1/phv/bc/n/10 boolean edu.illinois.canistelCassabanana.RemoveDuplicateCode
+InConstructorsRefactoring.isEmptyEdit 
+ []
+
+
+Overfull \hbox (142.90413pt too wide) in paragraph at lines 561--561
+[]\OT1/phv/bc/n/10 boolean edu.illinois.canistelCassabanana.RemoveDuplicateCode
+InConstructorsRefactoring.otherConstructorsCallConstructors 
+ []
+
+
+Overfull \hbox (21.88861pt too wide) in alignment at lines 566--569
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 569
+ []
+
+
+Overfull \hbox (112.02591pt too wide) in paragraph at lines 587--587
+[]\OT1/phv/bc/n/10 void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInC
+onstructorsRefactoring.removeFinalFieldAssignments 
+ []
+
+
+Overfull \hbox (43.97874pt too wide) in paragraph at lines 601--601
+[]\OT1/phv/bc/n/10 void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInC
+onstructorsRefactoring.rewriteAST 
+ []
+
+[34]
+Overfull \hbox (70.33015pt too wide) in paragraph at lines 614--614
+[]\OT1/phv/bc/n/10 void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInC
+onstructorsRefactoring.setAccessModifier 
+ []
+
+
+Overfull \hbox (90.00354pt too wide) in paragraph at lines 627--627
+[]\OT1/phv/bc/n/10 void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInC
+onstructorsRefactoring.setHelperFunctionName 
+ []
+
+
+Overfull \hbox (83.44266pt too wide) in paragraph at lines 640--640
+[]\OT1/phv/bc/n/10 void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInC
+onstructorsRefactoring.setUseHelperFunction 
+ []
+
+
+Overfull \hbox (133.18689pt too wide) in paragraph at lines 652--652
+[]\OT1/phv/bc/n/10 String \T1/ptm/b/n/10 edu.illinois.canistelCassabanana.Remov
+eDuplicateCodeInConstructorsRefactoring.accessModifier 
+ []
+
+
+Overfull \hbox (75.5263pt too wide) in paragraph at lines 661--661
+[]\OT1/phv/bc/n/10 AST \T1/ptm/b/n/10 edu.illinois.canistelCassabanana.RemoveDu
+plicateCodeInConstructorsRefactoring.ast 
+ []
+
+
+Overfull \hbox (80.87093pt too wide) in paragraph at lines 670--670
+\T1/ptm/b/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructo
+rsRefactoring.changes 
+ []
+
+
+Overfull \hbox (174.98279pt too wide) in paragraph at lines 679--679
+[]\OT1/phv/bc/n/10 CompilationUnit \T1/ptm/b/n/10 edu.illinois.canistelCassaban
+ana.RemoveDuplicateCodeInConstructorsRefactoring.compilationUnit 
+ []
+
+
+Overfull \hbox (8.956pt too wide) has occurred while \output is active
+\T1/ptm/b/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructo
+rsRefactoring 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 34.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35]
+Overfull \hbox (245.17204pt too wide) in paragraph at lines 688--688
+[]\OT1/phv/bc/n/10 Set$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 MethodDeclaration$
+\OML/ztmcm/m/it/10 >$ \T1/ptm/b/n/10 edu.illinois.canistelCassabanana.RemoveDup
+licateCodeInConstructorsRefactoring.constructorDeclarations 
+ []
+
+
+Overfull \hbox (158.81429pt too wide) in paragraph at lines 697--697
+[]\OT1/phv/bc/n/10 List$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 IMethod$\OML/ztmc
+m/m/it/10 >$ \T1/ptm/b/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCod
+eInConstructorsRefactoring.constructors 
+ []
+
+
+Overfull \hbox (184.75945pt too wide) in paragraph at lines 706--706
+\T1/ptm/b/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructo
+rsRefactoring.fieldsInConstructorAssignments 
+ []
+
+
+Overfull \hbox (160.41673pt too wide) in paragraph at lines 715--715
+[]\OT1/phv/bc/n/10 String \T1/ptm/b/n/10 edu.illinois.canistelCassabanana.Remov
+eDuplicateCodeInConstructorsRefactoring.helperFunctionName 
+ []
+
+
+Overfull \hbox (135.7353pt too wide) in paragraph at lines 724--724
+[]\OT1/phv/bc/n/10 ICompilationUnit \T1/ptm/b/n/10 edu.illinois.canistelCassaba
+nana.RemoveDuplicateCodeInConstructorsRefactoring.parent 
+ []
+
+
+Overfull \hbox (162.61525pt too wide) in paragraph at lines 733--733
+[]\OT1/phv/bc/n/10 boolean \T1/ptm/b/n/10 edu.illinois.canistelCassabanana.Remo
+veDuplicateCodeInConstructorsRefactoring.useHelperFunction 
+ []
+
+[36]
+Overfull \hbox (255.8126pt too wide) in paragraph at lines 743--743
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/[][]RemoveDuplicateCodeInConstructorsRefactoring.ja
+va[][] 
+ []
+
+)
+(./classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstruc
+torsWizard.tex
+Overfull \hbox (84.37909pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInCons
+tructorsWizard
+ []
+
+
+Overfull \hbox (7.50703pt too wide) in paragraph at lines 12--13
+[][][]\T1/ptm/m/n/10 RemoveDuplicateCodeInConstructorsWizard[][] ([][]Re-moveDu
+-pli-cate-CodeIn-Con-struc-
+ []
+
+
+Overfull \hbox (124.63512pt too wide) in paragraph at lines 48--48
+[]\OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstr
+uctorsWizard.RemoveDuplicateCodeInConstructorsWizard 
+ []
+
+
+Overfull \hbox (21.88861pt too wide) in alignment at lines 53--60
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 60
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 34.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[37]
+Overfull \hbox (53.10468pt too wide) in paragraph at lines 75--75
+[]\OT1/phv/bc/n/10 void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInC
+onstructorsWizard.addUserInputPages 
+ []
+
+
+Overfull \hbox (140.46443pt too wide) in paragraph at lines 87--87
+[]\OT1/phv/bc/n/10 List$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 IMethod$\OML/ztmc
+m/m/it/10 >$ \T1/ptm/b/n/10 edu.illinois.canistelCassabanana.RemoveDuplicateCod
+eInConstructorsWizard.constructors 
+ []
+
+
+Overfull \hbox (237.73291pt too wide) in paragraph at lines 97--97
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/[][]RemoveDuplicateCodeInConstructorsWizard.java[][
+] 
+ []
+
+)
+(./classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1TypeDeclarationVi
+sitor.tex
+Overfull \hbox (13.72255pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 edu.illinois.canistelCassabanana.visitors.TypeDeclarationV
+isitor
+ []
+
+[38]
+Overfull \hbox (37.16292pt too wide) in paragraph at lines 61--61
+[]\OT1/phv/bc/n/10 List$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 TypeDeclaration$\
+OML/ztmcm/m/it/10 >$ \OT1/phv/bc/n/10 edu.illinois.canistelCassabanana.visitors
+.TypeDeclarationVisitor.getTypes 
+ []
+
+
+Overfull \hbox (75.38026pt too wide) in paragraph at lines 86--86
+[]\OT1/phv/bc/n/10 List$\OML/ztmcm/m/it/10 <$\OT1/phv/bc/n/10 TypeDeclaration$\
+OML/ztmcm/m/it/10 >$ \T1/ptm/b/n/10 edu.illinois.canistelCassabanana.visitors.T
+ypeDeclarationVisitor.types 
+ []
+
+
+Overfull \hbox (181.50287pt too wide) in paragraph at lines 96--96
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/visitors/[][]TypeDeclarationVisitor.java[][] 
+ []
+
+) (./classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.tex
+Overfull \hbox (2.30527pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 edu.illinois.canistelCassabanana.utility.Utility Class Ref
+-er-ence 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39]
+Overfull \hbox (21.88861pt too wide) in alignment at lines 45--48
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 48
+ []
+
+
+Overfull \hbox (21.88861pt too wide) in alignment at lines 68--73
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 73
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+Overfull \hbox (21.88861pt too wide) in alignment at lines 93--96
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 96
+ []
+
+
+Overfull \hbox (140.77989pt too wide) in paragraph at lines 101--102
+[][][]\T1/pcr/m/n/10 http://stackoverflow.com/questions/1670862/obtaining-power
+set-of-a-set-in-java[][] 
+ []
+
+
+Overfull \hbox (21.88861pt too wide) in alignment at lines 119--122
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 122
+ []
+
+
+Overfull \hbox (13.83667pt too wide) in paragraph at lines 140--141
+\T1/ptm/m/n/10 Converts an AST org.eclipse.jdt.core.dom.ITypeBinding into an or
+g.eclipse.jtd.core.IType,
+ []
+
+[41]
+Overfull \hbox (21.88861pt too wide) in alignment at lines 143--148
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 148
+ []
+
+
+Overfull \hbox (108.39351pt too wide) in paragraph at lines 160--160
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/utility/[][]Utility.java[][] 
+ []
+
+) [42]
+Chapter 6.
+(./Activator_8java.tex
+Overfull \hbox (4.32751pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 /media/Documents/Documents/Dropbox/16 - Col-lege - Se-nior
+/CS
+ []
+
+
+Overfull \hbox (251.53194pt too wide) in paragraph at lines 4--4
+\OT1/phv/bc/n/14.4 427 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassab
+anana/src/edu/illinois/canistelCassabanana/Activator.java
+ []
+
+) (./RemoveDuplicateCodeInConstructorsAction_8java.tex
+Overfull \hbox (4.32751pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 /media/Documents/Documents/Dropbox/16 - Col-lege - Se-nior
+/CS
+ []
+
+
+Overfull \hbox (430.91928pt too wide) in paragraph at lines 4--4
+\OT1/phv/bc/n/14.4 427 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassab
+anana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsAct
+ion.java
+ []
+
+
+Overfull \hbox (12.94594pt too wide) in paragraph at lines 8--9
+[]\T1/ptm/m/n/10 class [][]edu.illinois.canistelCassabanana.RemoveDuplicateCode
+InConstructorsAction[][] 
+ []
+
+) (./RemoveDuplicateCodeInConstructorsConstants_8java.tex
+Overfull \hbox (4.32751pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 /media/Documents/Documents/Dropbox/16 - Col-lege - Se-nior
+/CS
+ []
+
+
+Overfull \hbox (449.81456pt too wide) in paragraph at lines 4--4
+\OT1/phv/bc/n/14.4 427 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassab
+anana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsCon
+stants.java
+ []
+
+
+Overfull \hbox (25.17567pt too wide) in paragraph at lines 8--9
+[]\T1/ptm/m/n/10 class [][]edu.illinois.canistelCassabanana.RemoveDuplicateCode
+InConstructorsConstants[][] 
+ []
+
+[43
+
+]) (./RemoveDuplicateCodeInConstructorsDescriptor_8java.tex
+Overfull \hbox (4.32751pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 /media/Documents/Documents/Dropbox/16 - Col-lege - Se-nior
+/CS
+ []
+
+
+Overfull \hbox (450.38472pt too wide) in paragraph at lines 4--4
+\OT1/phv/bc/n/14.4 427 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassab
+anana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsDes
+criptor.java
+ []
+
+
+Overfull \hbox (27.93568pt too wide) in paragraph at lines 8--9
+[]\T1/ptm/m/n/10 class [][]edu.illinois.canistelCassabanana.RemoveDuplicateCode
+InConstructorsDescriptor[][] 
+ []
+
+) (./RemoveDuplicateCodeInConstructorsInputPage_8java.tex
+Overfull \hbox (4.32751pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 /media/Documents/Documents/Dropbox/16 - Col-lege - Se-nior
+/CS
+ []
+
+
+Overfull \hbox (449.14041pt too wide) in paragraph at lines 4--4
+\OT1/phv/bc/n/14.4 427 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassab
+anana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsInp
+utPage.java
+ []
+
+
+Overfull \hbox (26.126pt too wide) in paragraph at lines 8--9
+[]\T1/ptm/m/n/10 class [][]edu.illinois.canistelCassabanana.RemoveDuplicateCode
+InConstructorsInputPage[][] 
+ []
+
+) (./RemoveDuplicateCodeInConstructorsRefactoring_8java.tex
+Overfull \hbox (4.32751pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 /media/Documents/Documents/Dropbox/16 - Col-lege - Se-nior
+/CS
+ []
+
+
+Overfull \hbox (456.90341pt too wide) in paragraph at lines 4--4
+\OT1/phv/bc/n/14.4 427 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassab
+anana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsRef
+actoring.java
+ []
+
+
+Overfull \hbox (32.8357pt too wide) in paragraph at lines 8--9
+[]\T1/ptm/m/n/10 class [][]edu.illinois.canistelCassabanana.RemoveDuplicateCode
+InConstructorsRefactoring[][] 
+ []
+
+[44]) (./RemoveDuplicateCodeInConstructorsWizard_8java.tex
+Overfull \hbox (4.32751pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 /media/Documents/Documents/Dropbox/16 - Col-lege - Se-nior
+/CS
+ []
+
+
+Overfull \hbox (432.50069pt too wide) in paragraph at lines 4--4
+\OT1/phv/bc/n/14.4 427 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassab
+anana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsWiz
+ard.java
+ []
+
+
+Overfull \hbox (14.756pt too wide) in paragraph at lines 8--9
+[]\T1/ptm/m/n/10 class [][]edu.illinois.canistelCassabanana.RemoveDuplicateCode
+InConstructorsWizard[][] 
+ []
+
+) (./Utility_8java.tex
+Overfull \hbox (4.32751pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 /media/Documents/Documents/Dropbox/16 - Col-lege - Se-nior
+/CS
+ []
+
+
+Overfull \hbox (266.26663pt too wide) in paragraph at lines 4--4
+\OT1/phv/bc/n/14.4 427 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassab
+anana/src/edu/illinois/canistelCassabanana/utility/Utility.java
+ []
+
+) (./AssignmentExpressionVisitor_8java.tex
+Overfull \hbox (4.32751pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 /media/Documents/Documents/Dropbox/16 - Col-lege - Se-nior
+/CS
+ []
+
+
+Overfull \hbox (397.47023pt too wide) in paragraph at lines 4--4
+\OT1/phv/bc/n/14.4 427 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassab
+anana/src/edu/illinois/canistelCassabanana/visitors/AssignmentExpressionVisitor
+.java
+ []
+
+
+Overfull \hbox (192.75327pt too wide) has occurred while \output is active
+\T1/ptm/b/n/10 I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCass
+abanana/RemoveDuplicateCodeInConstructorsRefactoring.java 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 46.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45]) (./ConstructorDeclarationVisitor_8java.tex
+Overfull \hbox (10.23714pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 /media/Documents/Documents/Dropbox/16 - Col-lege - Se-nior
+/CS
+ []
+
+
+Overfull \hbox (403.75569pt too wide) in paragraph at lines 4--4
+\OT1/phv/bc/n/14.4 427 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassab
+anana/src/edu/illinois/canistelCassabanana/visitors/ConstructorDeclarationVisit
+or.java
+ []
+
+) (./ConstructorInvocationVisitor_8java.tex
+Overfull \hbox (10.23714pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 /media/Documents/Documents/Dropbox/16 - Col-lege - Se-nior
+/CS
+ []
+
+
+Overfull \hbox (398.49388pt too wide) in paragraph at lines 4--4
+\OT1/phv/bc/n/14.4 427 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassab
+anana/src/edu/illinois/canistelCassabanana/visitors/ConstructorInvocationVisito
+r.java
+ []
+
+) (./FieldVariableVisitor_8java.tex
+Overfull \hbox (10.23714pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 /media/Documents/Documents/Dropbox/16 - Col-lege - Se-nior
+/CS
+ []
+
+
+Overfull \hbox (350.71164pt too wide) in paragraph at lines 4--4
+\OT1/phv/bc/n/14.4 427 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassab
+anana/src/edu/illinois/canistelCassabanana/visitors/FieldVariableVisitor.java
+ []
+
+[46]) (./TypeDeclarationVisitor_8java.tex
+Overfull \hbox (10.23714pt too wide) in paragraph at lines 4--4
+[]\OT1/phv/bc/n/14.4 /media/Documents/Documents/Dropbox/16 - Col-lege - Se-nior
+/CS
+ []
+
+
+Overfull \hbox (367.13171pt too wide) in paragraph at lines 4--4
+\OT1/phv/bc/n/14.4 427 - Soft-ware En-gi-neer-ing I/edu.illinois.canistelCassab
+anana/src/edu/illinois/canistelCassabanana/visitors/TypeDeclarationVisitor.java
+
+ []
+
+) (./refman.ind
+Overfull \hbox (99.18346pt too wide) has occurred while \output is active
+\T1/ptm/b/n/10 I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCass
+abanana/visitors/FieldVariableVisitor.java 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 46.48999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[47]
+Overfull \hbox (7.48811pt too wide) in paragraph at lines 3--5
+[]\T1/ptm/m/n/10 /media/Documents/Documents/Dropbox/16
+ []
+
+
+Overfull \hbox (0.96832pt too wide) in paragraph at lines 3--5
+\T1/ptm/m/n/10 - Col-lege - Se-nior/CS 427 - Soft-
+ []
+
+
+Overfull \hbox (287.96416pt too wide) in paragraph at lines 3--5
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/Activator.java,
+ []
+
+
+Overfull \hbox (7.48811pt too wide) in paragraph at lines 5--7
+[]\T1/ptm/m/n/10 /media/Documents/Documents/Dropbox/16
+ []
+
+
+Overfull \hbox (0.96832pt too wide) in paragraph at lines 5--7
+\T1/ptm/m/n/10 - Col-lege - Se-nior/CS 427 - Soft-
+ []
+
+
+Overfull \hbox (430.92282pt too wide) in paragraph at lines 5--7
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsAction.java,
+ []
+
+
+Overfull \hbox (7.48811pt too wide) in paragraph at lines 7--9
+[]\T1/ptm/m/n/10 /media/Documents/Documents/Dropbox/16
+ []
+
+
+Overfull \hbox (0.96832pt too wide) in paragraph at lines 7--9
+\T1/ptm/m/n/10 - Col-lege - Se-nior/CS 427 - Soft-
+ []
+
+
+Overfull \hbox (443.15256pt too wide) in paragraph at lines 7--9
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsConstants.java,
+ []
+
+
+Overfull \hbox (7.48811pt too wide) in paragraph at lines 9--11
+[]\T1/ptm/m/n/10 /media/Documents/Documents/Dropbox/16
+ []
+
+
+Overfull \hbox (0.96832pt too wide) in paragraph at lines 9--11
+\T1/ptm/m/n/10 - Col-lege - Se-nior/CS 427 - Soft-
+ []
+
+
+Overfull \hbox (445.36264pt too wide) in paragraph at lines 9--11
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsDescriptor.java,
+ []
+
+
+Overfull \hbox (7.48811pt too wide) in paragraph at lines 11--13
+[]\T1/ptm/m/n/10 /media/Documents/Documents/Dropbox/16
+ []
+
+
+Overfull \hbox (0.96832pt too wide) in paragraph at lines 11--13
+\T1/ptm/m/n/10 - Col-lege - Se-nior/CS 427 - Soft-
+ []
+
+
+Overfull \hbox (444.10289pt too wide) in paragraph at lines 11--13
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsInputPage.java,
+ []
+
+
+Overfull \hbox (7.48811pt too wide) in paragraph at lines 13--15
+[]\T1/ptm/m/n/10 /media/Documents/Documents/Dropbox/16
+ []
+
+
+Overfull \hbox (0.96832pt too wide) in paragraph at lines 13--15
+\T1/ptm/m/n/10 - Col-lege - Se-nior/CS 427 - Soft-
+ []
+
+
+Overfull \hbox (450.81258pt too wide) in paragraph at lines 13--15
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsRefactoring.java,
+ []
+
+
+Overfull \hbox (7.48811pt too wide) in paragraph at lines 15--17
+[]\T1/ptm/m/n/10 /media/Documents/Documents/Dropbox/16
+ []
+
+
+Overfull \hbox (0.96832pt too wide) in paragraph at lines 15--17
+\T1/ptm/m/n/10 - Col-lege - Se-nior/CS 427 - Soft-
+ []
+
+
+Overfull \hbox (432.73288pt too wide) in paragraph at lines 15--17
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsWizard.java,
+ []
+
+
+Overfull \hbox (7.48811pt too wide) in paragraph at lines 17--19
+[]\T1/ptm/m/n/10 /media/Documents/Documents/Dropbox/16
+ []
+
+
+Overfull \hbox (0.96832pt too wide) in paragraph at lines 17--19
+\T1/ptm/m/n/10 - Col-lege - Se-nior/CS 427 - Soft-
+ []
+
+
+Overfull \hbox (303.39348pt too wide) in paragraph at lines 17--19
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/utility/Utility.java,
+ []
+
+
+Overfull \hbox (7.48811pt too wide) in paragraph at lines 19--21
+[]\T1/ptm/m/n/10 /media/Documents/Documents/Dropbox/16
+ []
+
+
+Overfull \hbox (0.96832pt too wide) in paragraph at lines 19--21
+\T1/ptm/m/n/10 - Col-lege - Se-nior/CS 427 - Soft-
+ []
+
+
+Overfull \hbox (402.32242pt too wide) in paragraph at lines 19--21
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/visitors/AssignmentExpressionVisitor.java,
+ []
+
+
+Overfull \hbox (7.48811pt too wide) in paragraph at lines 21--23
+[]\T1/ptm/m/n/10 /media/Documents/Documents/Dropbox/16
+ []
+
+
+Overfull \hbox (0.96832pt too wide) in paragraph at lines 21--23
+\T1/ptm/m/n/10 - Col-lege - Se-nior/CS 427 - Soft-
+ []
+
+
+Overfull \hbox (403.9723pt too wide) in paragraph at lines 21--23
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/visitors/ConstructorDeclarationVisitor.java,
+ []
+
+
+Overfull \hbox (7.48811pt too wide) in paragraph at lines 23--25
+[]\T1/ptm/m/n/10 /media/Documents/Documents/Dropbox/16
+ []
+
+
+Overfull \hbox (0.96832pt too wide) in paragraph at lines 23--25
+\T1/ptm/m/n/10 - Col-lege - Se-nior/CS 427 - Soft-
+ []
+
+
+Overfull \hbox (399.49269pt too wide) in paragraph at lines 23--25
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/visitors/ConstructorInvocationVisitor.java,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (7.48811pt too wide) in paragraph at lines 25--27
+[]\T1/ptm/m/n/10 /media/Documents/Documents/Dropbox/16
+ []
+
+
+Overfull \hbox (0.96832pt too wide) in paragraph at lines 25--27
+\T1/ptm/m/n/10 - Col-lege - Se-nior/CS 427 - Soft-
+ []
+
+
+Overfull \hbox (363.98268pt too wide) in paragraph at lines 25--27
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/visitors/FieldVariableVisitor.java,
+ []
+
+
+Overfull \hbox (7.48811pt too wide) in paragraph at lines 27--29
+[]\T1/ptm/m/n/10 /media/Documents/Documents/Dropbox/16
+ []
+
+
+Overfull \hbox (0.96832pt too wide) in paragraph at lines 27--29
+\T1/ptm/m/n/10 - Col-lege - Se-nior/CS 427 - Soft-
+ []
+
+
+Overfull \hbox (376.50284pt too wide) in paragraph at lines 27--29
+\T1/ptm/m/n/10 ware En-gi-neer-ing I/edu.illinois.canistelCassabanana/src/edu/i
+llinois/canistelCassabanana/visitors/TypeDeclarationVisitor.java,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 33--35
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (188.96574pt too wide) in paragraph at lines 36--38
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsInputPage,
+ []
+
+
+Overfull \hbox (33.37694pt too wide) in paragraph at lines 39--41
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::Activator,
+ []
+
+
+Overfull \hbox (177.59573pt too wide) in paragraph at lines 42--44
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsWizard,
+ []
+
+
+Overfull \hbox (190.77542pt too wide) in paragraph at lines 45--47
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsDescriptor,
+ []
+
+
+Overfull \hbox (150.51509pt too wide) in paragraph at lines 48--50
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::AssignmentExpr
+essionVisitor,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 51--53
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (188.96574pt too wide) in paragraph at lines 57--59
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsInputPage,
+ []
+
+
+Overfull \hbox (188.96574pt too wide) in paragraph at lines 60--62
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsInputPage,
+ []
+
+[48
+
+]
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 66--68
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 69--71
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 72--74
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (19.86888pt too wide) in paragraph at lines 74--75
+[]\T1/ptm/m/n/10 CHECKING_-PRECONDITIONS_-MESSAGE 
+ []
+
+
+Overfull \hbox (188.01541pt too wide) in paragraph at lines 75--77
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsConstants,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 78--80
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 81--83
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 84--86
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 87--89
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (152.16498pt too wide) in paragraph at lines 89--91
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::ConstructorDec
+larationVisitor,
+ []
+
+
+Overfull \hbox (152.16498pt too wide) in paragraph at lines 92--94
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::ConstructorDec
+larationVisitor,
+ []
+
+
+Overfull \hbox (147.68536pt too wide) in paragraph at lines 95--97
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::ConstructorInv
+ocationVisitor,
+ []
+
+
+Overfull \hbox (147.68536pt too wide) in paragraph at lines 98--100
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::ConstructorInv
+ocationVisitor,
+ []
+
+
+Overfull \hbox (188.96574pt too wide) in paragraph at lines 101--103
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsInputPage,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 103--105
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (177.59573pt too wide) in paragraph at lines 105--107
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsWizard,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 108--110
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 111--113
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 114--116
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (188.96574pt too wide) in paragraph at lines 117--119
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsInputPage,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 120--122
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 123--125
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 126--128
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (190.77542pt too wide) in paragraph at lines 129--131
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsDescriptor,
+ []
+
+
+Overfull \hbox (175.78568pt too wide) in paragraph at lines 135--137
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsAction,
+ []
+
+
+Overfull \hbox (3.39754pt too wide) in paragraph at lines 144--145
+[]\T1/ptm/m/n/10 edu.illinois.canistelCassabanana.visitors, [][]8[][] 
+ []
+
+
+Overfull \hbox (13.37694pt too wide) in paragraph at lines 145--146
+[]\T1/ptm/m/n/10 edu::illinois::canistelCassabanana::Activator,
+ []
+
+
+Overfull \hbox (155.78568pt too wide) in paragraph at lines 152--154
+[]\T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConst
+ructorsAction,
+ []
+
+
+Overfull \hbox (168.01541pt too wide) in paragraph at lines 162--164
+[]\T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConst
+ructorsConstants,
+ []
+
+
+Overfull \hbox (42.36888pt too wide) in paragraph at lines 164--166
+[]| \T1/ptm/m/n/10 CHECKING_-PRECONDITIONS_-MESSAGE,
+ []
+
+
+Overfull \hbox (4.02927pt too wide) in paragraph at lines 166--168
+[]| \T1/ptm/m/n/10 NO_-CONSTRUCTORS_-MESSAGE,
+ []
+
+[49]
+Overfull \hbox (12.36923pt too wide) in paragraph at lines 168--170
+[]| \T1/ptm/m/n/10 NO_-DUPLICATE_-CODE_-MESSAGE,
+ []
+
+
+Overfull \hbox (16.24924pt too wide) in paragraph at lines 170--172
+[]| \T1/ptm/m/n/10 NULL_-CONSTRUCTORS_-MESSAGE,
+ []
+
+
+Overfull \hbox (4.57932pt too wide) in paragraph at lines 172--174
+[]| \T1/ptm/m/n/10 ONE_-CONSTRUCTOR_-MESSAGE,
+ []
+
+
+Overfull \hbox (5.5792pt too wide) in paragraph at lines 174--176
+[]| \T1/ptm/m/n/10 REFACTORING_-DESCRIPTION, [][]20[][] 
+ []
+
+
+Overfull \hbox (9.75925pt too wide) in paragraph at lines 180--182
+[]| \T1/ptm/m/n/10 UNEXPECTED_-ERROR_-MESSAGE,
+ []
+
+
+Overfull \hbox (170.77542pt too wide) in paragraph at lines 182--184
+[]\T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConst
+ructorsDescriptor,
+ []
+
+
+Overfull \hbox (8.28848pt too wide) in paragraph at lines 188--190
+[]| \T1/ptm/m/n/10 Re-moveDu-pli-cate-CodeIn-Con-struc-tors-
+ []
+
+
+Overfull \hbox (168.96574pt too wide) in paragraph at lines 190--192
+[]\T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConst
+ructorsInputPage,
+ []
+
+
+Overfull \hbox (4.11856pt too wide) in paragraph at lines 197--198
+[]| \T1/ptm/m/n/10 en-ableDis-able-Helper-Me-thod-TextBox,
+ []
+
+
+Overfull \hbox (0.12857pt too wide) in paragraph at lines 198--199
+[]| \T1/ptm/m/n/10 getH-elper-Me-thod-Check-BoxLis-tener,
+ []
+
+
+Overfull \hbox (5.50858pt too wide) in paragraph at lines 199--201
+[]| \T1/ptm/m/n/10 ge-tRemoveDu-pli-cate-CodeIn-Con-struc-
+ []
+
+
+Overfull \hbox (16.61844pt too wide) in paragraph at lines 205--207
+[]| \T1/ptm/m/n/10 Re-moveDu-pli-cate-CodeIn-Con-struc-torsIn-
+ []
+
+
+Overfull \hbox (175.67543pt too wide) in paragraph at lines 207--209
+[]\T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConst
+ructorsRefactoring,
+ []
+
+
+Overfull \hbox (9.71812pt too wide) in paragraph at lines 226--228
+[]| \T1/ptm/m/n/10 get-Con-struc-tor-Con-tain-ingAl-lAs-signed-
+ []
+
+
+Overfull \hbox (10.90808pt too wide) in paragraph at lines 230--231
+[]| \T1/ptm/m/n/10 get-Fiel-d-As-sign-mentsIn-Con-struc-tors, [][]33[][] 
+ []
+
+
+Overfull \hbox (1.10854pt too wide) in paragraph at lines 231--232
+[]| \T1/ptm/m/n/10 get-Field-sAs-signe-d-I-nAny-Con-struc-tor,
+ []
+
+
+Overfull \hbox (6.45815pt too wide) in paragraph at lines 236--237
+[]| \T1/ptm/m/n/10 oth-er-Con-struc-torsCall-Con-struc-tors, [][]34[][] 
+ []
+
+
+Overfull \hbox (31.5082pt too wide) in paragraph at lines 238--240
+[]| \T1/ptm/m/n/10 Re-moveDu-pli-cate-CodeIn-Con-struc-torsRefac-
+ []
+
+
+Overfull \hbox (157.59573pt too wide) in paragraph at lines 246--248
+[]\T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConst
+ructorsWizard,
+ []
+
+
+Overfull \hbox (4.19864pt too wide) in paragraph at lines 250--251
+[]| \T1/ptm/m/n/10 Re-moveDu-pli-cate-CodeIn-Con-struc-tor-
+ []
+
+
+Overfull \hbox (31.68613pt too wide) in paragraph at lines 251--253
+[]\T1/ptm/m/n/10 edu::illinois::canistelCassabanana::utility::Utility,
+ []
+
+
+Overfull \hbox (130.51509pt too wide) in paragraph at lines 258--260
+[]\T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::AssignmentExpres
+sionVisitor,
+ []
+
+
+Overfull \hbox (14.42812pt too wide) in paragraph at lines 261--262
+[]| \T1/ptm/m/n/10 getLeft-Hand-Side-As-sig-ment-Ex-pres-sions,
+ []
+
+
+Overfull \hbox (5.26833pt too wide) in paragraph at lines 262--263
+[]| \T1/ptm/m/n/10 getRightHand-Side-As-sign-ment-Ex-pres-
+ []
+
+[50]
+Overfull \hbox (3.87819pt too wide) in paragraph at lines 263--264
+[]| \T1/ptm/m/n/10 left-Hand-Side-As-sign-ment-Ex-pres-sions,
+ []
+
+
+Overfull \hbox (9.43825pt too wide) in paragraph at lines 264--265
+[]| \T1/ptm/m/n/10 rightHand-Side-As-sign-ment-Ex-pres-sions,
+ []
+
+
+Overfull \hbox (132.16498pt too wide) in paragraph at lines 266--268
+[]\T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::ConstructorDecla
+rationVisitor,
+ []
+
+
+Overfull \hbox (127.68536pt too wide) in paragraph at lines 272--274
+[]\T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::ConstructorInvoc
+ationVisitor,
+ []
+
+
+Overfull \hbox (92.17535pt too wide) in paragraph at lines 278--280
+[]\T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::FieldVariableVis
+itor,
+ []
+
+
+Overfull \hbox (104.69551pt too wide) in paragraph at lines 287--289
+[]\T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::TypeDeclarationV
+isitor,
+ []
+
+
+Overfull \hbox (188.96574pt too wide) in paragraph at lines 294--296
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsInputPage,
+ []
+
+
+Overfull \hbox (112.17535pt too wide) in paragraph at lines 300--302
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::FieldVariableV
+isitor,
+ []
+
+
+Overfull \hbox (112.17535pt too wide) in paragraph at lines 303--305
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::FieldVariableV
+isitor,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 306--308
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (112.17535pt too wide) in paragraph at lines 309--311
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::FieldVariableV
+isitor,
+ []
+
+
+Overfull \hbox (51.68613pt too wide) in paragraph at lines 312--314
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::utility::Utility,
+ []
+
+
+Overfull \hbox (190.77542pt too wide) in paragraph at lines 318--320
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsDescriptor,
+ []
+
+
+Overfull \hbox (10.83772pt too wide) in paragraph at lines 320--321
+[]\T1/ptm/m/n/10 getConstructorContainingAllAssignedFields 
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 321--323
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (152.16498pt too wide) in paragraph at lines 324--326
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::ConstructorDec
+larationVisitor,
+ []
+
+
+Overfull \hbox (147.68536pt too wide) in paragraph at lines 327--329
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::ConstructorInv
+ocationVisitor,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 330--332
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (51.68613pt too wide) in paragraph at lines 332--334
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::utility::Utility,
+ []
+
+
+Overfull \hbox (33.37694pt too wide) in paragraph at lines 335--337
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::Activator,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 338--340
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 341--343
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (112.17535pt too wide) in paragraph at lines 344--346
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::FieldVariableV
+isitor,
+ []
+
+
+Overfull \hbox (112.17535pt too wide) in paragraph at lines 347--349
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::FieldVariableV
+isitor,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 350--352
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (188.96574pt too wide) in paragraph at lines 353--355
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsInputPage,
+ []
+
+
+Overfull \hbox (150.51509pt too wide) in paragraph at lines 356--358
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::AssignmentExpr
+essionVisitor,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 359--361
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (51.68613pt too wide) in paragraph at lines 362--364
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::utility::Utility,
+ []
+
+[51]
+Overfull \hbox (51.68613pt too wide) in paragraph at lines 365--367
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::utility::Utility,
+ []
+
+
+Overfull \hbox (44.28781pt too wide) in paragraph at lines 367--368
+[]\T1/ptm/m/n/10 getRemoveDuplicateCodeInConstructorsRefactoring 
+ []
+
+
+Overfull \hbox (188.96574pt too wide) in paragraph at lines 368--370
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsInputPage,
+ []
+
+
+Overfull \hbox (2.49805pt too wide) in paragraph at lines 370--371
+[]\T1/ptm/m/n/10 getRightHandSideAssignmentExpressions 
+ []
+
+
+Overfull \hbox (150.51509pt too wide) in paragraph at lines 371--373
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::AssignmentExpr
+essionVisitor,
+ []
+
+
+Overfull \hbox (124.69551pt too wide) in paragraph at lines 374--376
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::TypeDeclaratio
+nVisitor,
+ []
+
+
+Overfull \hbox (188.96574pt too wide) in paragraph at lines 380--382
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsInputPage,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 383--385
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (188.96574pt too wide) in paragraph at lines 386--388
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsInputPage,
+ []
+
+
+Overfull \hbox (188.96574pt too wide) in paragraph at lines 389--391
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsInputPage,
+ []
+
+
+Overfull \hbox (175.78568pt too wide) in paragraph at lines 395--397
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsAction,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 398--400
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 401--403
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (175.78568pt too wide) in paragraph at lines 407--409
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsAction,
+ []
+
+
+Overfull \hbox (150.51509pt too wide) in paragraph at lines 410--412
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::AssignmentExpr
+essionVisitor,
+ []
+
+
+Overfull \hbox (51.68613pt too wide) in paragraph at lines 413--415
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::utility::Utility,
+ []
+
+
+Overfull \hbox (188.01541pt too wide) in paragraph at lines 419--421
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsConstants,
+ []
+
+
+Overfull \hbox (188.01541pt too wide) in paragraph at lines 422--424
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsConstants,
+ []
+
+
+Overfull \hbox (188.01541pt too wide) in paragraph at lines 425--427
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsConstants,
+ []
+
+
+Overfull \hbox (188.01541pt too wide) in paragraph at lines 431--433
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsConstants,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 434--436
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 440--442
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (33.37694pt too wide) in paragraph at lines 443--445
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::Activator,
+ []
+
+
+Overfull \hbox (33.37694pt too wide) in paragraph at lines 446--448
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::Activator,
+ []
+
+
+Overfull \hbox (188.96574pt too wide) in paragraph at lines 452--454
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsInputPage,
+ []
+
+
+Overfull \hbox (188.01541pt too wide) in paragraph at lines 455--457
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsConstants,
+ []
+
+
+Overfull \hbox (188.01541pt too wide) in paragraph at lines 458--460
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsConstants,
+ []
+
+
+Overfull \hbox (190.77542pt too wide) in paragraph at lines 460--462
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsDescriptor,
+ []
+
+
+Overfull \hbox (188.01541pt too wide) in paragraph at lines 463--465
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsConstants,
+ []
+
+
+Overfull \hbox (175.78568pt too wide) in paragraph at lines 466--468
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsAction,
+ []
+
+
+Overfull \hbox (27.16797pt too wide) in paragraph at lines 468--469
+[]\T1/ptm/m/n/10 RemoveDuplicateCodeInConstructorsDescriptor 
+ []
+
+
+Overfull \hbox (190.77542pt too wide) in paragraph at lines 469--471
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsDescriptor,
+ []
+
+
+Overfull \hbox (25.35829pt too wide) in paragraph at lines 471--472
+[]\T1/ptm/m/n/10 RemoveDuplicateCodeInConstructorsInputPage 
+ []
+
+
+Overfull \hbox (188.96574pt too wide) in paragraph at lines 472--474
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsInputPage,
+ []
+
+
+Overfull \hbox (32.06798pt too wide) in paragraph at lines 474--475
+[]\T1/ptm/m/n/10 RemoveDuplicateCodeInConstructorsRefactoring 
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 475--477
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (13.98828pt too wide) in paragraph at lines 477--478
+[]\T1/ptm/m/n/10 RemoveDuplicateCodeInConstructorsWizard 
+ []
+
+
+Overfull \hbox (177.59573pt too wide) in paragraph at lines 478--480
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsWizard,
+ []
+
+[52]
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 481--483
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 484--486
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (150.51509pt too wide) in paragraph at lines 487--489
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::AssignmentExpr
+essionVisitor,
+ []
+
+
+Overfull \hbox (175.78568pt too wide) in paragraph at lines 490--492
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsAction,
+ []
+
+
+Overfull \hbox (175.78568pt too wide) in paragraph at lines 496--498
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsAction,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 499--501
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (112.17535pt too wide) in paragraph at lines 502--504
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::FieldVariableV
+isitor,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 505--507
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 508--510
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (33.37694pt too wide) in paragraph at lines 511--513
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::Activator,
+ []
+
+
+Overfull \hbox (33.37694pt too wide) in paragraph at lines 514--516
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::Activator,
+ []
+
+
+Overfull \hbox (124.69551pt too wide) in paragraph at lines 520--522
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::TypeDeclaratio
+nVisitor,
+ []
+
+
+Overfull \hbox (124.69551pt too wide) in paragraph at lines 523--525
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::TypeDeclaratio
+nVisitor,
+ []
+
+
+Overfull \hbox (188.01541pt too wide) in paragraph at lines 529--531
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsConstants,
+ []
+
+
+Overfull \hbox (188.01541pt too wide) in paragraph at lines 532--534
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsConstants,
+ []
+
+
+Overfull \hbox (175.78568pt too wide) in paragraph at lines 535--537
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsAction,
+ []
+
+
+Overfull \hbox (195.67543pt too wide) in paragraph at lines 538--540
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsRefactoring,
+ []
+
+
+Overfull \hbox (150.51509pt too wide) in paragraph at lines 544--546
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::AssignmentExpr
+essionVisitor,
+ []
+
+
+Overfull \hbox (152.16498pt too wide) in paragraph at lines 546--548
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::ConstructorDec
+larationVisitor,
+ []
+
+
+Overfull \hbox (147.68536pt too wide) in paragraph at lines 548--550
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::ConstructorInv
+ocationVisitor,
+ []
+
+
+Overfull \hbox (112.17535pt too wide) in paragraph at lines 550--552
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::FieldVariableV
+isitor,
+ []
+
+
+Overfull \hbox (124.69551pt too wide) in paragraph at lines 552--554
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::visitors::TypeDeclaratio
+nVisitor,
+ []
+
+
+Overfull \hbox (175.78568pt too wide) in paragraph at lines 558--560
+[]| \T1/ptm/m/n/10 edu::illinois::canistelCassabanana::RemoveDuplicateCodeInCon
+structorsAction,
+ []
+
+[53]) (./refman.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 10289 strings out of 495061
+ 170919 string characters out of 1182621
+ 238065 words of memory out of 3000000
+ 12703 multiletter control sequences out of 15000+50000
+ 54504 words of font info for 71 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 41i,12n,58p,1242b,576s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/urw/courier/ucrr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/u
+hvb8ac.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvbo8ac.pfb></us
+r/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texliv
+e/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/ti
+mes/utmri8a.pfb>
+Output written on refman.pdf (61 pages, 511754 bytes).
+PDF statistics:
+ 2157 PDF objects out of 2487 (max. 8388607)
+ 487 named destinations out of 1000 (max. 500000)
+ 1593 words of extra memory for PDF output out of 10000 (max. 10000000)
+

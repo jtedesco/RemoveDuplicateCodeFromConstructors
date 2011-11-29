@@ -1,0 +1,160 @@
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility}{
+\section{edu.illinois.canistelCassabanana.utility.Utility Class Reference}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility}\index{edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}}
+}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static String \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a7ad7b01b4ac985f843daae80a9b530f6}{fullyQualifiedName} (ITypeBinding type)
+\item 
+static IType \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_add7cd8f4956b7b5ebd90c8542183f21e}{lookupIType} (ITypeBinding type, IJavaProject in)
+\item 
+static ICompilationUnit \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a45eff2f6304ebeb68bc077e77faaf41c}{getParent} (List$<$ IMethod $>$ constructors)
+\item 
+static List$<$ IMethod $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a6cd2cf1ed4823a36a63fb36b4c31cdea}{getConstructors} (ICompilationUnit unit)
+\item 
+static$<$ T $>$ Set$<$ Set$<$ T $>$ $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_aa8be57d974d02d56e0ae832bedcdee08}{getPairs} (Set$<$ T $>$ originalSet)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A utility class that contains shared static methods for the plugin.
+
+\begin{DoxyAuthor}{Author}
+jon 
+\end{DoxyAuthor}
+
+
+Definition at line 21 of file Utility.java.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a7ad7b01b4ac985f843daae80a9b530f6}{
+\index{edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}!fullyQualifiedName@{fullyQualifiedName}}
+\index{fullyQualifiedName@{fullyQualifiedName}!edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}}
+\subsubsection[{fullyQualifiedName}]{\setlength{\rightskip}{0pt plus 5cm}static String edu.illinois.canistelCassabanana.utility.Utility.fullyQualifiedName (
+\begin{DoxyParamCaption}
+\item[{ITypeBinding}]{type}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a7ad7b01b4ac985f843daae80a9b530f6}
+Returns the fully qualified name for a ITypeBinding or null if the name can't be determined.
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & The binding to determine the fully qualified name for. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The fully qualified name of the binding. 
+\end{DoxyReturn}
+
+
+Definition at line 30 of file Utility.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a6cd2cf1ed4823a36a63fb36b4c31cdea}{
+\index{edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}!getConstructors@{getConstructors}}
+\index{getConstructors@{getConstructors}!edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}}
+\subsubsection[{getConstructors}]{\setlength{\rightskip}{0pt plus 5cm}static List$<$IMethod$>$ edu.illinois.canistelCassabanana.utility.Utility.getConstructors (
+\begin{DoxyParamCaption}
+\item[{ICompilationUnit}]{unit}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a6cd2cf1ed4823a36a63fb36b4c31cdea}
+Helper function to recursively retrieve all the constructors in some compilation unit.
+
+
+\begin{DoxyParams}{Parameters}
+{\em unit} & The compilation unit from which to retrieve the constructors \\
+\hline
+{\em fieldName} & The field name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The list of methods in this compilation unit 
+\end{DoxyReturn}
+
+
+Definition at line 138 of file Utility.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_aa8be57d974d02d56e0ae832bedcdee08}{
+\index{edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}!getPairs@{getPairs}}
+\index{getPairs@{getPairs}!edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}}
+\subsubsection[{getPairs}]{\setlength{\rightskip}{0pt plus 5cm}static $<$T$>$ Set$<$Set$<$T$>$ $>$ edu.illinois.canistelCassabanana.utility.Utility.getPairs (
+\begin{DoxyParamCaption}
+\item[{Set$<$ T $>$}]{originalSet}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_aa8be57d974d02d56e0ae832bedcdee08}
+Find every pair of items from a set
+
+
+\begin{DoxyParams}{Parameters}
+{\em originalSet} & The original set \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A set of every possible pair from the original set
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\href{http://stackoverflow.com/questions/1670862/obtaining-powerset-of-a-set-in-java}{\tt http://stackoverflow.com/questions/1670862/obtaining-\/powerset-\/of-\/a-\/set-\/in-\/java} 
+\end{DoxySeeAlso}
+
+
+Definition at line 172 of file Utility.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a45eff2f6304ebeb68bc077e77faaf41c}{
+\index{edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}!getParent@{getParent}}
+\index{getParent@{getParent}!edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}}
+\subsubsection[{getParent}]{\setlength{\rightskip}{0pt plus 5cm}static ICompilationUnit edu.illinois.canistelCassabanana.utility.Utility.getParent (
+\begin{DoxyParamCaption}
+\item[{List$<$ IMethod $>$}]{constructors}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a45eff2f6304ebeb68bc077e77faaf41c}
+Finds the parent compilation unit of the given constructors.
+
+
+\begin{DoxyParams}{Parameters}
+{\em constructors} & The list of constructors for which to find the parent \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The compilation unit containing the given constructors. If the constructors do not share the same compilation unit, this method will return null. 
+\end{DoxyReturn}
+
+
+Definition at line 114 of file Utility.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_add7cd8f4956b7b5ebd90c8542183f21e}{
+\index{edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}!lookupIType@{lookupIType}}
+\index{lookupIType@{lookupIType}!edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}}
+\subsubsection[{lookupIType}]{\setlength{\rightskip}{0pt plus 5cm}static IType edu.illinois.canistelCassabanana.utility.Utility.lookupIType (
+\begin{DoxyParamCaption}
+\item[{ITypeBinding}]{type, }
+\item[{IJavaProject}]{in}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_add7cd8f4956b7b5ebd90c8542183f21e}
+Converts an AST org.eclipse.jdt.core.dom.ITypeBinding into an org.eclipse.jtd.core.IType, or null if the conversion is not possible. This conversion is useful for resolving types on a project basis a project basis (rather than within a single Java file). If the given ITypeBinding is an array then the IType of the element type is returned.
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & The ITypeBinding to convert to an IType. \\
+\hline
+{\em in} & The Java project the binding is contained within. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The IType corresponding to binding, or null. 
+\end{DoxyReturn}
+
+
+Definition at line 78 of file Utility.java.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/utility/\hyperlink{Utility_8java}{Utility.java}\end{DoxyCompactItemize}

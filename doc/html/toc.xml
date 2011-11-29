@@ -1,0 +1,41 @@
+<toc label="Remove Duplicate Code From Constructors Refactoring" topic="index.html">
+  <topic label="Class List" href="annotated.html">
+    <topic label="edu.illinois.canistelCassabanana.Activator" href="classedu_1_1illinois_1_1canistelCassabanana_1_1Activator.html"/>
+    <topic label="edu.illinois.canistelCassabanana.visitors.AssignmentExpressionVisitor" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor.html"/>
+    <topic label="edu.illinois.canistelCassabanana.visitors.ConstructorDeclarationVisitor" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclarationVisitor.html"/>
+    <topic label="edu.illinois.canistelCassabanana.visitors.ConstructorInvocationVisitor" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorInvocationVisitor.html"/>
+    <topic label="edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html"/>
+    <topic label="edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsAction" href="classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction.html"/>
+    <topic label="edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsConstants" href="classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsConstants.html"/>
+    <topic label="edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsDescriptor" href="classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsDescriptor.html"/>
+    <topic label="edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsInputPage" href="classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsInputPage.html"/>
+    <topic label="edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsRefactoring" href="classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsRefactoring.html"/>
+    <topic label="edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsWizard" href="classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsWizard.html"/>
+    <topic label="edu.illinois.canistelCassabanana.visitors.TypeDeclarationVisitor" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1TypeDeclarationVisitor.html"/>
+    <topic label="edu.illinois.canistelCassabanana.utility.Utility" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html"/>
+  </topic>
+  <topic label="Class Index" href="classes.html"/>
+  <topic label="Class Members" href="functions.html"/>
+  <topic label="Packages" href="namespaces.html">
+    <topic label="edu" href="namespaceedu.html"/>
+    <topic label="edu.illinois" href="namespaceedu_1_1illinois.html"/>
+    <topic label="edu.illinois.canistelCassabanana" href="namespaceedu_1_1illinois_1_1canistelCassabanana.html"/>
+    <topic label="edu.illinois.canistelCassabanana.utility" href="namespaceedu_1_1illinois_1_1canistelCassabanana_1_1utility.html"/>
+    <topic label="edu.illinois.canistelCassabanana.visitors" href="namespaceedu_1_1illinois_1_1canistelCassabanana_1_1visitors.html"/>
+  </topic>
+  <topic label="File List" href="files.html">
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/Activator.java" href="Activator_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsAction.java" href="RemoveDuplicateCodeInConstructorsAction_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsConstants.java" href="RemoveDuplicateCodeInConstructorsConstants_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsDescriptor.java" href="RemoveDuplicateCodeInConstructorsDescriptor_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsInputPage.java" href="RemoveDuplicateCodeInConstructorsInputPage_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsRefactoring.java" href="RemoveDuplicateCodeInConstructorsRefactoring_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsWizard.java" href="RemoveDuplicateCodeInConstructorsWizard_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/utility/Utility.java" href="Utility_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/AssignmentExpressionVisitor.java" href="AssignmentExpressionVisitor_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/ConstructorDeclarationVisitor.java" href="ConstructorDeclarationVisitor_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/ConstructorInvocationVisitor.java" href="ConstructorInvocationVisitor_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/FieldVariableVisitor.java" href="FieldVariableVisitor_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/TypeDeclarationVisitor.java" href="TypeDeclarationVisitor_8java.html"/>
+  </topic>
+</toc>

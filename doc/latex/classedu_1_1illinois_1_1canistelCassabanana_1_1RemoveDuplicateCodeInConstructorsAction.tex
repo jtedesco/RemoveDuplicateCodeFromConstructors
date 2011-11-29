@@ -1,0 +1,162 @@
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction}{
+\section{edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsAction Class Reference}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction}\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}}
+}
+
+
+Inherits org::eclipse::ui::IWorkbenchWindowActionDelegate.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_aa476e003a3ba5c6308a3ee8ab337e528}{dispose} ()
+\item 
+void \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_a97ea38a871452b56cae1d6f6b83fa97e}{init} (final IWorkbenchWindow \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_adc9c8660932d820c161ecee669548037}{window})
+\item 
+void \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_a34cd91d35b5581afbaa84c5d8427b6ad}{run} (final IAction action)
+\item 
+void \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_a533e80dd41b0fdd06e3c12c4772ff443}{selectionChanged} (final IAction action, final ISelection selection)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_af52589bfa5dd7c1a58ee28e0450227aa}{refactorTreeSelection} (final IAction action, ITreeSelection treeSelection)
+\item 
+void \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_a58b211f8cd5a1701dea892911348d9b1}{launchRefactoring} (\hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsRefactoring}{RemoveDuplicateCodeInConstructorsRefactoring} refactoring, List$<$ IMethod $>$ constructors)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+IWorkbenchWindow \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_adc9c8660932d820c161ecee669548037}{window}
+\item 
+ICompilationUnit \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_a3f9d2e82eb4ac4a9c99fd67c1dc7ac04}{unit}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Action invoked by clicking on the menu item corresponding to this refactoring. This should perform the refactoring on the given code.
+
+\begin{DoxyAuthor}{Author}
+jon 
+\end{DoxyAuthor}
+
+
+Definition at line 28 of file RemoveDuplicateCodeInConstructorsAction.java.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_aa476e003a3ba5c6308a3ee8ab337e528}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}!dispose@{dispose}}
+\index{dispose@{dispose}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}}
+\subsubsection[{dispose}]{\setlength{\rightskip}{0pt plus 5cm}void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsAction.dispose (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_aa476e003a3ba5c6308a3ee8ab337e528}
+
+
+Definition at line 43 of file RemoveDuplicateCodeInConstructorsAction.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_a97ea38a871452b56cae1d6f6b83fa97e}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}!init@{init}}
+\index{init@{init}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsAction.init (
+\begin{DoxyParamCaption}
+\item[{final IWorkbenchWindow}]{window}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_a97ea38a871452b56cae1d6f6b83fa97e}
+
+
+Definition at line 50 of file RemoveDuplicateCodeInConstructorsAction.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_a58b211f8cd5a1701dea892911348d9b1}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}!launchRefactoring@{launchRefactoring}}
+\index{launchRefactoring@{launchRefactoring}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}}
+\subsubsection[{launchRefactoring}]{\setlength{\rightskip}{0pt plus 5cm}void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsAction.launchRefactoring (
+\begin{DoxyParamCaption}
+\item[{{\bf RemoveDuplicateCodeInConstructorsRefactoring}}]{refactoring, }
+\item[{List$<$ IMethod $>$}]{constructors}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_a58b211f8cd5a1701dea892911348d9b1}
+Launches the refactoring. 
+
+Definition at line 142 of file RemoveDuplicateCodeInConstructorsAction.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_af52589bfa5dd7c1a58ee28e0450227aa}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}!refactorTreeSelection@{refactorTreeSelection}}
+\index{refactorTreeSelection@{refactorTreeSelection}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}}
+\subsubsection[{refactorTreeSelection}]{\setlength{\rightskip}{0pt plus 5cm}void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsAction.refactorTreeSelection (
+\begin{DoxyParamCaption}
+\item[{final IAction}]{action, }
+\item[{ITreeSelection}]{treeSelection}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_af52589bfa5dd7c1a58ee28e0450227aa}
+
+\begin{DoxyParams}{Parameters}
+{\em action} & \\
+\hline
+{\em structuredSelection} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 108 of file RemoveDuplicateCodeInConstructorsAction.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_a34cd91d35b5581afbaa84c5d8427b6ad}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}!run@{run}}
+\index{run@{run}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsAction.run (
+\begin{DoxyParamCaption}
+\item[{final IAction}]{action}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_a34cd91d35b5581afbaa84c5d8427b6ad}
+
+
+Definition at line 57 of file RemoveDuplicateCodeInConstructorsAction.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_a533e80dd41b0fdd06e3c12c4772ff443}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}!selectionChanged@{selectionChanged}}
+\index{selectionChanged@{selectionChanged}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}}
+\subsubsection[{selectionChanged}]{\setlength{\rightskip}{0pt plus 5cm}void edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsAction.selectionChanged (
+\begin{DoxyParamCaption}
+\item[{final IAction}]{action, }
+\item[{final ISelection}]{selection}
+\end{DoxyParamCaption}
+)}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_a533e80dd41b0fdd06e3c12c4772ff443}
+
+
+Definition at line 155 of file RemoveDuplicateCodeInConstructorsAction.java.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_a3f9d2e82eb4ac4a9c99fd67c1dc7ac04}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}!unit@{unit}}
+\index{unit@{unit}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}}
+\subsubsection[{unit}]{\setlength{\rightskip}{0pt plus 5cm}ICompilationUnit {\bf edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsAction.unit}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_a3f9d2e82eb4ac4a9c99fd67c1dc7ac04}
+The top-\/level compilation unit 
+
+Definition at line 38 of file RemoveDuplicateCodeInConstructorsAction.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_adc9c8660932d820c161ecee669548037}{
+\index{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}!window@{window}}
+\index{window@{window}!edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction@{edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}}
+\subsubsection[{window}]{\setlength{\rightskip}{0pt plus 5cm}IWorkbenchWindow {\bf edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsAction.window}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction_adc9c8660932d820c161ecee669548037}
+The workbench window, or {\ttfamily null} 
+
+Definition at line 33 of file RemoveDuplicateCodeInConstructorsAction.java.
+
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/\hyperlink{RemoveDuplicateCodeInConstructorsAction_8java}{RemoveDuplicateCodeInConstructorsAction.java}\end{DoxyCompactItemize}
