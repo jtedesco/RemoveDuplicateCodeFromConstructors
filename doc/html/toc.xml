@@ -5,6 +5,8 @@
     <topic label="edu.illinois.canistelCassabanana.visitors.ConstructorDeclarationVisitor" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclarationVisitor.html"/>
     <topic label="edu.illinois.canistelCassabanana.visitors.ConstructorInvocationVisitor" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorInvocationVisitor.html"/>
     <topic label="edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html"/>
+    <topic label="edu.illinois.canistelCassabanana.visitors.MethodDeclarationVisitor" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1MethodDeclarationVisitor.html"/>
+    <topic label="edu.illinois.canistelCassabanana.visitors.NameBindingVisitor" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1NameBindingVisitor.html"/>
     <topic label="edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsAction" href="classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction.html"/>
     <topic label="edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsConstants" href="classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsConstants.html"/>
     <topic label="edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsDescriptor" href="classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsDescriptor.html"/>
@@ -36,6 +38,8 @@
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/ConstructorDeclarationVisitor.java" href="ConstructorDeclarationVisitor_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/ConstructorInvocationVisitor.java" href="ConstructorInvocationVisitor_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/FieldVariableVisitor.java" href="FieldVariableVisitor_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/MethodDeclarationVisitor.java" href="MethodDeclarationVisitor_8java.html"/>
+    <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/NameBindingVisitor.java" href="NameBindingVisitor_8java.html"/>
     <topic label="/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/TypeDeclarationVisitor.java" href="TypeDeclarationVisitor_8java.html"/>
   </topic>
 </toc>

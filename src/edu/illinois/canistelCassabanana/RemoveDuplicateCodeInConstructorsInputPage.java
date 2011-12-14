@@ -14,6 +14,10 @@ import org.eclipse.swt.SWT;
 import org.eclipse.swt.custom.TableEditor;
 import org.eclipse.swt.events.FocusEvent;
 import org.eclipse.swt.events.FocusListener;
+import org.eclipse.swt.events.ModifyEvent;
+import org.eclipse.swt.events.ModifyListener;
+import org.eclipse.swt.events.MouseEvent;
+import org.eclipse.swt.events.MouseListener;
 import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.events.SelectionListener;
 import org.eclipse.swt.layout.GridData;
@@ -89,15 +93,14 @@ public class RemoveDuplicateCodeInConstructorsInputPage extends UserInputWizardP
 		layout.numColumns = 3;
 		composite.setLayout(layout);
 
-		//
+		// Build access modifier options
 		buildAccessModifierOptions(composite);
 
-		//
+		// Build helper method options
 		buildHelperMethodOptions(composite);
 
-		// Prepare the interface and handle the user input
+		// Prepare the interface
 		composite.pack();
-		handleInput();
 	}
 
 
@@ -125,8 +128,8 @@ public class RemoveDuplicateCodeInConstructorsInputPage extends UserInputWizardP
 		helperMethodTextBox = new Text(composite, SWT.BORDER);
 		helperMethodTextBox.setEnabled(false);
 		helperMethodTextBox.setLayoutData(helperMethodTextBoxWrapper);
+		helperMethodTextBox.addModifyListener(getModifyListener());
 	}
-
 
 	/**
 	 * Create the GUI components for the access modifier options, and add them to the parent 
@@ -146,37 +149,48 @@ public class RemoveDuplicateCodeInConstructorsInputPage extends UserInputWizardP
 
 		// Create the access modifier combo box
 		GridData accessModifierComboBoxWrapper = new GridData(SWT.HORIZONTAL);
-		String accessModifiers[] = { "public", "private", "protected", "package" };
+		String accessModifiers[] = { "public", "private", "protected" };
 		accessModifierComboBoxWrapper.grabExcessHorizontalSpace = true;
 		accessModifierComboBox = new Combo(composite, SWT.READ_ONLY);
 		accessModifierComboBox.setItems(accessModifiers);
 		accessModifierComboBox.select(0);
 		accessModifierComboBox.setLayoutData(accessModifierComboBoxWrapper);
+		accessModifierComboBox.addModifyListener(getModifyListener());
 	}
 
-	
 	/**
 	 * Handle the user input, setting the corresponding options on the refactoring object.
 	 */
 	private void handleInput() {
-
-		// Skip if the refactoring has not yet been initialized
-		if (refactoring != null) {
-			
-			// Grab the helper method options
-			boolean useHelperMethod = helperMethodCheckBox.getSelection();
-			if (useHelperMethod) {
-				refactoring.setUseHelperFunction(useHelperMethod);
-				refactoring.setHelperFunctionName(helperMethodTextBox.getText());
-			} else {
-				refactoring.setHelperFunctionName(helperMethodTextBox.getText());
-			}
-			
-			// Grab the access modifier option
-			refactoring.setAccessModifier(accessModifierComboBox.getText());
+		
+		// Initialize the refactoring if it's not already
+		if (refactoring == null) {
+			refactoring = getRemoveDuplicateCodeInConstructorsRefactoring();
 		}
+	
+		// Grab the helper method options
+		boolean useHelperMethod = helperMethodCheckBox.getSelection();
+		refactoring.setUseHelperFunction(useHelperMethod);
+		refactoring.setHelperFunctionName(helperMethodTextBox.getText());
+		
+		// Grab the access modifier option
+		refactoring.setAccessModifier(accessModifierComboBox.getText());
 	}
 
+	
+	/**
+	 * Returns a modify listener that will update the variables of the parameter whenever
+	 * 	it is triggered. 
+	 */
+	private ModifyListener getModifyListener() {
+		return new ModifyListener() {
+			@Override
+			public void modifyText(ModifyEvent e) {
+				handleInput();
+			}
+		};
+	}
+	
 	
 	/**
 	 * Gets the refactoring associated with this input page from the parent input page.
@@ -192,6 +206,7 @@ public class RemoveDuplicateCodeInConstructorsInputPage extends UserInputWizardP
 	 * Enables or disable the helper method text box based on the check box state.
 	 */
 	private void enableDisableHelperMethodTextBox() {
+		handleInput();
 		if (helperMethodCheckBox.getSelection()) {
 			helperMethodTextBox.setEnabled(true);
 		} else {

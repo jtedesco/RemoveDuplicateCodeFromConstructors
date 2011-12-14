@@ -14,22 +14,51 @@ static ICompilationUnit \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1
 static List$<$ IMethod $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a6cd2cf1ed4823a36a63fb36b4c31cdea}{getConstructors} (ICompilationUnit unit)
 \item 
 static$<$ T $>$ Set$<$ Set$<$ T $>$ $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_aa8be57d974d02d56e0ae832bedcdee08}{getPairs} (Set$<$ T $>$ originalSet)
+\item 
+static ASTNode \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a4dac6bf635efbf16177f98b50f2d8418}{createDefaultValue} (IVariableBinding field, AST ast)
+\item 
+static void \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_af883c4cac9ba8bbed2dbf096ed94a9fb}{getFieldAssignmentsInConstructors} (Set$<$ MethodDeclaration $>$ constructorDeclarations, Map$<$ MethodDeclaration, Set$<$ IVariableBinding $>$$>$ constructorParameterAssignmentsExpressions, Map$<$ MethodDeclaration, Set$<$ IVariableBinding $>$$>$ constructorAssignmentsExpressions)
+\item 
+static Set$<$ MethodDeclaration $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a44aa27794a29b6d115d3ca5e3f18dd3c}{getConstructors} (CompilationUnit ast)
+\item 
+static Set$<$ MethodDeclaration $>$ \hyperlink{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a92d592b310010b841d64d461e0a6ab75}{getMethods} (CompilationUnit ast)
 \end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
-A utility class that contains shared static methods for the plugin.
-
-\begin{DoxyAuthor}{Author}
-jon 
-\end{DoxyAuthor}
 
 
-Definition at line 21 of file Utility.java.
+Definition at line 33 of file Utility.java.
 
 
 
 \subsection{Member Function Documentation}
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a4dac6bf635efbf16177f98b50f2d8418}{
+\index{edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}!createDefaultValue@{createDefaultValue}}
+\index{createDefaultValue@{createDefaultValue}!edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}}
+\subsubsection[{createDefaultValue}]{\setlength{\rightskip}{0pt plus 5cm}static ASTNode edu.illinois.canistelCassabanana.utility.Utility.createDefaultValue (
+\begin{DoxyParamCaption}
+\item[{IVariableBinding}]{field, }
+\item[{AST}]{ast}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a4dac6bf635efbf16177f98b50f2d8418}
+Creates the default value ASTNode for a particular field, given the AST.
+
+
+\begin{DoxyParams}{Parameters}
+{\em field} & The field for which to get the default value \\
+\hline
+{\em ast} & The AST to use to create this default value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The ASTNode representing the literal default value for this field 
+\end{DoxyReturn}
+
+
+Definition at line 220 of file Utility.java.
+
 \hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a7ad7b01b4ac985f843daae80a9b530f6}{
 \index{edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}!fullyQualifiedName@{fullyQualifiedName}}
 \index{fullyQualifiedName@{fullyQualifiedName}!edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}}
@@ -51,7 +80,7 @@ The fully qualified name of the binding.
 \end{DoxyReturn}
 
 
-Definition at line 30 of file Utility.java.
+Definition at line 43 of file Utility.java.
 
 \hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a6cd2cf1ed4823a36a63fb36b4c31cdea}{
 \index{edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}!getConstructors@{getConstructors}}
@@ -76,7 +105,68 @@ The list of methods in this compilation unit
 \end{DoxyReturn}
 
 
-Definition at line 138 of file Utility.java.
+Definition at line 153 of file Utility.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a44aa27794a29b6d115d3ca5e3f18dd3c}{
+\index{edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}!getConstructors@{getConstructors}}
+\index{getConstructors@{getConstructors}!edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}}
+\subsubsection[{getConstructors}]{\setlength{\rightskip}{0pt plus 5cm}static Set$<$MethodDeclaration$>$ edu.illinois.canistelCassabanana.utility.Utility.getConstructors (
+\begin{DoxyParamCaption}
+\item[{CompilationUnit}]{ast}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a44aa27794a29b6d115d3ca5e3f18dd3c}
+Helper function to recursively retrieve all the constructors in some compilation unit
+
+
+\begin{DoxyParams}{Parameters}
+{\em unit} & The compilation unit from which to retrieve the constructors \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The list of methods in this compilation unit 
+\end{DoxyReturn}
+
+
+Definition at line 293 of file Utility.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_af883c4cac9ba8bbed2dbf096ed94a9fb}{
+\index{edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}!getFieldAssignmentsInConstructors@{getFieldAssignmentsInConstructors}}
+\index{getFieldAssignmentsInConstructors@{getFieldAssignmentsInConstructors}!edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}}
+\subsubsection[{getFieldAssignmentsInConstructors}]{\setlength{\rightskip}{0pt plus 5cm}static void edu.illinois.canistelCassabanana.utility.Utility.getFieldAssignmentsInConstructors (
+\begin{DoxyParamCaption}
+\item[{Set$<$ MethodDeclaration $>$}]{constructorDeclarations, }
+\item[{Map$<$ MethodDeclaration, Set$<$ IVariableBinding $>$$>$}]{constructorParameterAssignmentsExpressions, }
+\item[{Map$<$ MethodDeclaration, Set$<$ IVariableBinding $>$$>$}]{constructorAssignmentsExpressions}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_af883c4cac9ba8bbed2dbf096ed94a9fb}
+Helper function to extract the set of fields that appear in assignment (from parameters and from anything) in each constructor 
+
+Definition at line 246 of file Utility.java.
+
+\hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a92d592b310010b841d64d461e0a6ab75}{
+\index{edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}!getMethods@{getMethods}}
+\index{getMethods@{getMethods}!edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}}
+\subsubsection[{getMethods}]{\setlength{\rightskip}{0pt plus 5cm}static Set$<$MethodDeclaration$>$ edu.illinois.canistelCassabanana.utility.Utility.getMethods (
+\begin{DoxyParamCaption}
+\item[{CompilationUnit}]{ast}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a92d592b310010b841d64d461e0a6ab75}
+Get the set of top-\/level method names declared
+
+
+\begin{DoxyParams}{Parameters}
+{\em unit} & The compilation unit from which to retrieve the methods \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The list of methods in this compilation unit 
+\end{DoxyReturn}
+
+
+Definition at line 307 of file Utility.java.
 
 \hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_aa8be57d974d02d56e0ae832bedcdee08}{
 \index{edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}!getPairs@{getPairs}}
@@ -98,11 +188,11 @@ Find every pair of items from a set
 A set of every possible pair from the original set
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\href{http://stackoverflow.com/questions/1670862/obtaining-powerset-of-a-set-in-java}{\tt http://stackoverflow.com/questions/1670862/obtaining-\/powerset-\/of-\/a-\/set-\/in-\/java} 
+http ://stackoverflow.com/questions/1670862/obtaining-\/powerset-\/of-\/a-\/set -\/in-\/java 
 \end{DoxySeeAlso}
 
 
-Definition at line 172 of file Utility.java.
+Definition at line 190 of file Utility.java.
 
 \hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_a45eff2f6304ebeb68bc077e77faaf41c}{
 \index{edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}!getParent@{getParent}}
@@ -125,7 +215,7 @@ The compilation unit containing the given constructors. If the constructors do n
 \end{DoxyReturn}
 
 
-Definition at line 114 of file Utility.java.
+Definition at line 129 of file Utility.java.
 
 \hypertarget{classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility_add7cd8f4956b7b5ebd90c8542183f21e}{
 \index{edu::illinois::canistelCassabanana::utility::Utility@{edu::illinois::canistelCassabanana::utility::Utility}!lookupIType@{lookupIType}}
@@ -151,7 +241,7 @@ The IType corresponding to binding, or null.
 \end{DoxyReturn}
 
 
-Definition at line 78 of file Utility.java.
+Definition at line 94 of file Utility.java.
 
 
 

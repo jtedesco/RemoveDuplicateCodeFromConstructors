@@ -83,68 +83,137 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 <a href="FieldVariableVisitor_8java.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="keyword">package </span>edu.illinois.canistelCassabanana.visitors;
 <a name="l00002"></a>00002 
-<a name="l00003"></a>00003 <span class="keyword">import</span> java.util.HashSet;
-<a name="l00004"></a>00004 <span class="keyword">import</span> java.util.Set;
-<a name="l00005"></a>00005 
-<a name="l00006"></a>00006 <span class="keyword">import</span> org.eclipse.jdt.core.dom.ASTVisitor;
-<a name="l00007"></a>00007 <span class="keyword">import</span> org.eclipse.jdt.core.dom.Assignment;
-<a name="l00008"></a>00008 <span class="keyword">import</span> org.eclipse.jdt.core.dom.Expression;
-<a name="l00009"></a>00009 <span class="keyword">import</span> org.eclipse.jdt.core.dom.IBinding;
-<a name="l00010"></a>00010 <span class="keyword">import</span> org.eclipse.jdt.core.dom.IVariableBinding;
-<a name="l00011"></a>00011 <span class="keyword">import</span> org.eclipse.jdt.core.dom.SimpleName;
-<a name="l00012"></a>00012 <span class="keyword">import</span> org.eclipse.jdt.core.dom.Statement;
-<a name="l00013"></a>00013 
-<a name="l00019"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html">00019</a> <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html">FieldVariableVisitor</a> <span class="keyword">extends</span> ASTVisitor {
-<a name="l00020"></a>00020 
-<a name="l00024"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#acaed6c0711716585d83b8b742b21ff15">00024</a>      <span class="keyword">private</span> Set&lt;IVariableBinding&gt; <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#acaed6c0711716585d83b8b742b21ff15">fields</a>;
-<a name="l00025"></a>00025 
-<a name="l00029"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#ad5f3c20acac29bcad4c77622dca4268b">00029</a>      <span class="keyword">private</span> Set&lt;Statement&gt; <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#ad5f3c20acac29bcad4c77622dca4268b">fieldAssignmentStatements</a>;
-<a name="l00030"></a>00030 
-<a name="l00031"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#ac48087402164194e11b127dfc1a2789b">00031</a>      <span class="keyword">public</span> <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#ac48087402164194e11b127dfc1a2789b">FieldVariableVisitor</a>() {
-<a name="l00032"></a>00032           super();
-<a name="l00033"></a>00033           this.<a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#acaed6c0711716585d83b8b742b21ff15">fields</a> = <span class="keyword">new</span> HashSet&lt;IVariableBinding&gt;();
-<a name="l00034"></a>00034           this.<a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#ad5f3c20acac29bcad4c77622dca4268b">fieldAssignmentStatements</a> = <span class="keyword">new</span> HashSet&lt;Statement&gt;();
-<a name="l00035"></a>00035      }
-<a name="l00036"></a>00036 
-<a name="l00040"></a>00040      @Override
-<a name="l00041"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a027f6af8c69c787b9069f291fd8ea62b">00041</a>      <span class="keyword">public</span> <span class="keywordtype">boolean</span> <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a027f6af8c69c787b9069f291fd8ea62b">visit</a>(SimpleName node) {
-<a name="l00042"></a>00042 
-<a name="l00043"></a>00043           <span class="comment">// Find any variable bindings that are are not declarations, and map to</span>
-<a name="l00044"></a>00044           <span class="comment">// fields</span>
-<a name="l00045"></a>00045           <span class="keywordflow">if</span> (!node.isDeclaration()) {
-<a name="l00046"></a>00046                IBinding nodeBinding = node.resolveBinding();
-<a name="l00047"></a>00047                <span class="keywordflow">if</span> (nodeBinding instanceof IVariableBinding) {
-<a name="l00048"></a>00048                     IVariableBinding variableBinding = (IVariableBinding) nodeBinding;
-<a name="l00049"></a>00049                     <span class="keywordflow">if</span> (variableBinding.isField()) {
-<a name="l00050"></a>00050                          <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#acaed6c0711716585d83b8b742b21ff15">fields</a>.add(variableBinding);
-<a name="l00051"></a>00051 
-<a name="l00052"></a>00052                          <span class="comment">// TODO: Fix this!</span>
-<a name="l00053"></a>00053 
-<a name="l00054"></a>00054                          <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#ad5f3c20acac29bcad4c77622dca4268b">fieldAssignmentStatements</a>.add((Statement) node.getParent().getParent().getParent());
-<a name="l00055"></a>00055                     }
-<a name="l00056"></a>00056                }
-<a name="l00057"></a>00057           }
-<a name="l00058"></a>00058           <span class="keywordflow">return</span> <span class="keyword">false</span>;
-<a name="l00059"></a>00059      }
-<a name="l00060"></a>00060 
-<a name="l00061"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a3e516c7f4c19ade2a76e27986faa2922">00061</a>      <span class="keyword">public</span> Set&lt;IVariableBinding&gt; <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a3e516c7f4c19ade2a76e27986faa2922">getFields</a>() {
-<a name="l00062"></a>00062           <span class="keywordflow">return</span> <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#acaed6c0711716585d83b8b742b21ff15">fields</a>;
-<a name="l00063"></a>00063      }
-<a name="l00064"></a>00064 
-<a name="l00065"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a0b493a138734da451d99c34052d3197a">00065</a>      <span class="keyword">public</span> Set&lt;Statement&gt; <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a0b493a138734da451d99c34052d3197a">getFieldAssignmentStatements</a>() {
-<a name="l00066"></a>00066           <span class="keywordflow">return</span> <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#ad5f3c20acac29bcad4c77622dca4268b">fieldAssignmentStatements</a>;
-<a name="l00067"></a>00067      }
-<a name="l00068"></a>00068 
-<a name="l00069"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a5bda72a70f1f5afaea622dbe82505dc2">00069</a>      <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a5bda72a70f1f5afaea622dbe82505dc2">setFieldAssignmentStatements</a>(Set&lt;Statement&gt; <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#ad5f3c20acac29bcad4c77622dca4268b">fieldAssignmentStatements</a>) {
-<a name="l00070"></a>00070           this.fieldAssignmentStatements = <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#ad5f3c20acac29bcad4c77622dca4268b">fieldAssignmentStatements</a>;
-<a name="l00071"></a>00071      }
-<a name="l00072"></a>00072 }
+<a name="l00003"></a>00003 <span class="keyword">import</span> java.util.ArrayList;
+<a name="l00004"></a>00004 <span class="keyword">import</span> java.util.HashMap;
+<a name="l00005"></a>00005 <span class="keyword">import</span> java.util.HashSet;
+<a name="l00006"></a>00006 <span class="keyword">import</span> java.util.List;
+<a name="l00007"></a>00007 <span class="keyword">import</span> java.util.Map;
+<a name="l00008"></a>00008 <span class="keyword">import</span> java.util.Set;
+<a name="l00009"></a>00009 
+<a name="l00010"></a>00010 <span class="keyword">import</span> org.eclipse.jdt.core.dom.ASTNode;
+<a name="l00011"></a>00011 <span class="keyword">import</span> org.eclipse.jdt.core.dom.ASTVisitor;
+<a name="l00012"></a>00012 <span class="keyword">import</span> org.eclipse.jdt.core.dom.Assignment;
+<a name="l00013"></a>00013 <span class="keyword">import</span> org.eclipse.jdt.core.dom.Expression;
+<a name="l00014"></a>00014 <span class="keyword">import</span> org.eclipse.jdt.core.dom.FieldAccess;
+<a name="l00015"></a>00015 <span class="keyword">import</span> org.eclipse.jdt.core.dom.IBinding;
+<a name="l00016"></a>00016 <span class="keyword">import</span> org.eclipse.jdt.core.dom.IVariableBinding;
+<a name="l00017"></a>00017 <span class="keyword">import</span> org.eclipse.jdt.core.dom.MethodRefParameter;
+<a name="l00018"></a>00018 <span class="keyword">import</span> org.eclipse.jdt.core.dom.SimpleName;
+<a name="l00019"></a>00019 <span class="keyword">import</span> org.eclipse.jdt.core.dom.SingleVariableDeclaration;
+<a name="l00020"></a>00020 <span class="keyword">import</span> org.eclipse.jdt.core.dom.Statement;
+<a name="l00021"></a>00021 
+<a name="l00028"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html">00028</a> <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html">FieldVariableVisitor</a> <span class="keyword">extends</span> ASTVisitor {
+<a name="l00029"></a>00029 
+<a name="l00033"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#acaed6c0711716585d83b8b742b21ff15">00033</a>      <span class="keyword">private</span> Set&lt;IVariableBinding&gt; <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#acaed6c0711716585d83b8b742b21ff15">fields</a>;
+<a name="l00034"></a>00034 
+<a name="l00038"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a016a1649af7ec44dd7a5464ea7b567b7">00038</a>      <span class="keyword">private</span> Set&lt;IVariableBinding&gt; <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a016a1649af7ec44dd7a5464ea7b567b7">fieldsAssigningParameters</a>;
+<a name="l00039"></a>00039 
+<a name="l00043"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a76b871cecb125d753d2940effd0012fc">00043</a>      List&lt;SimpleName&gt; <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a76b871cecb125d753d2940effd0012fc">parameterNames</a>;
+<a name="l00044"></a>00044 
+<a name="l00048"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#aea653ab0a4a19d426ffe1a11474fe331">00048</a>      Map&lt;IVariableBinding, IVariableBinding&gt; <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#aea653ab0a4a19d426ffe1a11474fe331">parameterToFieldBindings</a>;
+<a name="l00049"></a>00049 
+<a name="l00057"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#aa11e1eafcdb58ba4c2779654d163a565">00057</a>      <span class="keyword">public</span> <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#aa11e1eafcdb58ba4c2779654d163a565">FieldVariableVisitor</a>(List&lt;SimpleName&gt; <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a76b871cecb125d753d2940effd0012fc">parameterNames</a>) {
+<a name="l00058"></a>00058           super();
+<a name="l00059"></a>00059           this.<a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#acaed6c0711716585d83b8b742b21ff15">fields</a> = <span class="keyword">new</span> HashSet&lt;IVariableBinding&gt;();
+<a name="l00060"></a>00060           <span class="keywordflow">if</span>(parameterNames != null) {
+<a name="l00061"></a>00061                this.parameterNames = <span class="keyword">new</span> ArrayList&lt;SimpleName&gt;(<a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a76b871cecb125d753d2940effd0012fc">parameterNames</a>);
+<a name="l00062"></a>00062           }
+<a name="l00063"></a>00063           this.<a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a016a1649af7ec44dd7a5464ea7b567b7">fieldsAssigningParameters</a> = <span class="keyword">new</span> HashSet&lt;IVariableBinding&gt;();
+<a name="l00064"></a>00064           this.<a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#aea653ab0a4a19d426ffe1a11474fe331">parameterToFieldBindings</a> = <span class="keyword">new</span> HashMap&lt;IVariableBinding, IVariableBinding&gt;();
+<a name="l00065"></a>00065      }
+<a name="l00066"></a>00066 
+<a name="l00070"></a>00070      @Override
+<a name="l00071"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a027f6af8c69c787b9069f291fd8ea62b">00071</a>      <span class="keyword">public</span> <span class="keywordtype">boolean</span> <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a027f6af8c69c787b9069f291fd8ea62b">visit</a>(SimpleName node) {
+<a name="l00072"></a>00072 
+<a name="l00073"></a>00073           <span class="comment">// Check if this is a variable binding</span>
+<a name="l00074"></a>00074           IBinding binding = node.resolveBinding();
+<a name="l00075"></a>00075           <span class="keywordflow">if</span> (binding instanceof IVariableBinding) {
+<a name="l00076"></a>00076 
+<a name="l00077"></a>00077                <span class="comment">// Check if this is bound to a field</span>
+<a name="l00078"></a>00078                IVariableBinding variableBinding = (IVariableBinding) binding;
+<a name="l00079"></a>00079                <span class="keywordflow">if</span> (variableBinding.isField()) {
+<a name="l00080"></a>00080                     <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#acaed6c0711716585d83b8b742b21ff15">fields</a>.add(variableBinding);
+<a name="l00081"></a>00081 
+<a name="l00082"></a>00082                     <span class="comment">// Add this field to our list of fields assigning parameters if</span>
+<a name="l00083"></a>00083                     <span class="comment">// necessary</span>
+<a name="l00084"></a>00084                     <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#ae98926107a3a381bfe592763abf9ea7a">checkFieldAssignsParameter</a>(node, variableBinding);
+<a name="l00085"></a>00085 
+<a name="l00086"></a>00086                     <span class="keywordflow">return</span> <span class="keyword">true</span>;
+<a name="l00087"></a>00087                }
+<a name="l00088"></a>00088           }
+<a name="l00089"></a>00089           <span class="keywordflow">return</span> <span class="keyword">true</span>;
+<a name="l00090"></a>00090      }
+<a name="l00091"></a>00091 
+<a name="l00095"></a>00095      @Override
+<a name="l00096"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#af17226c90eeacf0938ae35478d8c0723">00096</a>      <span class="keyword">public</span> <span class="keywordtype">boolean</span> <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#af17226c90eeacf0938ae35478d8c0723">visit</a>(FieldAccess node) {
+<a name="l00097"></a>00097 
+<a name="l00098"></a>00098           <span class="comment">// Add this field assignment access</span>
+<a name="l00099"></a>00099           IVariableBinding variableBinding = node.resolveFieldBinding();
+<a name="l00100"></a>00100           <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#acaed6c0711716585d83b8b742b21ff15">fields</a>.add(variableBinding);
+<a name="l00101"></a>00101 
+<a name="l00102"></a>00102           <span class="comment">// Add this field to our list of fields assigning parameters if</span>
+<a name="l00103"></a>00103           <span class="comment">// necessary</span>
+<a name="l00104"></a>00104           <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#ae98926107a3a381bfe592763abf9ea7a">checkFieldAssignsParameter</a>(node, variableBinding);
+<a name="l00105"></a>00105 
+<a name="l00106"></a>00106           <span class="keywordflow">return</span> <span class="keyword">false</span>;
+<a name="l00107"></a>00107      }
+<a name="l00108"></a>00108 
+<a name="l00118"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#ae98926107a3a381bfe592763abf9ea7a">00118</a>      <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#ae98926107a3a381bfe592763abf9ea7a">checkFieldAssignsParameter</a>(ASTNode node, IVariableBinding fieldBinding) {
+<a name="l00119"></a>00119 
+<a name="l00120"></a>00120           <span class="comment">// Check it&#39;s assigning a parameter</span>
+<a name="l00121"></a>00121           <span class="keywordflow">if</span> (<a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a76b871cecb125d753d2940effd0012fc">parameterNames</a> != null) {
+<a name="l00122"></a>00122 
+<a name="l00123"></a>00123                <span class="comment">// Get the parent assignment node</span>
+<a name="l00124"></a>00124                <span class="keywordflow">if</span> (node.getParent() instanceof Assignment) {
+<a name="l00125"></a>00125                     Assignment fieldAssignment = (Assignment) node.getParent();
+<a name="l00126"></a>00126 
+<a name="l00127"></a>00127                     <span class="comment">// Get the RHS of the assignment</span>
+<a name="l00128"></a>00128                     <span class="keywordflow">if</span> (fieldAssignment.getRightHandSide() instanceof SimpleName) {
+<a name="l00129"></a>00129                          SimpleName assignedVariableName = (SimpleName) fieldAssignment.getRightHandSide();
+<a name="l00130"></a>00130 
+<a name="l00131"></a>00131                          <span class="comment">// If this field is assigning a parameter name not yet</span>
+<a name="l00132"></a>00132                          <span class="comment">// assigned</span>
+<a name="l00133"></a>00133                          <span class="keywordflow">for</span> (<span class="keywordtype">int</span> index = 0; index &lt; <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a76b871cecb125d753d2940effd0012fc">parameterNames</a>.size(); index++) {
+<a name="l00134"></a>00134                               SimpleName parameterName = <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a76b871cecb125d753d2940effd0012fc">parameterNames</a>.get(index);
+<a name="l00135"></a>00135                               
+<a name="l00136"></a>00136                               <span class="comment">// Resolve the bindings of the right hand side and the parameter in question</span>
+<a name="l00137"></a>00137                               IBinding parameterBinding = parameterName.resolveBinding();
+<a name="l00138"></a>00138                               IBinding assignedParameterBinding = assignedVariableName.resolveBinding();
+<a name="l00139"></a>00139                               
+<a name="l00140"></a>00140                               <span class="keywordflow">if</span> (parameterBinding.equals(assignedParameterBinding)) {
+<a name="l00141"></a>00141                                    
+<a name="l00142"></a>00142                                    <span class="comment">// Remove the corresponding parameter binding from the list</span>
+<a name="l00143"></a>00143                                    <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a76b871cecb125d753d2940effd0012fc">parameterNames</a>.remove(index);
+<a name="l00144"></a>00144                                    <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a016a1649af7ec44dd7a5464ea7b567b7">fieldsAssigningParameters</a>.add(fieldBinding);
+<a name="l00145"></a>00145                                    index = <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a76b871cecb125d753d2940effd0012fc">parameterNames</a>.size();
+<a name="l00146"></a>00146                                    
+<a name="l00147"></a>00147                                    <span class="comment">// Store this binding to the map</span>
+<a name="l00148"></a>00148                                    <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#aea653ab0a4a19d426ffe1a11474fe331">parameterToFieldBindings</a>.put((IVariableBinding) parameterBinding, fieldBinding);
+<a name="l00149"></a>00149                               }
+<a name="l00150"></a>00150                          }
+<a name="l00151"></a>00151                     }
+<a name="l00152"></a>00152                }
+<a name="l00153"></a>00153           }
+<a name="l00154"></a>00154      }
+<a name="l00155"></a>00155 
+<a name="l00156"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a7a19e2f36c6a4f08ecca64cb97659818">00156</a>      <span class="keyword">public</span> Set&lt;IVariableBinding&gt; <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a7a19e2f36c6a4f08ecca64cb97659818">getFieldsAssigningParameters</a>() {
+<a name="l00157"></a>00157           <span class="keywordflow">return</span> <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a016a1649af7ec44dd7a5464ea7b567b7">fieldsAssigningParameters</a>;
+<a name="l00158"></a>00158      }
+<a name="l00159"></a>00159 
+<a name="l00160"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a3e516c7f4c19ade2a76e27986faa2922">00160</a>      <span class="keyword">public</span> Set&lt;IVariableBinding&gt; <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a3e516c7f4c19ade2a76e27986faa2922">getFields</a>() {
+<a name="l00161"></a>00161           <span class="keywordflow">return</span> <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#acaed6c0711716585d83b8b742b21ff15">fields</a>;
+<a name="l00162"></a>00162      }
+<a name="l00163"></a>00163      
+<a name="l00164"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a169b93fec7786876935e3eda80f63347">00164</a>      <span class="keyword">public</span> Map&lt;IVariableBinding, IVariableBinding&gt; <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a169b93fec7786876935e3eda80f63347">getParametersToFieldBindings</a>(){
+<a name="l00165"></a>00165           <span class="keywordflow">return</span> <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#aea653ab0a4a19d426ffe1a11474fe331">parameterToFieldBindings</a>;
+<a name="l00166"></a>00166      }
+<a name="l00167"></a>00167 }
 </pre></div></div>
 </div>
   <div id="nav-path" class="navpath">
     <ul>
       <li class="navelem"><a class="el" href="FieldVariableVisitor_8java.html">FieldVariableVisitor.java</a>      </li>
-      <li class="footer">Generated on Tue Nov 29 2011 01:50:54 for Remove Duplicate Code From Constructors Refactoring by&#160;
+      <li class="footer">Generated on Sun Dec 11 2011 22:25:12 for Remove Duplicate Code From Constructors Refactoring by&#160;
 <a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.3 </li>
     </ul>

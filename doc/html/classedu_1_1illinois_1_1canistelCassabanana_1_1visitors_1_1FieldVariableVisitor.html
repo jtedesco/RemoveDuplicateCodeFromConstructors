@@ -81,6 +81,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pac-attribs">Package Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a>  </div>
   <div class="headertitle">
 <h1>edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor Class Reference</h1>  </div>
@@ -93,56 +95,93 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#ac48087402164194e11b127dfc1a2789b">FieldVariableVisitor</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#aa11e1eafcdb58ba4c2779654d163a565">FieldVariableVisitor</a> (List&lt; SimpleName &gt; <a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a76b871cecb125d753d2940effd0012fc">parameterNames</a>)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a027f6af8c69c787b9069f291fd8ea62b">visit</a> (SimpleName node)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#af17226c90eeacf0938ae35478d8c0723">visit</a> (FieldAccess node)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">Set&lt; IVariableBinding &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a7a19e2f36c6a4f08ecca64cb97659818">getFieldsAssigningParameters</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">Set&lt; IVariableBinding &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a3e516c7f4c19ade2a76e27986faa2922">getFields</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">Set&lt; Statement &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a0b493a138734da451d99c34052d3197a">getFieldAssignmentStatements</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a5bda72a70f1f5afaea622dbe82505dc2">setFieldAssignmentStatements</a> (Set&lt; Statement &gt; <a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#ad5f3c20acac29bcad4c77622dca4268b">fieldAssignmentStatements</a>)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">Map&lt; IVariableBinding, <br class="typebreak"/>
+IVariableBinding &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a169b93fec7786876935e3eda80f63347">getParametersToFieldBindings</a> ()</td></tr>
+<tr><td colspan="2"><h2><a name="pac-attribs"></a>
+Package Attributes</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">List&lt; SimpleName &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a76b871cecb125d753d2940effd0012fc">parameterNames</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">Map&lt; IVariableBinding, <br class="typebreak"/>
+IVariableBinding &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#aea653ab0a4a19d426ffe1a11474fe331">parameterToFieldBindings</a></td></tr>
+<tr><td colspan="2"><h2><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#ae98926107a3a381bfe592763abf9ea7a">checkFieldAssignsParameter</a> (ASTNode node, IVariableBinding fieldBinding)</td></tr>
 <tr><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">Set&lt; IVariableBinding &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#acaed6c0711716585d83b8b742b21ff15">fields</a></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">Set&lt; Statement &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#ad5f3c20acac29bcad4c77622dca4268b">fieldAssignmentStatements</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">Set&lt; IVariableBinding &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a016a1649af7ec44dd7a5464ea7b567b7">fieldsAssigningParameters</a></td></tr>
 </table>
 <hr/><a name="_details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Collects the field variables found in the AST subtree from the starting root node.</p>
 <dl class="author"><dt><b>Author:</b></dt><dd>jon </dd></dl>
 
-<p>Definition at line <a class="el" href="FieldVariableVisitor_8java_source.html#l00019">19</a> of file <a class="el" href="FieldVariableVisitor_8java_source.html">FieldVariableVisitor.java</a>.</p>
+<p>Definition at line <a class="el" href="FieldVariableVisitor_8java_source.html#l00028">28</a> of file <a class="el" href="FieldVariableVisitor_8java_source.html">FieldVariableVisitor.java</a>.</p>
 </div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ac48087402164194e11b127dfc1a2789b"></a><!-- doxytag: member="edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor::FieldVariableVisitor" ref="ac48087402164194e11b127dfc1a2789b" args="()" -->
+<a class="anchor" id="aa11e1eafcdb58ba4c2779654d163a565"></a><!-- doxytag: member="edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor::FieldVariableVisitor" ref="aa11e1eafcdb58ba4c2779654d163a565" args="(List&lt; SimpleName &gt; parameterNames)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor.FieldVariableVisitor </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">List&lt; SimpleName &gt;&#160;</td>
+          <td class="paramname"><em>parameterNames</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Builds the visitor with the list of parameter names, used to visit a constructor and resolve bindings of parameters to fields.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parameterNames</td><td>The list of parameter </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Definition at line <a class="el" href="FieldVariableVisitor_8java_source.html#l00031">31</a> of file <a class="el" href="FieldVariableVisitor_8java_source.html">FieldVariableVisitor.java</a>.</p>
+<p>Definition at line <a class="el" href="FieldVariableVisitor_8java_source.html#l00057">57</a> of file <a class="el" href="FieldVariableVisitor_8java_source.html">FieldVariableVisitor.java</a>.</p>
 
 </div>
 </div>
 <hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="a0b493a138734da451d99c34052d3197a"></a><!-- doxytag: member="edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor::getFieldAssignmentStatements" ref="a0b493a138734da451d99c34052d3197a" args="()" -->
+<a class="anchor" id="ae98926107a3a381bfe592763abf9ea7a"></a><!-- doxytag: member="edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor::checkFieldAssignsParameter" ref="ae98926107a3a381bfe592763abf9ea7a" args="(ASTNode node, IVariableBinding fieldBinding)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Set&lt;Statement&gt; edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor.getFieldAssignmentStatements </td>
+          <td class="memname">void edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor.checkFieldAssignsParameter </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">ASTNode&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">IVariableBinding&#160;</td>
+          <td class="paramname"><em>fieldBinding</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [private]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Checks if the variable binding assigns a parameter, and if it does, adds it to our list.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">node</td><td>The AST node we're investigating </td></tr>
+    <tr><td class="paramname">fieldBinding</td><td>The binding for the variable assigned (a field) </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Definition at line <a class="el" href="FieldVariableVisitor_8java_source.html#l00065">65</a> of file <a class="el" href="FieldVariableVisitor_8java_source.html">FieldVariableVisitor.java</a>.</p>
+<p>Definition at line <a class="el" href="FieldVariableVisitor_8java_source.html#l00118">118</a> of file <a class="el" href="FieldVariableVisitor_8java_source.html">FieldVariableVisitor.java</a>.</p>
 
 </div>
 </div>
@@ -160,26 +199,63 @@ Private Attributes</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Definition at line <a class="el" href="FieldVariableVisitor_8java_source.html#l00061">61</a> of file <a class="el" href="FieldVariableVisitor_8java_source.html">FieldVariableVisitor.java</a>.</p>
+<p>Definition at line <a class="el" href="FieldVariableVisitor_8java_source.html#l00160">160</a> of file <a class="el" href="FieldVariableVisitor_8java_source.html">FieldVariableVisitor.java</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5bda72a70f1f5afaea622dbe82505dc2"></a><!-- doxytag: member="edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor::setFieldAssignmentStatements" ref="a5bda72a70f1f5afaea622dbe82505dc2" args="(Set&lt; Statement &gt; fieldAssignmentStatements)" -->
+<a class="anchor" id="a7a19e2f36c6a4f08ecca64cb97659818"></a><!-- doxytag: member="edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor::getFieldsAssigningParameters" ref="a7a19e2f36c6a4f08ecca64cb97659818" args="()" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor.setFieldAssignmentStatements </td>
+          <td class="memname">Set&lt;IVariableBinding&gt; edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor.getFieldsAssigningParameters </td>
           <td>(</td>
-          <td class="paramtype">Set&lt; Statement &gt;&#160;</td>
-          <td class="paramname"><em>fieldAssignmentStatements</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
-<p>Definition at line <a class="el" href="FieldVariableVisitor_8java_source.html#l00069">69</a> of file <a class="el" href="FieldVariableVisitor_8java_source.html">FieldVariableVisitor.java</a>.</p>
+<p>Definition at line <a class="el" href="FieldVariableVisitor_8java_source.html#l00156">156</a> of file <a class="el" href="FieldVariableVisitor_8java_source.html">FieldVariableVisitor.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a169b93fec7786876935e3eda80f63347"></a><!-- doxytag: member="edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor::getParametersToFieldBindings" ref="a169b93fec7786876935e3eda80f63347" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;IVariableBinding, IVariableBinding&gt; edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor.getParametersToFieldBindings </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Definition at line <a class="el" href="FieldVariableVisitor_8java_source.html#l00164">164</a> of file <a class="el" href="FieldVariableVisitor_8java_source.html">FieldVariableVisitor.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af17226c90eeacf0938ae35478d8c0723"></a><!-- doxytag: member="edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor::visit" ref="af17226c90eeacf0938ae35478d8c0723" args="(FieldAccess node)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor.visit </td>
+          <td>(</td>
+          <td class="paramtype">FieldAccess&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Visit all field access nodes </p>
+
+<p>Definition at line <a class="el" href="FieldVariableVisitor_8java_source.html#l00096">96</a> of file <a class="el" href="FieldVariableVisitor_8java_source.html">FieldVariableVisitor.java</a>.</p>
 
 </div>
 </div>
@@ -197,28 +273,13 @@ Private Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+<p>Visit all simple name nodes that access fields </p>
 
-<p>Definition at line <a class="el" href="FieldVariableVisitor_8java_source.html#l00041">41</a> of file <a class="el" href="FieldVariableVisitor_8java_source.html">FieldVariableVisitor.java</a>.</p>
+<p>Definition at line <a class="el" href="FieldVariableVisitor_8java_source.html#l00071">71</a> of file <a class="el" href="FieldVariableVisitor_8java_source.html">FieldVariableVisitor.java</a>.</p>
 
 </div>
 </div>
 <hr/><h2>Member Data Documentation</h2>
-<a class="anchor" id="ad5f3c20acac29bcad4c77622dca4268b"></a><!-- doxytag: member="edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor::fieldAssignmentStatements" ref="ad5f3c20acac29bcad4c77622dca4268b" args="" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Set&lt;Statement&gt; <a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#ad5f3c20acac29bcad4c77622dca4268b">edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor.fieldAssignmentStatements</a><code> [private]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-<p>The statements corresponding to assignments to fields </p>
-
-<p>Definition at line <a class="el" href="FieldVariableVisitor_8java_source.html#l00029">29</a> of file <a class="el" href="FieldVariableVisitor_8java_source.html">FieldVariableVisitor.java</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="acaed6c0711716585d83b8b742b21ff15"></a><!-- doxytag: member="edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor::fields" ref="acaed6c0711716585d83b8b742b21ff15" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -231,7 +292,55 @@ Private Attributes</h2></td></tr>
 <div class="memdoc">
 <p>The fields that appear in any simple name nodes we visit. </p>
 
-<p>Definition at line <a class="el" href="FieldVariableVisitor_8java_source.html#l00024">24</a> of file <a class="el" href="FieldVariableVisitor_8java_source.html">FieldVariableVisitor.java</a>.</p>
+<p>Definition at line <a class="el" href="FieldVariableVisitor_8java_source.html#l00033">33</a> of file <a class="el" href="FieldVariableVisitor_8java_source.html">FieldVariableVisitor.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a016a1649af7ec44dd7a5464ea7b567b7"></a><!-- doxytag: member="edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor::fieldsAssigningParameters" ref="a016a1649af7ec44dd7a5464ea7b567b7" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;IVariableBinding&gt; <a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a016a1649af7ec44dd7a5464ea7b567b7">edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor.fieldsAssigningParameters</a><code> [private]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>The fields assigned by parameters </p>
+
+<p>Definition at line <a class="el" href="FieldVariableVisitor_8java_source.html#l00038">38</a> of file <a class="el" href="FieldVariableVisitor_8java_source.html">FieldVariableVisitor.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a76b871cecb125d753d2940effd0012fc"></a><!-- doxytag: member="edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor::parameterNames" ref="a76b871cecb125d753d2940effd0012fc" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;SimpleName&gt; <a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a76b871cecb125d753d2940effd0012fc">edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor.parameterNames</a><code> [package]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>The parameters of this constructor (this is modified as we visit) </p>
+
+<p>Definition at line <a class="el" href="FieldVariableVisitor_8java_source.html#l00043">43</a> of file <a class="el" href="FieldVariableVisitor_8java_source.html">FieldVariableVisitor.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aea653ab0a4a19d426ffe1a11474fe331"></a><!-- doxytag: member="edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor::parameterToFieldBindings" ref="aea653ab0a4a19d426ffe1a11474fe331" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;IVariableBinding, IVariableBinding&gt; <a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#aea653ab0a4a19d426ffe1a11474fe331">edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor.parameterToFieldBindings</a><code> [package]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>The map of parameter bindings to field bindings </p>
+
+<p>Definition at line <a class="el" href="FieldVariableVisitor_8java_source.html#l00048">48</a> of file <a class="el" href="FieldVariableVisitor_8java_source.html">FieldVariableVisitor.java</a>.</p>
 
 </div>
 </div>
@@ -247,7 +356,7 @@ Private Attributes</h2></td></tr>
       <li class="navelem"><a class="el" href="namespaceedu_1_1illinois_1_1canistelCassabanana.html">canistelCassabanana</a>      </li>
       <li class="navelem"><a class="el" href="namespaceedu_1_1illinois_1_1canistelCassabanana_1_1visitors.html">visitors</a>      </li>
       <li class="navelem"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html">FieldVariableVisitor</a>      </li>
-      <li class="footer">Generated on Tue Nov 29 2011 01:50:54 for Remove Duplicate Code From Constructors Refactoring by&#160;
+      <li class="footer">Generated on Sun Dec 11 2011 22:25:12 for Remove Duplicate Code From Constructors Refactoring by&#160;
 <a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.3 </li>
     </ul>

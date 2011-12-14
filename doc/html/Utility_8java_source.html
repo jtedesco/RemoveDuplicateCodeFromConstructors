@@ -85,150 +85,242 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00002"></a>00002 
 <a name="l00003"></a>00003 <span class="keyword">import</span> java.util.ArrayList;
 <a name="l00004"></a>00004 <span class="keyword">import</span> java.util.HashSet;
-<a name="l00005"></a>00005 <span class="keyword">import</span> java.util.List;
-<a name="l00006"></a>00006 <span class="keyword">import</span> java.util.Set;
-<a name="l00007"></a>00007 
-<a name="l00008"></a>00008 <span class="keyword">import</span> org.eclipse.jdt.core.ICompilationUnit;
-<a name="l00009"></a>00009 <span class="keyword">import</span> org.eclipse.jdt.core.IJavaProject;
-<a name="l00010"></a>00010 <span class="keyword">import</span> org.eclipse.jdt.core.IMethod;
-<a name="l00011"></a>00011 <span class="keyword">import</span> org.eclipse.jdt.core.IType;
-<a name="l00012"></a>00012 <span class="keyword">import</span> org.eclipse.jdt.core.JavaModelException;
-<a name="l00013"></a>00013 <span class="keyword">import</span> org.eclipse.jdt.core.dom.IPackageBinding;
-<a name="l00014"></a>00014 <span class="keyword">import</span> org.eclipse.jdt.core.dom.ITypeBinding;
-<a name="l00015"></a>00015 
-<a name="l00021"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html">00021</a> <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html">Utility</a> {
-<a name="l00022"></a>00022 
-<a name="l00030"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a7ad7b01b4ac985f843daae80a9b530f6">00030</a>      <span class="keyword">public</span> <span class="keyword">static</span> String <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a7ad7b01b4ac985f843daae80a9b530f6">fullyQualifiedName</a>(ITypeBinding type) {
-<a name="l00031"></a>00031           
-<a name="l00032"></a>00032           <span class="comment">// Check that we really got an ITypeBinding</span>
-<a name="l00033"></a>00033           <span class="keywordflow">if</span> (type == null) { 
-<a name="l00034"></a>00034                <span class="keywordflow">return</span> null;
-<a name="l00035"></a>00035           }
-<a name="l00036"></a>00036           
-<a name="l00037"></a>00037           <span class="comment">// If type is anonymous then it doesn&#39;t have a name</span>
-<a name="l00038"></a>00038           <span class="keywordflow">if</span> (type.isAnonymous()) {
-<a name="l00039"></a>00039                <span class="keywordflow">return</span> null;
-<a name="l00040"></a>00040           }
-<a name="l00041"></a>00041           
-<a name="l00042"></a>00042           <span class="comment">// If type is an array get the element type</span>
-<a name="l00043"></a>00043           ITypeBinding baseType = (type.isArray() ? type.getElementType() : type);
-<a name="l00044"></a>00044           
-<a name="l00045"></a>00045           <span class="comment">// Add the package name (if one is used)</span>
-<a name="l00046"></a>00046           IPackageBinding typePackage = baseType.getPackage();
-<a name="l00047"></a>00047           String result = <span class="stringliteral">&quot;&quot;</span>;
-<a name="l00048"></a>00048           <span class="keywordflow">if</span> (typePackage != null) {
-<a name="l00049"></a>00049                <span class="keywordflow">if</span> (!typePackage.isUnnamed()) {
-<a name="l00050"></a>00050                     String pkgName = typePackage.getName();
-<a name="l00051"></a>00051                     result = pkgName + <span class="stringliteral">&quot;.&quot;</span>;
-<a name="l00052"></a>00052                }
+<a name="l00005"></a>00005 <span class="keyword">import</span> java.util.LinkedList;
+<a name="l00006"></a>00006 <span class="keyword">import</span> java.util.List;
+<a name="l00007"></a>00007 <span class="keyword">import</span> java.util.Map;
+<a name="l00008"></a>00008 <span class="keyword">import</span> java.util.Set;
+<a name="l00009"></a>00009 
+<a name="l00010"></a>00010 <span class="keyword">import</span> org.eclipse.jdt.core.ICompilationUnit;
+<a name="l00011"></a>00011 <span class="keyword">import</span> org.eclipse.jdt.core.IJavaProject;
+<a name="l00012"></a>00012 <span class="keyword">import</span> org.eclipse.jdt.core.IMethod;
+<a name="l00013"></a>00013 <span class="keyword">import</span> org.eclipse.jdt.core.IType;
+<a name="l00014"></a>00014 <span class="keyword">import</span> org.eclipse.jdt.core.JavaModelException;
+<a name="l00015"></a>00015 <span class="keyword">import</span> org.eclipse.jdt.core.dom.AST;
+<a name="l00016"></a>00016 <span class="keyword">import</span> org.eclipse.jdt.core.dom.ASTNode;
+<a name="l00017"></a>00017 <span class="keyword">import</span> org.eclipse.jdt.core.dom.CastExpression;
+<a name="l00018"></a>00018 <span class="keyword">import</span> org.eclipse.jdt.core.dom.CompilationUnit;
+<a name="l00019"></a>00019 <span class="keyword">import</span> org.eclipse.jdt.core.dom.Expression;
+<a name="l00020"></a>00020 <span class="keyword">import</span> org.eclipse.jdt.core.dom.IPackageBinding;
+<a name="l00021"></a>00021 <span class="keyword">import</span> org.eclipse.jdt.core.dom.ITypeBinding;
+<a name="l00022"></a>00022 <span class="keyword">import</span> org.eclipse.jdt.core.dom.IVariableBinding;
+<a name="l00023"></a>00023 <span class="keyword">import</span> org.eclipse.jdt.core.dom.MethodDeclaration;
+<a name="l00024"></a>00024 <span class="keyword">import</span> org.eclipse.jdt.core.dom.PrimitiveType;
+<a name="l00025"></a>00025 <span class="keyword">import</span> org.eclipse.jdt.core.dom.SimpleName;
+<a name="l00026"></a>00026 <span class="keyword">import</span> org.eclipse.jdt.core.dom.SingleVariableDeclaration;
+<a name="l00027"></a>00027 
+<a name="l00028"></a>00028 <span class="keyword">import</span> edu.illinois.canistelCassabanana.visitors.AssignmentExpressionVisitor;
+<a name="l00029"></a>00029 <span class="keyword">import</span> edu.illinois.canistelCassabanana.visitors.ConstructorDeclarationVisitor;
+<a name="l00030"></a>00030 <span class="keyword">import</span> edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor;
+<a name="l00031"></a>00031 <span class="keyword">import</span> edu.illinois.canistelCassabanana.visitors.MethodDeclarationVisitor;
+<a name="l00032"></a>00032 
+<a name="l00033"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html">00033</a> <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html">Utility</a> {
+<a name="l00034"></a>00034 
+<a name="l00043"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a7ad7b01b4ac985f843daae80a9b530f6">00043</a>      <span class="keyword">public</span> <span class="keyword">static</span> String <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a7ad7b01b4ac985f843daae80a9b530f6">fullyQualifiedName</a>(ITypeBinding type) {
+<a name="l00044"></a>00044 
+<a name="l00045"></a>00045           <span class="comment">// Check that we really got an ITypeBinding</span>
+<a name="l00046"></a>00046           <span class="keywordflow">if</span> (type == null) {
+<a name="l00047"></a>00047                <span class="keywordflow">return</span> null;
+<a name="l00048"></a>00048           }
+<a name="l00049"></a>00049 
+<a name="l00050"></a>00050           <span class="comment">// If type is anonymous then it doesn&#39;t have a name</span>
+<a name="l00051"></a>00051           <span class="keywordflow">if</span> (type.isAnonymous()) {
+<a name="l00052"></a>00052                <span class="keywordflow">return</span> null;
 <a name="l00053"></a>00053           }
-<a name="l00054"></a>00054           
-<a name="l00055"></a>00055           <span class="comment">// Loop through and add all the declaring classes (only for nested classes)</span>
-<a name="l00056"></a>00056           ITypeBinding declaringClass = type;
-<a name="l00057"></a>00057           <span class="keywordflow">while</span> (declaringClass.isNested()) {
-<a name="l00058"></a>00058                declaringClass = declaringClass.getDeclaringClass();
-<a name="l00059"></a>00059                result += declaringClass.getName() + <span class="stringliteral">&quot;.&quot;</span>;
-<a name="l00060"></a>00060           }
-<a name="l00061"></a>00061           
-<a name="l00062"></a>00062           <span class="comment">// Finally, add the type name itself and return our result</span>
-<a name="l00063"></a>00063           result += type.getName().intern();
-<a name="l00064"></a>00064           <span class="keywordflow">return</span> result;
-<a name="l00065"></a>00065      }
-<a name="l00066"></a>00066 
-<a name="l00078"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#add7cd8f4956b7b5ebd90c8542183f21e">00078</a>      <span class="keyword">public</span> <span class="keyword">static</span> IType <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#add7cd8f4956b7b5ebd90c8542183f21e">lookupIType</a>(ITypeBinding type, IJavaProject in) {
-<a name="l00079"></a>00079           
-<a name="l00080"></a>00080           <span class="comment">// Assume we don&#39;t find an IType</span>
-<a name="l00081"></a>00081           IType result = null;
-<a name="l00082"></a>00082           <span class="keywordflow">if</span> (type != null) {
-<a name="l00083"></a>00083                String <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a7ad7b01b4ac985f843daae80a9b530f6">fullyQualifiedName</a> = <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a7ad7b01b4ac985f843daae80a9b530f6">fullyQualifiedName</a>(type);
-<a name="l00084"></a>00084                
-<a name="l00085"></a>00085                <span class="comment">// Did we get a name?</span>
-<a name="l00086"></a>00086                <span class="keywordflow">if</span> (fullyQualifiedName != null) {
-<a name="l00087"></a>00087                     <span class="keywordflow">try</span> {
-<a name="l00088"></a>00088                          result = in.findType(fullyQualifiedName);
-<a name="l00089"></a>00089                     } <span class="keywordflow">catch</span> (JavaModelException e) {
-<a name="l00090"></a>00090                          <span class="comment">// @ ignore since we return null</span>
-<a name="l00091"></a>00091                     }
-<a name="l00092"></a>00092                     <span class="keywordflow">if</span> (result == null) {
-<a name="l00093"></a>00093                          System.err.println(<span class="stringliteral">&quot;(lookup) failed to find the type : &quot;</span> + fullyQualifiedName);
-<a name="l00094"></a>00094                     }
-<a name="l00095"></a>00095                } <span class="keywordflow">else</span> {
-<a name="l00096"></a>00096                     System.err.println(<span class="stringliteral">&quot;(fullyQualifiedName) failed to find the type : &quot;</span>
-<a name="l00097"></a>00097                                         + type.getName());
-<a name="l00098"></a>00098                }
-<a name="l00099"></a>00099           } <span class="keywordflow">else</span> {
-<a name="l00100"></a>00100                System.err.println(<span class="stringliteral">&quot;(null binding) failed to find the type&quot;</span>);
-<a name="l00101"></a>00101           }
-<a name="l00102"></a>00102           <span class="keywordflow">return</span> result;
-<a name="l00103"></a>00103      }
-<a name="l00104"></a>00104 
-<a name="l00114"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a45eff2f6304ebeb68bc077e77faaf41c">00114</a>      <span class="keyword">public</span> <span class="keyword">static</span> ICompilationUnit <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a45eff2f6304ebeb68bc077e77faaf41c">getParent</a>(List&lt;IMethod&gt; constructors) {
-<a name="l00115"></a>00115           ICompilationUnit unit = null;
-<a name="l00116"></a>00116           <span class="keywordflow">for</span> (IMethod constructor : constructors) {
-<a name="l00117"></a>00117                <span class="keywordflow">if</span> (unit == null) {
-<a name="l00118"></a>00118                     unit = constructor.getCompilationUnit();
-<a name="l00119"></a>00119                } <span class="keywordflow">else</span> {
-<a name="l00120"></a>00120                     <span class="keywordflow">if</span> (constructor.getCompilationUnit() != unit) {
-<a name="l00121"></a>00121                          <span class="keywordflow">return</span> null;
-<a name="l00122"></a>00122                     }
-<a name="l00123"></a>00123                }
-<a name="l00124"></a>00124           }
-<a name="l00125"></a>00125           <span class="keywordflow">return</span> unit;
-<a name="l00126"></a>00126      }
-<a name="l00127"></a>00127 
-<a name="l00138"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a6cd2cf1ed4823a36a63fb36b4c31cdea">00138</a>      <span class="keyword">public</span> <span class="keyword">static</span> List&lt;IMethod&gt; <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a6cd2cf1ed4823a36a63fb36b4c31cdea">getConstructors</a>(ICompilationUnit unit) {
-<a name="l00139"></a>00139      
-<a name="l00140"></a>00140           ArrayList&lt;IMethod&gt; result = <span class="keyword">new</span> ArrayList&lt;IMethod&gt;();
-<a name="l00141"></a>00141           IType[] types = null;
-<a name="l00142"></a>00142           <span class="keywordflow">try</span> {
-<a name="l00143"></a>00143                types = unit.getAllTypes();
-<a name="l00144"></a>00144           } <span class="keywordflow">catch</span> (JavaModelException exception) {
-<a name="l00145"></a>00145                System.err.println(<span class="stringliteral">&quot;Error getting constructors: &quot;</span> + exception.getLocalizedMessage());
-<a name="l00146"></a>00146           }
-<a name="l00147"></a>00147      
-<a name="l00148"></a>00148           <span class="keywordflow">for</span> (IType iType : types) {
-<a name="l00149"></a>00149                <span class="keywordflow">try</span> {
-<a name="l00150"></a>00150                     IMethod[] methods = iType.getMethods();
-<a name="l00151"></a>00151                     <span class="keywordflow">for</span> (IMethod method : methods) {
-<a name="l00152"></a>00152                          <span class="keywordflow">if</span> (method.isConstructor()) {
-<a name="l00153"></a>00153                               result.add(method);
-<a name="l00154"></a>00154                          }
-<a name="l00155"></a>00155                     }
-<a name="l00156"></a>00156                } <span class="keywordflow">catch</span> (JavaModelException exception) {
-<a name="l00157"></a>00157                     System.err.println(<span class="stringliteral">&quot;Error getting constructors: &quot;</span> + exception.getLocalizedMessage());
-<a name="l00158"></a>00158                }
-<a name="l00159"></a>00159           }
-<a name="l00160"></a>00160      
-<a name="l00161"></a>00161           <span class="keywordflow">return</span> result;
-<a name="l00162"></a>00162      }
-<a name="l00163"></a>00163 
-<a name="l00172"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#aa8be57d974d02d56e0ae832bedcdee08">00172</a>      <span class="keyword">public</span> static &lt;T&gt; Set&lt;Set&lt;T&gt;&gt; <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#aa8be57d974d02d56e0ae832bedcdee08">getPairs</a>(Set&lt;T&gt; originalSet) {
-<a name="l00173"></a>00173           Set&lt;Set&lt;T&gt;&gt; sets = <span class="keyword">new</span> HashSet&lt;Set&lt;T&gt;&gt;();
-<a name="l00174"></a>00174           List&lt;T&gt; list = <span class="keyword">new</span> ArrayList&lt;T&gt;(originalSet);
-<a name="l00175"></a>00175           <span class="keywordflow">if</span> (list.size() &gt; 0) {
-<a name="l00176"></a>00176                T head = list.get(0);
-<a name="l00177"></a>00177                Set&lt;T&gt; rest = <span class="keyword">new</span> HashSet&lt;T&gt;(list.subList(1, list.size()));
-<a name="l00178"></a>00178                <span class="keywordflow">for</span> (Set&lt;T&gt; <span class="keyword">set</span> : <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#aa8be57d974d02d56e0ae832bedcdee08">getPairs</a>(rest)) {
-<a name="l00179"></a>00179                     Set&lt;T&gt; newSet = <span class="keyword">new</span> HashSet&lt;T&gt;();
-<a name="l00180"></a>00180                     newSet.add(head);
-<a name="l00181"></a>00181                     newSet.addAll(<span class="keyword">set</span>);
-<a name="l00182"></a>00182                     
-<a name="l00183"></a>00183                     <span class="comment">// Only add this subset if it&#39;s of size 2, i.e. if it&#39;s a pair</span>
-<a name="l00184"></a>00184                     <span class="keywordflow">if</span> (newSet.size() == 2) {
-<a name="l00185"></a>00185                          sets.add(newSet);
-<a name="l00186"></a>00186                          sets.add(<span class="keyword">set</span>);
-<a name="l00187"></a>00187                     }
-<a name="l00188"></a>00188                }
-<a name="l00189"></a>00189           }
-<a name="l00190"></a>00190           <span class="keywordflow">return</span> sets;
-<a name="l00191"></a>00191      }
-<a name="l00192"></a>00192 }
+<a name="l00054"></a>00054 
+<a name="l00055"></a>00055           <span class="comment">// If type is an array get the element type</span>
+<a name="l00056"></a>00056           ITypeBinding baseType = (type.isArray() ? type.getElementType() : type);
+<a name="l00057"></a>00057 
+<a name="l00058"></a>00058           <span class="comment">// Add the package name (if one is used)</span>
+<a name="l00059"></a>00059           IPackageBinding typePackage = baseType.getPackage();
+<a name="l00060"></a>00060           String result = <span class="stringliteral">&quot;&quot;</span>;
+<a name="l00061"></a>00061           <span class="keywordflow">if</span> (typePackage != null) {
+<a name="l00062"></a>00062                <span class="keywordflow">if</span> (!typePackage.isUnnamed()) {
+<a name="l00063"></a>00063                     String pkgName = typePackage.getName();
+<a name="l00064"></a>00064                     result = pkgName + <span class="stringliteral">&quot;.&quot;</span>;
+<a name="l00065"></a>00065                }
+<a name="l00066"></a>00066           }
+<a name="l00067"></a>00067 
+<a name="l00068"></a>00068           <span class="comment">// Loop through and add all the declaring classes (only for nested</span>
+<a name="l00069"></a>00069           <span class="comment">// classes)</span>
+<a name="l00070"></a>00070           ITypeBinding declaringClass = type;
+<a name="l00071"></a>00071           <span class="keywordflow">while</span> (declaringClass.isNested()) {
+<a name="l00072"></a>00072                declaringClass = declaringClass.getDeclaringClass();
+<a name="l00073"></a>00073                result += declaringClass.getName() + <span class="stringliteral">&quot;.&quot;</span>;
+<a name="l00074"></a>00074           }
+<a name="l00075"></a>00075 
+<a name="l00076"></a>00076           <span class="comment">// Finally, add the type name itself and return our result</span>
+<a name="l00077"></a>00077           result += type.getName().intern();
+<a name="l00078"></a>00078           <span class="keywordflow">return</span> result;
+<a name="l00079"></a>00079      }
+<a name="l00080"></a>00080 
+<a name="l00094"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#add7cd8f4956b7b5ebd90c8542183f21e">00094</a>      <span class="keyword">public</span> <span class="keyword">static</span> IType <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#add7cd8f4956b7b5ebd90c8542183f21e">lookupIType</a>(ITypeBinding type, IJavaProject in) {
+<a name="l00095"></a>00095 
+<a name="l00096"></a>00096           <span class="comment">// Assume we don&#39;t find an IType</span>
+<a name="l00097"></a>00097           IType result = null;
+<a name="l00098"></a>00098           <span class="keywordflow">if</span> (type != null) {
+<a name="l00099"></a>00099                String <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a7ad7b01b4ac985f843daae80a9b530f6">fullyQualifiedName</a> = <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a7ad7b01b4ac985f843daae80a9b530f6">fullyQualifiedName</a>(type);
+<a name="l00100"></a>00100 
+<a name="l00101"></a>00101                <span class="comment">// Did we get a name?</span>
+<a name="l00102"></a>00102                <span class="keywordflow">if</span> (fullyQualifiedName != null) {
+<a name="l00103"></a>00103                     <span class="keywordflow">try</span> {
+<a name="l00104"></a>00104                          result = in.findType(fullyQualifiedName);
+<a name="l00105"></a>00105                     } <span class="keywordflow">catch</span> (JavaModelException e) {
+<a name="l00106"></a>00106                          <span class="comment">// @ ignore since we return null</span>
+<a name="l00107"></a>00107                     }
+<a name="l00108"></a>00108                     <span class="keywordflow">if</span> (result == null) {
+<a name="l00109"></a>00109                          System.err.println(<span class="stringliteral">&quot;(lookup) failed to find the type : &quot;</span> + fullyQualifiedName);
+<a name="l00110"></a>00110                     }
+<a name="l00111"></a>00111                } <span class="keywordflow">else</span> {
+<a name="l00112"></a>00112                     System.err.println(<span class="stringliteral">&quot;(fullyQualifiedName) failed to find the type : &quot;</span> + type.getName());
+<a name="l00113"></a>00113                }
+<a name="l00114"></a>00114           } <span class="keywordflow">else</span> {
+<a name="l00115"></a>00115                System.err.println(<span class="stringliteral">&quot;(null binding) failed to find the type&quot;</span>);
+<a name="l00116"></a>00116           }
+<a name="l00117"></a>00117           <span class="keywordflow">return</span> result;
+<a name="l00118"></a>00118      }
+<a name="l00119"></a>00119 
+<a name="l00129"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a45eff2f6304ebeb68bc077e77faaf41c">00129</a>      <span class="keyword">public</span> <span class="keyword">static</span> ICompilationUnit <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a45eff2f6304ebeb68bc077e77faaf41c">getParent</a>(List&lt;IMethod&gt; constructors) {
+<a name="l00130"></a>00130           ICompilationUnit unit = null;
+<a name="l00131"></a>00131           <span class="keywordflow">for</span> (IMethod constructor : constructors) {
+<a name="l00132"></a>00132                <span class="keywordflow">if</span> (unit == null) {
+<a name="l00133"></a>00133                     unit = constructor.getCompilationUnit();
+<a name="l00134"></a>00134                } <span class="keywordflow">else</span> {
+<a name="l00135"></a>00135                     <span class="keywordflow">if</span> (constructor.getCompilationUnit() != unit) {
+<a name="l00136"></a>00136                          <span class="keywordflow">return</span> null;
+<a name="l00137"></a>00137                     }
+<a name="l00138"></a>00138                }
+<a name="l00139"></a>00139           }
+<a name="l00140"></a>00140           <span class="keywordflow">return</span> unit;
+<a name="l00141"></a>00141      }
+<a name="l00142"></a>00142 
+<a name="l00153"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a6cd2cf1ed4823a36a63fb36b4c31cdea">00153</a>      <span class="keyword">public</span> <span class="keyword">static</span> List&lt;IMethod&gt; <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a6cd2cf1ed4823a36a63fb36b4c31cdea">getConstructors</a>(ICompilationUnit unit) {
+<a name="l00154"></a>00154 
+<a name="l00155"></a>00155           ArrayList&lt;IMethod&gt; result = <span class="keyword">new</span> ArrayList&lt;IMethod&gt;();
+<a name="l00156"></a>00156           IType[] types = null;
+<a name="l00157"></a>00157           <span class="keywordflow">try</span> {
+<a name="l00158"></a>00158                types = unit.getAllTypes();
+<a name="l00159"></a>00159           } <span class="keywordflow">catch</span> (JavaModelException exception) {
+<a name="l00160"></a>00160                System.err.println(<span class="stringliteral">&quot;Error getting constructors: &quot;</span> + exception.getLocalizedMessage());
+<a name="l00161"></a>00161           }
+<a name="l00162"></a>00162 
+<a name="l00163"></a>00163           <span class="keywordflow">for</span> (IType iType : types) {
+<a name="l00164"></a>00164                <span class="keywordflow">try</span> {
+<a name="l00165"></a>00165                     IMethod[] methods = iType.getMethods();
+<a name="l00166"></a>00166                     <span class="keywordflow">for</span> (IMethod method : methods) {
+<a name="l00167"></a>00167                          <span class="keywordflow">if</span> (method.isConstructor()) {
+<a name="l00168"></a>00168                               result.add(method);
+<a name="l00169"></a>00169                          }
+<a name="l00170"></a>00170                     }
+<a name="l00171"></a>00171                } <span class="keywordflow">catch</span> (JavaModelException exception) {
+<a name="l00172"></a>00172                     System.err.println(<span class="stringliteral">&quot;Error getting constructors: &quot;</span> + exception.getLocalizedMessage());
+<a name="l00173"></a>00173                }
+<a name="l00174"></a>00174           }
+<a name="l00175"></a>00175 
+<a name="l00176"></a>00176           <span class="keywordflow">return</span> result;
+<a name="l00177"></a>00177      }
+<a name="l00178"></a>00178 
+<a name="l00190"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#aa8be57d974d02d56e0ae832bedcdee08">00190</a>      <span class="keyword">public</span> static &lt;T&gt; Set&lt;Set&lt;T&gt;&gt; <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#aa8be57d974d02d56e0ae832bedcdee08">getPairs</a>(Set&lt;T&gt; originalSet) {
+<a name="l00191"></a>00191           Set&lt;Set&lt;T&gt;&gt; sets = <span class="keyword">new</span> HashSet&lt;Set&lt;T&gt;&gt;();
+<a name="l00192"></a>00192           List&lt;T&gt; list = <span class="keyword">new</span> ArrayList&lt;T&gt;(originalSet);
+<a name="l00193"></a>00193           <span class="keywordflow">if</span> (list.size() &gt; 0) {
+<a name="l00194"></a>00194                T head = list.get(0);
+<a name="l00195"></a>00195                Set&lt;T&gt; rest = <span class="keyword">new</span> HashSet&lt;T&gt;(list.subList(1, list.size()));
+<a name="l00196"></a>00196                <span class="keywordflow">for</span> (Set&lt;T&gt; <span class="keyword">set</span> : <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#aa8be57d974d02d56e0ae832bedcdee08">getPairs</a>(rest)) {
+<a name="l00197"></a>00197                     Set&lt;T&gt; newSet = <span class="keyword">new</span> HashSet&lt;T&gt;();
+<a name="l00198"></a>00198                     newSet.add(head);
+<a name="l00199"></a>00199                     newSet.addAll(<span class="keyword">set</span>);
+<a name="l00200"></a>00200 
+<a name="l00201"></a>00201                     <span class="comment">// Only add this subset if it&#39;s of size 2, i.e. if it&#39;s a pair</span>
+<a name="l00202"></a>00202                     <span class="keywordflow">if</span> (newSet.size() == 2) {
+<a name="l00203"></a>00203                          sets.add(newSet);
+<a name="l00204"></a>00204                          sets.add(<span class="keyword">set</span>);
+<a name="l00205"></a>00205                     }
+<a name="l00206"></a>00206                }
+<a name="l00207"></a>00207           }
+<a name="l00208"></a>00208           <span class="keywordflow">return</span> sets;
+<a name="l00209"></a>00209      }
+<a name="l00210"></a>00210 
+<a name="l00220"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a4dac6bf635efbf16177f98b50f2d8418">00220</a>      <span class="keyword">public</span> <span class="keyword">static</span> ASTNode <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a4dac6bf635efbf16177f98b50f2d8418">createDefaultValue</a>(IVariableBinding field, AST ast) {
+<a name="l00221"></a>00221           ASTNode defaultValue = null;
+<a name="l00222"></a>00222           <span class="keywordflow">if</span> (field.getType().getName().equals(<span class="stringliteral">&quot;boolean&quot;</span>)) {
+<a name="l00223"></a>00223                defaultValue = ast.newBooleanLiteral(<span class="keyword">false</span>);
+<a name="l00224"></a>00224           } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (field.getType().isPrimitive()) {
+<a name="l00225"></a>00225                String primitiveName = field.getType().getName();
+<a name="l00226"></a>00226                <span class="comment">// if we are passing 0 to a char parameter, we need to cast it to a</span>
+<a name="l00227"></a>00227                <span class="comment">// char in order to avoid type errors.</span>
+<a name="l00228"></a>00228                <span class="keywordflow">if</span> (primitiveName.equalsIgnoreCase(<span class="stringliteral">&quot;char&quot;</span>)) {
+<a name="l00229"></a>00229                     CastExpression charExpression = ast.newCastExpression();
+<a name="l00230"></a>00230                     charExpression.setExpression(ast.newNumberLiteral());
+<a name="l00231"></a>00231                     charExpression.setType(ast.newPrimitiveType(PrimitiveType.CHAR));
+<a name="l00232"></a>00232                     defaultValue = charExpression;
+<a name="l00233"></a>00233                } <span class="keywordflow">else</span> {
+<a name="l00234"></a>00234                     defaultValue = ast.newNumberLiteral();
+<a name="l00235"></a>00235                }
+<a name="l00236"></a>00236           } <span class="keywordflow">else</span> {
+<a name="l00237"></a>00237                defaultValue = ast.newNullLiteral();
+<a name="l00238"></a>00238           }
+<a name="l00239"></a>00239           <span class="keywordflow">return</span> defaultValue;
+<a name="l00240"></a>00240      }
+<a name="l00241"></a>00241 
+<a name="l00246"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#af883c4cac9ba8bbed2dbf096ed94a9fb">00246</a>      <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#af883c4cac9ba8bbed2dbf096ed94a9fb">getFieldAssignmentsInConstructors</a>(Set&lt;MethodDeclaration&gt; constructorDeclarations,
+<a name="l00247"></a>00247                Map&lt;MethodDeclaration, Set&lt;IVariableBinding&gt;&gt; constructorParameterAssignmentsExpressions,
+<a name="l00248"></a>00248                Map&lt;MethodDeclaration, Set&lt;IVariableBinding&gt;&gt; constructorAssignmentsExpressions) {
+<a name="l00249"></a>00249 
+<a name="l00250"></a>00250           <span class="keywordflow">for</span> (MethodDeclaration constructorDeclaration : constructorDeclarations) {
+<a name="l00251"></a>00251 
+<a name="l00252"></a>00252                <span class="comment">// Visit all of the assignment expressions in this constructor</span>
+<a name="l00253"></a>00253                <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor.html">AssignmentExpressionVisitor</a> assignmentExpressionVisitor = <span class="keyword">new</span> <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor.html">AssignmentExpressionVisitor</a>();
+<a name="l00254"></a>00254                constructorDeclaration.accept(assignmentExpressionVisitor);
+<a name="l00255"></a>00255 
+<a name="l00256"></a>00256                <span class="comment">// Add all of the assignment expression in this constructor to this</span>
+<a name="l00257"></a>00257                <span class="comment">// constructor&#39;s table entry</span>
+<a name="l00258"></a>00258                Set&lt;Expression&gt; constructorAssignments = <span class="keyword">new</span> HashSet&lt;Expression&gt;();
+<a name="l00259"></a>00259                constructorAssignments.addAll(assignmentExpressionVisitor.<a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1AssignmentExpressionVisitor.html#a56dfe8499bdcff66e471f94e8dadad49">getLeftHandSideAssigmentExpressions</a>());
+<a name="l00260"></a>00260 
+<a name="l00261"></a>00261                <span class="comment">// Get all of the variable bindings that appear in these assignments</span>
+<a name="l00262"></a>00262                Set&lt;IVariableBinding&gt; fieldsAssignedFromParameters = <span class="keyword">new</span> HashSet&lt;IVariableBinding&gt;();
+<a name="l00263"></a>00263                Set&lt;IVariableBinding&gt; fieldsAssigned = <span class="keyword">new</span> HashSet&lt;IVariableBinding&gt;();
+<a name="l00264"></a>00264                <span class="keywordflow">for</span> (Expression expression : constructorAssignments) {
+<a name="l00265"></a>00265 
+<a name="l00266"></a>00266                     <span class="comment">// Get the simple names for the parameters</span>
+<a name="l00267"></a>00267                     List&lt;SimpleName&gt; parameterNames = <span class="keyword">new</span> LinkedList&lt;SimpleName&gt;();
+<a name="l00268"></a>00268                     List&lt;SingleVariableDeclaration&gt; parameters = constructorDeclaration.parameters();
+<a name="l00269"></a>00269                     <span class="keywordflow">for</span> (SingleVariableDeclaration parameter : parameters) {
+<a name="l00270"></a>00270                          parameterNames.add(parameter.getName());
+<a name="l00271"></a>00271                     }
+<a name="l00272"></a>00272 
+<a name="l00273"></a>00273                     <span class="comment">// Visit all of the fields that appear in the left hand sides of</span>
+<a name="l00274"></a>00274                     <span class="comment">// these assignments</span>
+<a name="l00275"></a>00275                     <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html">FieldVariableVisitor</a> fieldVisitor = <span class="keyword">new</span> <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html">FieldVariableVisitor</a>(parameterNames);
+<a name="l00276"></a>00276                     expression.accept(fieldVisitor);
+<a name="l00277"></a>00277                     fieldsAssignedFromParameters.addAll(fieldVisitor.<a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a7a19e2f36c6a4f08ecca64cb97659818">getFieldsAssigningParameters</a>());
+<a name="l00278"></a>00278                     fieldsAssigned.addAll(fieldVisitor.<a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html#a3e516c7f4c19ade2a76e27986faa2922">getFields</a>());
+<a name="l00279"></a>00279                }
+<a name="l00280"></a>00280                constructorParameterAssignmentsExpressions.put(constructorDeclaration, fieldsAssignedFromParameters);
+<a name="l00281"></a>00281                constructorAssignmentsExpressions.put(constructorDeclaration, fieldsAssigned);
+<a name="l00282"></a>00282           }
+<a name="l00283"></a>00283      }
+<a name="l00284"></a>00284 
+<a name="l00293"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a44aa27794a29b6d115d3ca5e3f18dd3c">00293</a>      <span class="keyword">public</span> <span class="keyword">static</span> Set&lt;MethodDeclaration&gt; <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a44aa27794a29b6d115d3ca5e3f18dd3c">getConstructors</a>(CompilationUnit ast) {
+<a name="l00294"></a>00294           <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclarationVisitor.html">ConstructorDeclarationVisitor</a> constructorVisitor = <span class="keyword">new</span> <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclarationVisitor.html">ConstructorDeclarationVisitor</a>();
+<a name="l00295"></a>00295           ast.accept(constructorVisitor);
+<a name="l00296"></a>00296           Set&lt;MethodDeclaration&gt; constructorDeclarations = constructorVisitor.<a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclarationVisitor.html#a013cd441eb841119c3e29e0c669f6cb8">getConstructorDeclarations</a>();
+<a name="l00297"></a>00297           <span class="keywordflow">return</span> constructorDeclarations;
+<a name="l00298"></a>00298      }
+<a name="l00299"></a>00299 
+<a name="l00307"></a><a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a92d592b310010b841d64d461e0a6ab75">00307</a>      <span class="keyword">public</span> <span class="keyword">static</span> Set&lt;MethodDeclaration&gt; <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a92d592b310010b841d64d461e0a6ab75">getMethods</a>(CompilationUnit ast) {
+<a name="l00308"></a>00308           <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1MethodDeclarationVisitor.html">MethodDeclarationVisitor</a> methodVisitor = <span class="keyword">new</span> <a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1MethodDeclarationVisitor.html">MethodDeclarationVisitor</a>();
+<a name="l00309"></a>00309           ast.accept(methodVisitor);
+<a name="l00310"></a>00310           Set&lt;MethodDeclaration&gt; methodDeclarations = methodVisitor.<a class="code" href="classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1MethodDeclarationVisitor.html#a0ebc86757977e70f0411c6754d4cd93d">getMethodDeclarations</a>();
+<a name="l00311"></a>00311           <span class="keywordflow">return</span> methodDeclarations;
+<a name="l00312"></a>00312      }
+<a name="l00313"></a>00313 }
 </pre></div></div>
 </div>
   <div id="nav-path" class="navpath">
     <ul>
       <li class="navelem"><a class="el" href="Utility_8java.html">Utility.java</a>      </li>
-      <li class="footer">Generated on Tue Nov 29 2011 01:50:54 for Remove Duplicate Code From Constructors Refactoring by&#160;
+      <li class="footer">Generated on Sun Dec 11 2011 22:25:12 for Remove Duplicate Code From Constructors Refactoring by&#160;
 <a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.3 </li>
     </ul>

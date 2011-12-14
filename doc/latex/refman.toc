@@ -52,148 +52,186 @@
 \contentsline {subsection}{\numberline {5.4.4}Member Data Documentation}{15}{subsection.5.4.4}
 \contentsline {subsubsection}{\numberline {5.4.4.1}constructorInvocations}{15}{subsubsection.5.4.4.1}
 \contentsline {section}{\numberline {5.5}edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor Class Reference}{15}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Detailed Description}{15}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.1}Detailed Description}{16}{subsection.5.5.1}
 \contentsline {subsection}{\numberline {5.5.2}Constructor \& Destructor Documentation}{16}{subsection.5.5.2}
 \contentsline {subsubsection}{\numberline {5.5.2.1}FieldVariableVisitor}{16}{subsubsection.5.5.2.1}
 \contentsline {subsection}{\numberline {5.5.3}Member Function Documentation}{16}{subsection.5.5.3}
-\contentsline {subsubsection}{\numberline {5.5.3.1}getFieldAssignmentStatements}{16}{subsubsection.5.5.3.1}
+\contentsline {subsubsection}{\numberline {5.5.3.1}checkFieldAssignsParameter}{16}{subsubsection.5.5.3.1}
 \contentsline {subsubsection}{\numberline {5.5.3.2}getFields}{16}{subsubsection.5.5.3.2}
-\contentsline {subsubsection}{\numberline {5.5.3.3}setFieldAssignmentStatements}{16}{subsubsection.5.5.3.3}
-\contentsline {subsubsection}{\numberline {5.5.3.4}visit}{16}{subsubsection.5.5.3.4}
-\contentsline {subsection}{\numberline {5.5.4}Member Data Documentation}{16}{subsection.5.5.4}
-\contentsline {subsubsection}{\numberline {5.5.4.1}fieldAssignmentStatements}{16}{subsubsection.5.5.4.1}
-\contentsline {subsubsection}{\numberline {5.5.4.2}fields}{16}{subsubsection.5.5.4.2}
-\contentsline {section}{\numberline {5.6}edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsAction Class Reference}{17}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Detailed Description}{17}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Member Function Documentation}{17}{subsection.5.6.2}
-\contentsline {subsubsection}{\numberline {5.6.2.1}dispose}{17}{subsubsection.5.6.2.1}
-\contentsline {subsubsection}{\numberline {5.6.2.2}init}{18}{subsubsection.5.6.2.2}
-\contentsline {subsubsection}{\numberline {5.6.2.3}launchRefactoring}{18}{subsubsection.5.6.2.3}
-\contentsline {subsubsection}{\numberline {5.6.2.4}refactorTreeSelection}{18}{subsubsection.5.6.2.4}
-\contentsline {subsubsection}{\numberline {5.6.2.5}run}{18}{subsubsection.5.6.2.5}
-\contentsline {subsubsection}{\numberline {5.6.2.6}selectionChanged}{18}{subsubsection.5.6.2.6}
-\contentsline {subsection}{\numberline {5.6.3}Member Data Documentation}{18}{subsection.5.6.3}
-\contentsline {subsubsection}{\numberline {5.6.3.1}unit}{18}{subsubsection.5.6.3.1}
-\contentsline {subsubsection}{\numberline {5.6.3.2}window}{18}{subsubsection.5.6.3.2}
-\contentsline {section}{\numberline {5.7}edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsConstants Class Reference}{19}{section.5.7}
-\contentsline {subsection}{\numberline {5.7.1}Detailed Description}{19}{subsection.5.7.1}
-\contentsline {subsection}{\numberline {5.7.2}Member Data Documentation}{20}{subsection.5.7.2}
-\contentsline {subsubsection}{\numberline {5.7.2.1}CHECKING\_\discretionary {-}{}{}PRECONDITIONS\_\discretionary {-}{}{}MESSAGE}{20}{subsubsection.5.7.2.1}
-\contentsline {subsubsection}{\numberline {5.7.2.2}NO\_\discretionary {-}{}{}CONSTRUCTORS\_\discretionary {-}{}{}MESSAGE}{20}{subsubsection.5.7.2.2}
-\contentsline {subsubsection}{\numberline {5.7.2.3}NO\_\discretionary {-}{}{}DUPLICATE\_\discretionary {-}{}{}CODE\_\discretionary {-}{}{}MESSAGE}{20}{subsubsection.5.7.2.3}
-\contentsline {subsubsection}{\numberline {5.7.2.4}NULL\_\discretionary {-}{}{}CONSTRUCTORS\_\discretionary {-}{}{}MESSAGE}{20}{subsubsection.5.7.2.4}
-\contentsline {subsubsection}{\numberline {5.7.2.5}ONE\_\discretionary {-}{}{}CONSTRUCTOR\_\discretionary {-}{}{}MESSAGE}{20}{subsubsection.5.7.2.5}
-\contentsline {subsubsection}{\numberline {5.7.2.6}REFACTORING\_\discretionary {-}{}{}DESCRIPTION}{20}{subsubsection.5.7.2.6}
-\contentsline {subsubsection}{\numberline {5.7.2.7}REFACTORING\_\discretionary {-}{}{}ID}{20}{subsubsection.5.7.2.7}
-\contentsline {subsubsection}{\numberline {5.7.2.8}REFACTORING\_\discretionary {-}{}{}NAME}{21}{subsubsection.5.7.2.8}
-\contentsline {subsubsection}{\numberline {5.7.2.9}UNABLE\_\discretionary {-}{}{}TO\_\discretionary {-}{}{}REFACTOR}{21}{subsubsection.5.7.2.9}
-\contentsline {subsubsection}{\numberline {5.7.2.10}UNEXPECTED\_\discretionary {-}{}{}ERROR\_\discretionary {-}{}{}MESSAGE}{21}{subsubsection.5.7.2.10}
-\contentsline {section}{\numberline {5.8}edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsDescriptor Class Reference}{21}{section.5.8}
-\contentsline {subsection}{\numberline {5.8.1}Detailed Description}{22}{subsection.5.8.1}
-\contentsline {subsection}{\numberline {5.8.2}Constructor \& Destructor Documentation}{22}{subsection.5.8.2}
-\contentsline {subsubsection}{\numberline {5.8.2.1}RemoveDuplicateCodeInConstructorsDescriptor}{22}{subsubsection.5.8.2.1}
-\contentsline {subsection}{\numberline {5.8.3}Member Function Documentation}{22}{subsection.5.8.3}
-\contentsline {subsubsection}{\numberline {5.8.3.1}createRefactoring}{22}{subsubsection.5.8.3.1}
-\contentsline {subsubsection}{\numberline {5.8.3.2}getArguments}{22}{subsubsection.5.8.3.2}
-\contentsline {subsection}{\numberline {5.8.4}Member Data Documentation}{22}{subsection.5.8.4}
-\contentsline {subsubsection}{\numberline {5.8.4.1}arguments}{22}{subsubsection.5.8.4.1}
-\contentsline {subsubsection}{\numberline {5.8.4.2}REFACTORING\_\discretionary {-}{}{}ID}{22}{subsubsection.5.8.4.2}
-\contentsline {section}{\numberline {5.9}edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsInputPage Class Reference}{23}{section.5.9}
+\contentsline {subsubsection}{\numberline {5.5.3.3}getFieldsAssigningParameters}{17}{subsubsection.5.5.3.3}
+\contentsline {subsubsection}{\numberline {5.5.3.4}getParametersToFieldBindings}{17}{subsubsection.5.5.3.4}
+\contentsline {subsubsection}{\numberline {5.5.3.5}visit}{17}{subsubsection.5.5.3.5}
+\contentsline {subsubsection}{\numberline {5.5.3.6}visit}{17}{subsubsection.5.5.3.6}
+\contentsline {subsection}{\numberline {5.5.4}Member Data Documentation}{17}{subsection.5.5.4}
+\contentsline {subsubsection}{\numberline {5.5.4.1}fields}{17}{subsubsection.5.5.4.1}
+\contentsline {subsubsection}{\numberline {5.5.4.2}fieldsAssigningParameters}{17}{subsubsection.5.5.4.2}
+\contentsline {subsubsection}{\numberline {5.5.4.3}parameterNames}{17}{subsubsection.5.5.4.3}
+\contentsline {subsubsection}{\numberline {5.5.4.4}parameterToFieldBindings}{18}{subsubsection.5.5.4.4}
+\contentsline {section}{\numberline {5.6}edu.illinois.canistelCassabanana.visitors.MethodDeclarationVisitor Class Reference}{18}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Detailed Description}{18}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Constructor \& Destructor Documentation}{18}{subsection.5.6.2}
+\contentsline {subsubsection}{\numberline {5.6.2.1}MethodDeclarationVisitor}{18}{subsubsection.5.6.2.1}
+\contentsline {subsection}{\numberline {5.6.3}Member Function Documentation}{19}{subsection.5.6.3}
+\contentsline {subsubsection}{\numberline {5.6.3.1}getMethodDeclarations}{19}{subsubsection.5.6.3.1}
+\contentsline {subsubsection}{\numberline {5.6.3.2}visit}{19}{subsubsection.5.6.3.2}
+\contentsline {subsection}{\numberline {5.6.4}Member Data Documentation}{19}{subsection.5.6.4}
+\contentsline {subsubsection}{\numberline {5.6.4.1}methodDeclarations}{19}{subsubsection.5.6.4.1}
+\contentsline {section}{\numberline {5.7}edu.illinois.canistelCassabanana.visitors.NameBindingVisitor Class Reference}{19}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Detailed Description}{20}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}Constructor \& Destructor Documentation}{20}{subsection.5.7.2}
+\contentsline {subsubsection}{\numberline {5.7.2.1}NameBindingVisitor}{20}{subsubsection.5.7.2.1}
+\contentsline {subsection}{\numberline {5.7.3}Member Function Documentation}{20}{subsection.5.7.3}
+\contentsline {subsubsection}{\numberline {5.7.3.1}getIBindings}{20}{subsubsection.5.7.3.1}
+\contentsline {subsubsection}{\numberline {5.7.3.2}visit}{20}{subsubsection.5.7.3.2}
+\contentsline {subsubsection}{\numberline {5.7.3.3}visit}{20}{subsubsection.5.7.3.3}
+\contentsline {subsection}{\numberline {5.7.4}Member Data Documentation}{20}{subsection.5.7.4}
+\contentsline {subsubsection}{\numberline {5.7.4.1}iBindings}{20}{subsubsection.5.7.4.1}
+\contentsline {section}{\numberline {5.8}edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsAction Class Reference}{21}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Detailed Description}{21}{subsection.5.8.1}
+\contentsline {subsection}{\numberline {5.8.2}Member Function Documentation}{21}{subsection.5.8.2}
+\contentsline {subsubsection}{\numberline {5.8.2.1}dispose}{21}{subsubsection.5.8.2.1}
+\contentsline {subsubsection}{\numberline {5.8.2.2}init}{21}{subsubsection.5.8.2.2}
+\contentsline {subsubsection}{\numberline {5.8.2.3}launchRefactoring}{22}{subsubsection.5.8.2.3}
+\contentsline {subsubsection}{\numberline {5.8.2.4}refactorTreeSelection}{22}{subsubsection.5.8.2.4}
+\contentsline {subsubsection}{\numberline {5.8.2.5}run}{22}{subsubsection.5.8.2.5}
+\contentsline {subsubsection}{\numberline {5.8.2.6}selectionChanged}{22}{subsubsection.5.8.2.6}
+\contentsline {subsection}{\numberline {5.8.3}Member Data Documentation}{22}{subsection.5.8.3}
+\contentsline {subsubsection}{\numberline {5.8.3.1}unit}{22}{subsubsection.5.8.3.1}
+\contentsline {subsubsection}{\numberline {5.8.3.2}window}{22}{subsubsection.5.8.3.2}
+\contentsline {section}{\numberline {5.9}edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsConstants Class Reference}{23}{section.5.9}
 \contentsline {subsection}{\numberline {5.9.1}Detailed Description}{23}{subsection.5.9.1}
-\contentsline {subsection}{\numberline {5.9.2}Constructor \& Destructor Documentation}{24}{subsection.5.9.2}
-\contentsline {subsubsection}{\numberline {5.9.2.1}RemoveDuplicateCodeInConstructorsInputPage}{24}{subsubsection.5.9.2.1}
-\contentsline {subsection}{\numberline {5.9.3}Member Function Documentation}{24}{subsection.5.9.3}
-\contentsline {subsubsection}{\numberline {5.9.3.1}buildAccessModifierOptions}{24}{subsubsection.5.9.3.1}
-\contentsline {subsubsection}{\numberline {5.9.3.2}buildHelperMethodOptions}{24}{subsubsection.5.9.3.2}
-\contentsline {subsubsection}{\numberline {5.9.3.3}createControl}{24}{subsubsection.5.9.3.3}
-\contentsline {subsubsection}{\numberline {5.9.3.4}enableDisableHelperMethodTextBox}{25}{subsubsection.5.9.3.4}
-\contentsline {subsubsection}{\numberline {5.9.3.5}getHelperMethodCheckBoxListener}{25}{subsubsection.5.9.3.5}
-\contentsline {subsubsection}{\numberline {5.9.3.6}getRemoveDuplicateCodeInConstructorsRefactoring}{25}{subsubsection.5.9.3.6}
-\contentsline {subsubsection}{\numberline {5.9.3.7}handleInput}{25}{subsubsection.5.9.3.7}
-\contentsline {subsection}{\numberline {5.9.4}Member Data Documentation}{25}{subsection.5.9.4}
-\contentsline {subsubsection}{\numberline {5.9.4.1}accessModifierComboBox}{25}{subsubsection.5.9.4.1}
-\contentsline {subsubsection}{\numberline {5.9.4.2}constructors}{26}{subsubsection.5.9.4.2}
-\contentsline {subsubsection}{\numberline {5.9.4.3}helperMethodCheckBox}{26}{subsubsection.5.9.4.3}
-\contentsline {subsubsection}{\numberline {5.9.4.4}helperMethodTextBox}{26}{subsubsection.5.9.4.4}
-\contentsline {subsubsection}{\numberline {5.9.4.5}refactoring}{26}{subsubsection.5.9.4.5}
-\contentsline {section}{\numberline {5.10}edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsRefactoring Class Reference}{26}{section.5.10}
-\contentsline {subsection}{\numberline {5.10.1}Detailed Description}{28}{subsection.5.10.1}
-\contentsline {subsection}{\numberline {5.10.2}Constructor \& Destructor Documentation}{28}{subsection.5.10.2}
-\contentsline {subsubsection}{\numberline {5.10.2.1}RemoveDuplicateCodeInConstructorsRefactoring}{28}{subsubsection.5.10.2.1}
-\contentsline {subsubsection}{\numberline {5.10.2.2}RemoveDuplicateCodeInConstructorsRefactoring}{28}{subsubsection.5.10.2.2}
-\contentsline {subsubsection}{\numberline {5.10.2.3}RemoveDuplicateCodeInConstructorsRefactoring}{28}{subsubsection.5.10.2.3}
-\contentsline {subsection}{\numberline {5.10.3}Member Function Documentation}{29}{subsection.5.10.3}
-\contentsline {subsubsection}{\numberline {5.10.3.1}checkCompileErrors}{29}{subsubsection.5.10.3.1}
-\contentsline {subsubsection}{\numberline {5.10.3.2}checkFinalConditions}{29}{subsubsection.5.10.3.2}
-\contentsline {subsubsection}{\numberline {5.10.3.3}checkInitialConditions}{29}{subsubsection.5.10.3.3}
-\contentsline {subsubsection}{\numberline {5.10.3.4}checkNumberOfConstructors}{30}{subsubsection.5.10.3.4}
-\contentsline {subsubsection}{\numberline {5.10.3.5}constructorsOverlapAssignments}{30}{subsubsection.5.10.3.5}
-\contentsline {subsubsection}{\numberline {5.10.3.6}createChange}{30}{subsubsection.5.10.3.6}
-\contentsline {subsubsection}{\numberline {5.10.3.7}createConstructorBody}{31}{subsubsection.5.10.3.7}
-\contentsline {subsubsection}{\numberline {5.10.3.8}createDefaultValue}{31}{subsubsection.5.10.3.8}
-\contentsline {subsubsection}{\numberline {5.10.3.9}createMasterConstructor}{31}{subsubsection.5.10.3.9}
-\contentsline {subsubsection}{\numberline {5.10.3.10}createMasterConstructorCall}{32}{subsubsection.5.10.3.10}
-\contentsline {subsubsection}{\numberline {5.10.3.11}getConstructorContainingAllAssignedFields}{32}{subsubsection.5.10.3.11}
-\contentsline {subsubsection}{\numberline {5.10.3.12}getConstructors}{32}{subsubsection.5.10.3.12}
-\contentsline {subsubsection}{\numberline {5.10.3.13}getFieldAssignments}{32}{subsubsection.5.10.3.13}
-\contentsline {subsubsection}{\numberline {5.10.3.14}getFieldAssignmentsInConstructors}{33}{subsubsection.5.10.3.14}
-\contentsline {subsubsection}{\numberline {5.10.3.15}getFieldsAssignedInAnyConstructor}{33}{subsubsection.5.10.3.15}
-\contentsline {subsubsection}{\numberline {5.10.3.16}getName}{33}{subsubsection.5.10.3.16}
-\contentsline {subsubsection}{\numberline {5.10.3.17}initializeConstructors}{34}{subsubsection.5.10.3.17}
-\contentsline {subsubsection}{\numberline {5.10.3.18}isEmptyEdit}{34}{subsubsection.5.10.3.18}
-\contentsline {subsubsection}{\numberline {5.10.3.19}otherConstructorsCallConstructors}{34}{subsubsection.5.10.3.19}
-\contentsline {subsubsection}{\numberline {5.10.3.20}removeFinalFieldAssignments}{34}{subsubsection.5.10.3.20}
-\contentsline {subsubsection}{\numberline {5.10.3.21}rewriteAST}{35}{subsubsection.5.10.3.21}
-\contentsline {subsubsection}{\numberline {5.10.3.22}setAccessModifier}{35}{subsubsection.5.10.3.22}
-\contentsline {subsubsection}{\numberline {5.10.3.23}setHelperFunctionName}{35}{subsubsection.5.10.3.23}
-\contentsline {subsubsection}{\numberline {5.10.3.24}setUseHelperFunction}{35}{subsubsection.5.10.3.24}
-\contentsline {subsection}{\numberline {5.10.4}Member Data Documentation}{35}{subsection.5.10.4}
-\contentsline {subsubsection}{\numberline {5.10.4.1}accessModifier}{35}{subsubsection.5.10.4.1}
-\contentsline {subsubsection}{\numberline {5.10.4.2}ast}{35}{subsubsection.5.10.4.2}
-\contentsline {subsubsection}{\numberline {5.10.4.3}changes}{35}{subsubsection.5.10.4.3}
-\contentsline {subsubsection}{\numberline {5.10.4.4}compilationUnit}{36}{subsubsection.5.10.4.4}
-\contentsline {subsubsection}{\numberline {5.10.4.5}constructorDeclarations}{36}{subsubsection.5.10.4.5}
-\contentsline {subsubsection}{\numberline {5.10.4.6}constructors}{36}{subsubsection.5.10.4.6}
-\contentsline {subsubsection}{\numberline {5.10.4.7}fieldsInConstructorAssignments}{36}{subsubsection.5.10.4.7}
-\contentsline {subsubsection}{\numberline {5.10.4.8}helperFunctionName}{36}{subsubsection.5.10.4.8}
-\contentsline {subsubsection}{\numberline {5.10.4.9}parent}{36}{subsubsection.5.10.4.9}
-\contentsline {subsubsection}{\numberline {5.10.4.10}useHelperFunction}{36}{subsubsection.5.10.4.10}
-\contentsline {section}{\numberline {5.11}edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsWizard Class Reference}{37}{section.5.11}
-\contentsline {subsection}{\numberline {5.11.1}Detailed Description}{37}{subsection.5.11.1}
-\contentsline {subsection}{\numberline {5.11.2}Constructor \& Destructor Documentation}{37}{subsection.5.11.2}
-\contentsline {subsubsection}{\numberline {5.11.2.1}RemoveDuplicateCodeInConstructorsWizard}{37}{subsubsection.5.11.2.1}
-\contentsline {subsection}{\numberline {5.11.3}Member Function Documentation}{38}{subsection.5.11.3}
-\contentsline {subsubsection}{\numberline {5.11.3.1}addUserInputPages}{38}{subsubsection.5.11.3.1}
-\contentsline {subsection}{\numberline {5.11.4}Member Data Documentation}{38}{subsection.5.11.4}
-\contentsline {subsubsection}{\numberline {5.11.4.1}constructors}{38}{subsubsection.5.11.4.1}
-\contentsline {section}{\numberline {5.12}edu.illinois.canistelCassabanana.visitors.TypeDeclarationVisitor Class Reference}{38}{section.5.12}
-\contentsline {subsection}{\numberline {5.12.1}Detailed Description}{39}{subsection.5.12.1}
-\contentsline {subsection}{\numberline {5.12.2}Constructor \& Destructor Documentation}{39}{subsection.5.12.2}
-\contentsline {subsubsection}{\numberline {5.12.2.1}TypeDeclarationVisitor}{39}{subsubsection.5.12.2.1}
-\contentsline {subsection}{\numberline {5.12.3}Member Function Documentation}{39}{subsection.5.12.3}
-\contentsline {subsubsection}{\numberline {5.12.3.1}getTypes}{39}{subsubsection.5.12.3.1}
-\contentsline {subsubsection}{\numberline {5.12.3.2}visit}{39}{subsubsection.5.12.3.2}
-\contentsline {subsection}{\numberline {5.12.4}Member Data Documentation}{39}{subsection.5.12.4}
-\contentsline {subsubsection}{\numberline {5.12.4.1}types}{39}{subsubsection.5.12.4.1}
-\contentsline {section}{\numberline {5.13}edu.illinois.canistelCassabanana.utility.Utility Class Reference}{40}{section.5.13}
-\contentsline {subsection}{\numberline {5.13.1}Detailed Description}{40}{subsection.5.13.1}
-\contentsline {subsection}{\numberline {5.13.2}Member Function Documentation}{40}{subsection.5.13.2}
-\contentsline {subsubsection}{\numberline {5.13.2.1}fullyQualifiedName}{40}{subsubsection.5.13.2.1}
-\contentsline {subsubsection}{\numberline {5.13.2.2}getConstructors}{40}{subsubsection.5.13.2.2}
-\contentsline {subsubsection}{\numberline {5.13.2.3}getPairs}{41}{subsubsection.5.13.2.3}
-\contentsline {subsubsection}{\numberline {5.13.2.4}getParent}{41}{subsubsection.5.13.2.4}
-\contentsline {subsubsection}{\numberline {5.13.2.5}lookupIType}{41}{subsubsection.5.13.2.5}
-\contentsline {chapter}{\numberline {6}File Documentation}{43}{chapter.6}
-\contentsline {section}{\numberline {6.1}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/Activator.java File Reference}{43}{section.6.1}
-\contentsline {section}{\numberline {6.2}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsAction.java File Reference}{43}{section.6.2}
-\contentsline {section}{\numberline {6.3}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsConstants.java File Reference}{44}{section.6.3}
-\contentsline {section}{\numberline {6.4}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsDescriptor.java File Reference}{44}{section.6.4}
-\contentsline {section}{\numberline {6.5}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsInputPage.java File Reference}{44}{section.6.5}
-\contentsline {section}{\numberline {6.6}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsRefactoring.java File Reference}{45}{section.6.6}
-\contentsline {section}{\numberline {6.7}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsWizard.java File Reference}{45}{section.6.7}
-\contentsline {section}{\numberline {6.8}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/utility/Utility.java File Reference}{45}{section.6.8}
-\contentsline {section}{\numberline {6.9}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/AssignmentExpressionVisitor.java File Reference}{46}{section.6.9}
-\contentsline {section}{\numberline {6.10}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/ConstructorDeclarationVisitor.java File Reference}{46}{section.6.10}
-\contentsline {section}{\numberline {6.11}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/ConstructorInvocationVisitor.java File Reference}{46}{section.6.11}
-\contentsline {section}{\numberline {6.12}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/FieldVariableVisitor.java File Reference}{47}{section.6.12}
-\contentsline {section}{\numberline {6.13}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/TypeDeclarationVisitor.java File Reference}{47}{section.6.13}
+\contentsline {subsection}{\numberline {5.9.2}Member Data Documentation}{24}{subsection.5.9.2}
+\contentsline {subsubsection}{\numberline {5.9.2.1}ASSIGNMENT\_\discretionary {-}{}{}DEPENDENCY\_\discretionary {-}{}{}MESSAGE}{24}{subsubsection.5.9.2.1}
+\contentsline {subsubsection}{\numberline {5.9.2.2}CHECKING\_\discretionary {-}{}{}PRECONDITIONS\_\discretionary {-}{}{}MESSAGE}{24}{subsubsection.5.9.2.2}
+\contentsline {subsubsection}{\numberline {5.9.2.3}ERROR\_\discretionary {-}{}{}REFACTORING\_\discretionary {-}{}{}MESSAGE}{24}{subsubsection.5.9.2.3}
+\contentsline {subsubsection}{\numberline {5.9.2.4}HELPER\_\discretionary {-}{}{}FUNCTION\_\discretionary {-}{}{}BAD\_\discretionary {-}{}{}NAME\_\discretionary {-}{}{}MESSAGE}{24}{subsubsection.5.9.2.4}
+\contentsline {subsubsection}{\numberline {5.9.2.5}HELPER\_\discretionary {-}{}{}FUNCTION\_\discretionary {-}{}{}EXISTING\_\discretionary {-}{}{}NAME\_\discretionary {-}{}{}MESSAGE}{24}{subsubsection.5.9.2.5}
+\contentsline {subsubsection}{\numberline {5.9.2.6}NO\_\discretionary {-}{}{}CONSTRUCTORS\_\discretionary {-}{}{}MESSAGE}{24}{subsubsection.5.9.2.6}
+\contentsline {subsubsection}{\numberline {5.9.2.7}NO\_\discretionary {-}{}{}DUPLICATE\_\discretionary {-}{}{}CODE\_\discretionary {-}{}{}MESSAGE}{24}{subsubsection.5.9.2.7}
+\contentsline {subsubsection}{\numberline {5.9.2.8}NULL\_\discretionary {-}{}{}CONSTRUCTORS\_\discretionary {-}{}{}MESSAGE}{25}{subsubsection.5.9.2.8}
+\contentsline {subsubsection}{\numberline {5.9.2.9}ONE\_\discretionary {-}{}{}CONSTRUCTOR\_\discretionary {-}{}{}MESSAGE}{25}{subsubsection.5.9.2.9}
+\contentsline {subsubsection}{\numberline {5.9.2.10}REFACTORING\_\discretionary {-}{}{}DESCRIPTION}{25}{subsubsection.5.9.2.10}
+\contentsline {subsubsection}{\numberline {5.9.2.11}REFACTORING\_\discretionary {-}{}{}ID}{25}{subsubsection.5.9.2.11}
+\contentsline {subsubsection}{\numberline {5.9.2.12}REFACTORING\_\discretionary {-}{}{}NAME}{25}{subsubsection.5.9.2.12}
+\contentsline {subsubsection}{\numberline {5.9.2.13}UNABLE\_\discretionary {-}{}{}TO\_\discretionary {-}{}{}REFACTOR}{25}{subsubsection.5.9.2.13}
+\contentsline {subsubsection}{\numberline {5.9.2.14}UNEXPECTED\_\discretionary {-}{}{}ERROR\_\discretionary {-}{}{}MESSAGE}{25}{subsubsection.5.9.2.14}
+\contentsline {section}{\numberline {5.10}edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsDescriptor Class Reference}{26}{section.5.10}
+\contentsline {subsection}{\numberline {5.10.1}Detailed Description}{26}{subsection.5.10.1}
+\contentsline {subsection}{\numberline {5.10.2}Constructor \& Destructor Documentation}{26}{subsection.5.10.2}
+\contentsline {subsubsection}{\numberline {5.10.2.1}RemoveDuplicateCodeInConstructorsDescriptor}{26}{subsubsection.5.10.2.1}
+\contentsline {subsection}{\numberline {5.10.3}Member Function Documentation}{27}{subsection.5.10.3}
+\contentsline {subsubsection}{\numberline {5.10.3.1}createRefactoring}{27}{subsubsection.5.10.3.1}
+\contentsline {subsubsection}{\numberline {5.10.3.2}getArguments}{27}{subsubsection.5.10.3.2}
+\contentsline {subsection}{\numberline {5.10.4}Member Data Documentation}{27}{subsection.5.10.4}
+\contentsline {subsubsection}{\numberline {5.10.4.1}arguments}{27}{subsubsection.5.10.4.1}
+\contentsline {subsubsection}{\numberline {5.10.4.2}REFACTORING\_\discretionary {-}{}{}ID}{27}{subsubsection.5.10.4.2}
+\contentsline {section}{\numberline {5.11}edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsInputPage Class Reference}{27}{section.5.11}
+\contentsline {subsection}{\numberline {5.11.1}Detailed Description}{28}{subsection.5.11.1}
+\contentsline {subsection}{\numberline {5.11.2}Constructor \& Destructor Documentation}{28}{subsection.5.11.2}
+\contentsline {subsubsection}{\numberline {5.11.2.1}RemoveDuplicateCodeInConstructorsInputPage}{28}{subsubsection.5.11.2.1}
+\contentsline {subsection}{\numberline {5.11.3}Member Function Documentation}{29}{subsection.5.11.3}
+\contentsline {subsubsection}{\numberline {5.11.3.1}buildAccessModifierOptions}{29}{subsubsection.5.11.3.1}
+\contentsline {subsubsection}{\numberline {5.11.3.2}buildHelperMethodOptions}{29}{subsubsection.5.11.3.2}
+\contentsline {subsubsection}{\numberline {5.11.3.3}createControl}{29}{subsubsection.5.11.3.3}
+\contentsline {subsubsection}{\numberline {5.11.3.4}enableDisableHelperMethodTextBox}{29}{subsubsection.5.11.3.4}
+\contentsline {subsubsection}{\numberline {5.11.3.5}getHelperMethodCheckBoxListener}{30}{subsubsection.5.11.3.5}
+\contentsline {subsubsection}{\numberline {5.11.3.6}getModifyListener}{30}{subsubsection.5.11.3.6}
+\contentsline {subsubsection}{\numberline {5.11.3.7}getRemoveDuplicateCodeInConstructorsRefactoring}{30}{subsubsection.5.11.3.7}
+\contentsline {subsubsection}{\numberline {5.11.3.8}handleInput}{30}{subsubsection.5.11.3.8}
+\contentsline {subsection}{\numberline {5.11.4}Member Data Documentation}{30}{subsection.5.11.4}
+\contentsline {subsubsection}{\numberline {5.11.4.1}accessModifierComboBox}{30}{subsubsection.5.11.4.1}
+\contentsline {subsubsection}{\numberline {5.11.4.2}constructors}{31}{subsubsection.5.11.4.2}
+\contentsline {subsubsection}{\numberline {5.11.4.3}helperMethodCheckBox}{31}{subsubsection.5.11.4.3}
+\contentsline {subsubsection}{\numberline {5.11.4.4}helperMethodTextBox}{31}{subsubsection.5.11.4.4}
+\contentsline {subsubsection}{\numberline {5.11.4.5}refactoring}{31}{subsubsection.5.11.4.5}
+\contentsline {section}{\numberline {5.12}edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsRefactoring Class Reference}{31}{section.5.12}
+\contentsline {subsection}{\numberline {5.12.1}Detailed Description}{33}{subsection.5.12.1}
+\contentsline {subsection}{\numberline {5.12.2}Constructor \& Destructor Documentation}{33}{subsection.5.12.2}
+\contentsline {subsubsection}{\numberline {5.12.2.1}RemoveDuplicateCodeInConstructorsRefactoring}{33}{subsubsection.5.12.2.1}
+\contentsline {subsubsection}{\numberline {5.12.2.2}RemoveDuplicateCodeInConstructorsRefactoring}{34}{subsubsection.5.12.2.2}
+\contentsline {subsubsection}{\numberline {5.12.2.3}RemoveDuplicateCodeInConstructorsRefactoring}{34}{subsubsection.5.12.2.3}
+\contentsline {subsubsection}{\numberline {5.12.2.4}RemoveDuplicateCodeInConstructorsRefactoring}{34}{subsubsection.5.12.2.4}
+\contentsline {subsection}{\numberline {5.12.3}Member Function Documentation}{34}{subsection.5.12.3}
+\contentsline {subsubsection}{\numberline {5.12.3.1}buildFieldsAssignedInOrder}{34}{subsubsection.5.12.3.1}
+\contentsline {subsubsection}{\numberline {5.12.3.2}checkCompileErrors}{34}{subsubsection.5.12.3.2}
+\contentsline {subsubsection}{\numberline {5.12.3.3}checkFinalConditions}{35}{subsubsection.5.12.3.3}
+\contentsline {subsubsection}{\numberline {5.12.3.4}checkInitialConditions}{35}{subsubsection.5.12.3.4}
+\contentsline {subsubsection}{\numberline {5.12.3.5}checkNumberOfConstructors}{35}{subsubsection.5.12.3.5}
+\contentsline {subsubsection}{\numberline {5.12.3.6}commitChanges}{36}{subsubsection.5.12.3.6}
+\contentsline {subsubsection}{\numberline {5.12.3.7}constructorsOverlapAssignments}{36}{subsubsection.5.12.3.7}
+\contentsline {subsubsection}{\numberline {5.12.3.8}createChange}{36}{subsubsection.5.12.3.8}
+\contentsline {subsubsection}{\numberline {5.12.3.9}createConstructorBody}{37}{subsubsection.5.12.3.9}
+\contentsline {subsubsection}{\numberline {5.12.3.10}createMasterConstructor}{37}{subsubsection.5.12.3.10}
+\contentsline {subsubsection}{\numberline {5.12.3.11}createMasterConstructorCall}{38}{subsubsection.5.12.3.11}
+\contentsline {subsubsection}{\numberline {5.12.3.12}getConstructorContainingAllAssignedFields}{38}{subsubsection.5.12.3.12}
+\contentsline {subsubsection}{\numberline {5.12.3.13}getFieldAssignments}{38}{subsubsection.5.12.3.13}
+\contentsline {subsubsection}{\numberline {5.12.3.14}getFieldsAssignedInAnyConstructor}{39}{subsubsection.5.12.3.14}
+\contentsline {subsubsection}{\numberline {5.12.3.15}getFieldsFromParameterList}{39}{subsubsection.5.12.3.15}
+\contentsline {subsubsection}{\numberline {5.12.3.16}getName}{39}{subsubsection.5.12.3.16}
+\contentsline {subsubsection}{\numberline {5.12.3.17}initializeConstructors}{39}{subsubsection.5.12.3.17}
+\contentsline {subsubsection}{\numberline {5.12.3.18}isDependency}{39}{subsubsection.5.12.3.18}
+\contentsline {subsubsection}{\numberline {5.12.3.19}isEmptyEdit}{40}{subsubsection.5.12.3.19}
+\contentsline {subsubsection}{\numberline {5.12.3.20}mergeInvalidNameError}{40}{subsubsection.5.12.3.20}
+\contentsline {subsubsection}{\numberline {5.12.3.21}otherConstructorsCallConstructors}{40}{subsubsection.5.12.3.21}
+\contentsline {subsubsection}{\numberline {5.12.3.22}removeFinalFieldAssignments}{41}{subsubsection.5.12.3.22}
+\contentsline {subsubsection}{\numberline {5.12.3.23}rewriteAST}{41}{subsubsection.5.12.3.23}
+\contentsline {subsubsection}{\numberline {5.12.3.24}setAccessModifier}{41}{subsubsection.5.12.3.24}
+\contentsline {subsubsection}{\numberline {5.12.3.25}setHelperFunctionName}{41}{subsubsection.5.12.3.25}
+\contentsline {subsubsection}{\numberline {5.12.3.26}setUseHelperFunction}{41}{subsubsection.5.12.3.26}
+\contentsline {subsection}{\numberline {5.12.4}Member Data Documentation}{41}{subsection.5.12.4}
+\contentsline {subsubsection}{\numberline {5.12.4.1}accessModifier}{41}{subsubsection.5.12.4.1}
+\contentsline {subsubsection}{\numberline {5.12.4.2}ast}{42}{subsubsection.5.12.4.2}
+\contentsline {subsubsection}{\numberline {5.12.4.3}changes}{42}{subsubsection.5.12.4.3}
+\contentsline {subsubsection}{\numberline {5.12.4.4}compilationUnit}{42}{subsubsection.5.12.4.4}
+\contentsline {subsubsection}{\numberline {5.12.4.5}constructorDeclarations}{42}{subsubsection.5.12.4.5}
+\contentsline {subsubsection}{\numberline {5.12.4.6}constructors}{42}{subsubsection.5.12.4.6}
+\contentsline {subsubsection}{\numberline {5.12.4.7}fieldsInConstructorAssignments}{42}{subsubsection.5.12.4.7}
+\contentsline {subsubsection}{\numberline {5.12.4.8}helperFunctionName}{42}{subsubsection.5.12.4.8}
+\contentsline {subsubsection}{\numberline {5.12.4.9}parameterFieldsInConstructorAssignments}{43}{subsubsection.5.12.4.9}
+\contentsline {subsubsection}{\numberline {5.12.4.10}parent}{43}{subsubsection.5.12.4.10}
+\contentsline {subsubsection}{\numberline {5.12.4.11}useHelperFunction}{43}{subsubsection.5.12.4.11}
+\contentsline {section}{\numberline {5.13}edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsWizard Class Reference}{43}{section.5.13}
+\contentsline {subsection}{\numberline {5.13.1}Detailed Description}{44}{subsection.5.13.1}
+\contentsline {subsection}{\numberline {5.13.2}Constructor \& Destructor Documentation}{44}{subsection.5.13.2}
+\contentsline {subsubsection}{\numberline {5.13.2.1}RemoveDuplicateCodeInConstructorsWizard}{44}{subsubsection.5.13.2.1}
+\contentsline {subsection}{\numberline {5.13.3}Member Function Documentation}{44}{subsection.5.13.3}
+\contentsline {subsubsection}{\numberline {5.13.3.1}addUserInputPages}{44}{subsubsection.5.13.3.1}
+\contentsline {subsection}{\numberline {5.13.4}Member Data Documentation}{44}{subsection.5.13.4}
+\contentsline {subsubsection}{\numberline {5.13.4.1}constructors}{44}{subsubsection.5.13.4.1}
+\contentsline {section}{\numberline {5.14}edu.illinois.canistelCassabanana.visitors.TypeDeclarationVisitor Class Reference}{45}{section.5.14}
+\contentsline {subsection}{\numberline {5.14.1}Detailed Description}{45}{subsection.5.14.1}
+\contentsline {subsection}{\numberline {5.14.2}Constructor \& Destructor Documentation}{45}{subsection.5.14.2}
+\contentsline {subsubsection}{\numberline {5.14.2.1}TypeDeclarationVisitor}{45}{subsubsection.5.14.2.1}
+\contentsline {subsection}{\numberline {5.14.3}Member Function Documentation}{45}{subsection.5.14.3}
+\contentsline {subsubsection}{\numberline {5.14.3.1}getTypes}{45}{subsubsection.5.14.3.1}
+\contentsline {subsubsection}{\numberline {5.14.3.2}visit}{46}{subsubsection.5.14.3.2}
+\contentsline {subsection}{\numberline {5.14.4}Member Data Documentation}{46}{subsection.5.14.4}
+\contentsline {subsubsection}{\numberline {5.14.4.1}types}{46}{subsubsection.5.14.4.1}
+\contentsline {section}{\numberline {5.15}edu.illinois.canistelCassabanana.utility.Utility Class Reference}{46}{section.5.15}
+\contentsline {subsection}{\numberline {5.15.1}Detailed Description}{46}{subsection.5.15.1}
+\contentsline {subsection}{\numberline {5.15.2}Member Function Documentation}{46}{subsection.5.15.2}
+\contentsline {subsubsection}{\numberline {5.15.2.1}createDefaultValue}{46}{subsubsection.5.15.2.1}
+\contentsline {subsubsection}{\numberline {5.15.2.2}fullyQualifiedName}{47}{subsubsection.5.15.2.2}
+\contentsline {subsubsection}{\numberline {5.15.2.3}getConstructors}{47}{subsubsection.5.15.2.3}
+\contentsline {subsubsection}{\numberline {5.15.2.4}getConstructors}{47}{subsubsection.5.15.2.4}
+\contentsline {subsubsection}{\numberline {5.15.2.5}getFieldAssignmentsInConstructors}{48}{subsubsection.5.15.2.5}
+\contentsline {subsubsection}{\numberline {5.15.2.6}getMethods}{48}{subsubsection.5.15.2.6}
+\contentsline {subsubsection}{\numberline {5.15.2.7}getPairs}{48}{subsubsection.5.15.2.7}
+\contentsline {subsubsection}{\numberline {5.15.2.8}getParent}{49}{subsubsection.5.15.2.8}
+\contentsline {subsubsection}{\numberline {5.15.2.9}lookupIType}{49}{subsubsection.5.15.2.9}
+\contentsline {chapter}{\numberline {6}File Documentation}{51}{chapter.6}
+\contentsline {section}{\numberline {6.1}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/Activator.java File Reference}{51}{section.6.1}
+\contentsline {section}{\numberline {6.2}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsAction.java File Reference}{51}{section.6.2}
+\contentsline {section}{\numberline {6.3}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsConstants.java File Reference}{52}{section.6.3}
+\contentsline {section}{\numberline {6.4}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsDescriptor.java File Reference}{52}{section.6.4}
+\contentsline {section}{\numberline {6.5}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsInputPage.java File Reference}{52}{section.6.5}
+\contentsline {section}{\numberline {6.6}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsRefactoring.java File Reference}{53}{section.6.6}
+\contentsline {section}{\numberline {6.7}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsWizard.java File Reference}{53}{section.6.7}
+\contentsline {section}{\numberline {6.8}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/utility/Utility.java File Reference}{53}{section.6.8}
+\contentsline {section}{\numberline {6.9}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/AssignmentExpressionVisitor.java File Reference}{54}{section.6.9}
+\contentsline {section}{\numberline {6.10}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/ConstructorDeclarationVisitor.java File Reference}{54}{section.6.10}
+\contentsline {section}{\numberline {6.11}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/ConstructorInvocationVisitor.java File Reference}{54}{section.6.11}
+\contentsline {section}{\numberline {6.12}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/FieldVariableVisitor.java File Reference}{55}{section.6.12}
+\contentsline {section}{\numberline {6.13}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/MethodDeclarationVisitor.java File Reference}{55}{section.6.13}
+\contentsline {section}{\numberline {6.14}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/NameBindingVisitor.java File Reference}{55}{section.6.14}
+\contentsline {section}{\numberline {6.15}/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/TypeDeclarationVisitor.java File Reference}{56}{section.6.15}

@@ -1,91 +1,107 @@
 \begin{theindex}
 
   \item {/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/Activator.java}, 
-		\hyperpage{43}
+		\hyperpage{51}
   \item {/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsAction.java}, 
-		\hyperpage{43}
+		\hyperpage{51}
   \item {/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsConstants.java}, 
-		\hyperpage{44}
+		\hyperpage{52}
   \item {/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsDescriptor.java}, 
-		\hyperpage{44}
+		\hyperpage{52}
   \item {/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsInputPage.java}, 
-		\hyperpage{44}
+		\hyperpage{52}
   \item {/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsRefactoring.java}, 
-		\hyperpage{45}
+		\hyperpage{53}
   \item {/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/RemoveDuplicateCodeInConstructorsWizard.java}, 
-		\hyperpage{45}
+		\hyperpage{53}
   \item {/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/utility/Utility.java}, 
-		\hyperpage{45}
+		\hyperpage{53}
   \item {/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/AssignmentExpressionVisitor.java}, 
-		\hyperpage{46}
+		\hyperpage{54}
   \item {/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/ConstructorDeclarationVisitor.java}, 
-		\hyperpage{46}
+		\hyperpage{54}
   \item {/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/ConstructorInvocationVisitor.java}, 
-		\hyperpage{46}
+		\hyperpage{54}
   \item {/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/FieldVariableVisitor.java}, 
-		\hyperpage{47}
+		\hyperpage{55}
+  \item {/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/MethodDeclarationVisitor.java}, 
+		\hyperpage{55}
+  \item {/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/NameBindingVisitor.java}, 
+		\hyperpage{55}
   \item {/media/Documents/Documents/Dropbox/16 -\/ College -\/ Senior/CS 427 -\/ Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/TypeDeclarationVisitor.java}, 
-		\hyperpage{47}
+		\hyperpage{56}
 
   \indexspace
 
   \item {accessModifier}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{35}
+		\hyperpage{41}
   \item {accessModifierComboBox}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}, 
-		\hyperpage{25}
+		\hyperpage{30}
   \item {Activator}
     \subitem {edu::illinois::canistelCassabanana::Activator}, 
 		\hyperpage{10}
   \item {addUserInputPages}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsWizard}, 
-		\hyperpage{38}
+		\hyperpage{44}
   \item {arguments}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsDescriptor}, 
-		\hyperpage{22}
+		\hyperpage{27}
+  \item {ASSIGNMENT\_\discretionary {-}{}{}DEPENDENCY\_\discretionary {-}{}{}MESSAGE}
+    \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsConstants}, 
+		\hyperpage{24}
   \item {AssignmentExpressionVisitor}
     \subitem {edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor}, 
 		\hyperpage{11}
   \item {ast}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{35}
+		\hyperpage{41}
 
   \indexspace
 
   \item {buildAccessModifierOptions}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}, 
-		\hyperpage{24}
+		\hyperpage{29}
+  \item {buildFieldsAssignedInOrder}
+    \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
+		\hyperpage{34}
   \item {buildHelperMethodOptions}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}, 
-		\hyperpage{24}
+		\hyperpage{29}
 
   \indexspace
 
   \item {changes}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{35}
+		\hyperpage{42}
   \item {checkCompileErrors}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{29}
+		\hyperpage{34}
+  \item {checkFieldAssignsParameter}
+    \subitem {edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}, 
+		\hyperpage{16}
   \item {checkFinalConditions}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{29}
+		\hyperpage{35}
   \item {CHECKING\_\discretionary {-}{}{}PRECONDITIONS\_\discretionary {-}{}{}MESSAGE}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsConstants}, 
-		\hyperpage{20}
+		\hyperpage{24}
   \item {checkInitialConditions}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{29}
+		\hyperpage{35}
   \item {checkNumberOfConstructors}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{30}
-  \item {compilationUnit}
-    \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
 		\hyperpage{35}
-  \item {constructorDeclarations}
+  \item {commitChanges}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
 		\hyperpage{36}
+  \item {compilationUnit}
+    \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
+		\hyperpage{42}
+  \item {constructorDeclarations}
+    \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
+		\hyperpage{42}
     \subitem {edu::illinois::canistelCassabanana::visitors::ConstructorDeclarationVisitor}, 
 		\hyperpage{13}
   \item {ConstructorDeclarationVisitor}
@@ -99,41 +115,41 @@
 		\hyperpage{14}
   \item {constructors}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}, 
-		\hyperpage{25}
+		\hyperpage{30}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{36}
+		\hyperpage{42}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsWizard}, 
-		\hyperpage{38}
+		\hyperpage{44}
   \item {constructorsOverlapAssignments}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{30}
+		\hyperpage{36}
   \item {createChange}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{30}
+		\hyperpage{36}
   \item {createConstructorBody}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{31}
+		\hyperpage{37}
   \item {createControl}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}, 
-		\hyperpage{24}
+		\hyperpage{29}
   \item {createDefaultValue}
-    \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{31}
+    \subitem {edu::illinois::canistelCassabanana::utility::Utility}, 
+		\hyperpage{46}
   \item {createMasterConstructor}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{31}
+		\hyperpage{37}
   \item {createMasterConstructorCall}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{31}
+		\hyperpage{37}
   \item {createRefactoring}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsDescriptor}, 
-		\hyperpage{22}
+		\hyperpage{27}
 
   \indexspace
 
   \item {dispose}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}, 
-		\hyperpage{17}
+		\hyperpage{21}
 
   \indexspace
 
@@ -150,111 +166,126 @@
     \subitem {start}, \hyperpage{10}
     \subitem {stop}, \hyperpage{10}
   \item {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}, 
-		\hyperpage{17}
-    \subitem {dispose}, \hyperpage{17}
-    \subitem {init}, \hyperpage{17}
-    \subitem {launchRefactoring}, \hyperpage{18}
-    \subitem {refactorTreeSelection}, \hyperpage{18}
-    \subitem {run}, \hyperpage{18}
-    \subitem {selectionChanged}, \hyperpage{18}
-    \subitem {unit}, \hyperpage{18}
-    \subitem {window}, \hyperpage{18}
+		\hyperpage{21}
+    \subitem {dispose}, \hyperpage{21}
+    \subitem {init}, \hyperpage{21}
+    \subitem {launchRefactoring}, \hyperpage{21}
+    \subitem {refactorTreeSelection}, \hyperpage{22}
+    \subitem {run}, \hyperpage{22}
+    \subitem {selectionChanged}, \hyperpage{22}
+    \subitem {unit}, \hyperpage{22}
+    \subitem {window}, \hyperpage{22}
   \item {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsConstants}, 
-		\hyperpage{19}
-    \subitem {CHECKING\_\discretionary {-}{}{}PRECONDITIONS\_\discretionary {-}{}{}MESSAGE}, 
-		\hyperpage{20}
-    \subitem {NO\_\discretionary {-}{}{}CONSTRUCTORS\_\discretionary {-}{}{}MESSAGE}, 
-		\hyperpage{20}
-    \subitem {NO\_\discretionary {-}{}{}DUPLICATE\_\discretionary {-}{}{}CODE\_\discretionary {-}{}{}MESSAGE}, 
-		\hyperpage{20}
-    \subitem {NULL\_\discretionary {-}{}{}CONSTRUCTORS\_\discretionary {-}{}{}MESSAGE}, 
-		\hyperpage{20}
-    \subitem {ONE\_\discretionary {-}{}{}CONSTRUCTOR\_\discretionary {-}{}{}MESSAGE}, 
-		\hyperpage{20}
-    \subitem {REFACTORING\_\discretionary {-}{}{}DESCRIPTION}, 
-		\hyperpage{20}
-    \subitem {REFACTORING\_\discretionary {-}{}{}ID}, \hyperpage{20}
-    \subitem {REFACTORING\_\discretionary {-}{}{}NAME}, \hyperpage{20}
-    \subitem {UNABLE\_\discretionary {-}{}{}TO\_\discretionary {-}{}{}REFACTOR}, 
-		\hyperpage{21}
-    \subitem {UNEXPECTED\_\discretionary {-}{}{}ERROR\_\discretionary {-}{}{}MESSAGE}, 
-		\hyperpage{21}
-  \item {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsDescriptor}, 
-		\hyperpage{21}
-    \subitem {arguments}, \hyperpage{22}
-    \subitem {createRefactoring}, \hyperpage{22}
-    \subitem {getArguments}, \hyperpage{22}
-    \subitem {REFACTORING\_\discretionary {-}{}{}ID}, \hyperpage{22}
-    \subitem {RemoveDuplicateCodeInConstructorsDescriptor}, 
-		\hyperpage{22}
-  \item {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}, 
 		\hyperpage{23}
-    \subitem {accessModifierComboBox}, \hyperpage{25}
-    \subitem {buildAccessModifierOptions}, \hyperpage{24}
-    \subitem {buildHelperMethodOptions}, \hyperpage{24}
-    \subitem {constructors}, \hyperpage{25}
-    \subitem {createControl}, \hyperpage{24}
-    \subitem {enableDisableHelperMethodTextBox}, \hyperpage{25}
-    \subitem {getHelperMethodCheckBoxListener}, \hyperpage{25}
-    \subitem {getRemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{25}
-    \subitem {handleInput}, \hyperpage{25}
-    \subitem {helperMethodCheckBox}, \hyperpage{26}
-    \subitem {helperMethodTextBox}, \hyperpage{26}
-    \subitem {refactoring}, \hyperpage{26}
-    \subitem {RemoveDuplicateCodeInConstructorsInputPage}, 
+    \subitem {ASSIGNMENT\_\discretionary {-}{}{}DEPENDENCY\_\discretionary {-}{}{}MESSAGE}, 
 		\hyperpage{24}
-  \item {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
+    \subitem {CHECKING\_\discretionary {-}{}{}PRECONDITIONS\_\discretionary {-}{}{}MESSAGE}, 
+		\hyperpage{24}
+    \subitem {ERROR\_\discretionary {-}{}{}REFACTORING\_\discretionary {-}{}{}MESSAGE}, 
+		\hyperpage{24}
+    \subitem {HELPER\_\discretionary {-}{}{}FUNCTION\_\discretionary {-}{}{}BAD\_\discretionary {-}{}{}NAME\_\discretionary {-}{}{}MESSAGE}, 
+		\hyperpage{24}
+    \subitem {HELPER\_\discretionary {-}{}{}FUNCTION\_\discretionary {-}{}{}EXISTING\_\discretionary {-}{}{}NAME\_\discretionary {-}{}{}MESSAGE}, 
+		\hyperpage{24}
+    \subitem {NO\_\discretionary {-}{}{}CONSTRUCTORS\_\discretionary {-}{}{}MESSAGE}, 
+		\hyperpage{24}
+    \subitem {NO\_\discretionary {-}{}{}DUPLICATE\_\discretionary {-}{}{}CODE\_\discretionary {-}{}{}MESSAGE}, 
+		\hyperpage{24}
+    \subitem {NULL\_\discretionary {-}{}{}CONSTRUCTORS\_\discretionary {-}{}{}MESSAGE}, 
+		\hyperpage{24}
+    \subitem {ONE\_\discretionary {-}{}{}CONSTRUCTOR\_\discretionary {-}{}{}MESSAGE}, 
+		\hyperpage{25}
+    \subitem {REFACTORING\_\discretionary {-}{}{}DESCRIPTION}, 
+		\hyperpage{25}
+    \subitem {REFACTORING\_\discretionary {-}{}{}ID}, \hyperpage{25}
+    \subitem {REFACTORING\_\discretionary {-}{}{}NAME}, \hyperpage{25}
+    \subitem {UNABLE\_\discretionary {-}{}{}TO\_\discretionary {-}{}{}REFACTOR}, 
+		\hyperpage{25}
+    \subitem {UNEXPECTED\_\discretionary {-}{}{}ERROR\_\discretionary {-}{}{}MESSAGE}, 
+		\hyperpage{25}
+  \item {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsDescriptor}, 
 		\hyperpage{26}
-    \subitem {accessModifier}, \hyperpage{35}
-    \subitem {ast}, \hyperpage{35}
-    \subitem {changes}, \hyperpage{35}
-    \subitem {checkCompileErrors}, \hyperpage{29}
-    \subitem {checkFinalConditions}, \hyperpage{29}
-    \subitem {checkInitialConditions}, \hyperpage{29}
-    \subitem {checkNumberOfConstructors}, \hyperpage{30}
-    \subitem {compilationUnit}, \hyperpage{35}
-    \subitem {constructorDeclarations}, \hyperpage{36}
-    \subitem {constructors}, \hyperpage{36}
-    \subitem {constructorsOverlapAssignments}, \hyperpage{30}
-    \subitem {createChange}, \hyperpage{30}
-    \subitem {createConstructorBody}, \hyperpage{31}
-    \subitem {createDefaultValue}, \hyperpage{31}
-    \subitem {createMasterConstructor}, \hyperpage{31}
-    \subitem {createMasterConstructorCall}, \hyperpage{31}
-    \subitem {fieldsInConstructorAssignments}, \hyperpage{36}
-    \subitem {getConstructorContainingAllAssignedFields}, 
-		\hyperpage{32}
-    \subitem {getConstructors}, \hyperpage{32}
-    \subitem {getFieldAssignments}, \hyperpage{32}
-    \subitem {getFieldAssignmentsInConstructors}, \hyperpage{33}
-    \subitem {getFieldsAssignedInAnyConstructor}, \hyperpage{33}
-    \subitem {getName}, \hyperpage{33}
-    \subitem {helperFunctionName}, \hyperpage{36}
-    \subitem {initializeConstructors}, \hyperpage{34}
-    \subitem {isEmptyEdit}, \hyperpage{34}
-    \subitem {otherConstructorsCallConstructors}, \hyperpage{34}
-    \subitem {parent}, \hyperpage{36}
-    \subitem {RemoveDuplicateCodeInConstructorsRefactoring}, 
+    \subitem {arguments}, \hyperpage{27}
+    \subitem {createRefactoring}, \hyperpage{27}
+    \subitem {getArguments}, \hyperpage{27}
+    \subitem {REFACTORING\_\discretionary {-}{}{}ID}, \hyperpage{27}
+    \subitem {RemoveDuplicateCodeInConstructorsDescriptor}, 
+		\hyperpage{26}
+  \item {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}, 
+		\hyperpage{27}
+    \subitem {accessModifierComboBox}, \hyperpage{30}
+    \subitem {buildAccessModifierOptions}, \hyperpage{29}
+    \subitem {buildHelperMethodOptions}, \hyperpage{29}
+    \subitem {constructors}, \hyperpage{30}
+    \subitem {createControl}, \hyperpage{29}
+    \subitem {enableDisableHelperMethodTextBox}, \hyperpage{29}
+    \subitem {getHelperMethodCheckBoxListener}, \hyperpage{29}
+    \subitem {getModifyListener}, \hyperpage{30}
+    \subitem {getRemoveDuplicateCodeInConstructorsRefactoring}, 
+		\hyperpage{30}
+    \subitem {handleInput}, \hyperpage{30}
+    \subitem {helperMethodCheckBox}, \hyperpage{31}
+    \subitem {helperMethodTextBox}, \hyperpage{31}
+    \subitem {refactoring}, \hyperpage{31}
+    \subitem {RemoveDuplicateCodeInConstructorsInputPage}, 
 		\hyperpage{28}
-    \subitem {removeFinalFieldAssignments}, \hyperpage{34}
-    \subitem {rewriteAST}, \hyperpage{34}
-    \subitem {setAccessModifier}, \hyperpage{35}
-    \subitem {setHelperFunctionName}, \hyperpage{35}
-    \subitem {setUseHelperFunction}, \hyperpage{35}
-    \subitem {useHelperFunction}, \hyperpage{36}
+  \item {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
+		\hyperpage{31}
+    \subitem {accessModifier}, \hyperpage{41}
+    \subitem {ast}, \hyperpage{41}
+    \subitem {buildFieldsAssignedInOrder}, \hyperpage{34}
+    \subitem {changes}, \hyperpage{42}
+    \subitem {checkCompileErrors}, \hyperpage{34}
+    \subitem {checkFinalConditions}, \hyperpage{35}
+    \subitem {checkInitialConditions}, \hyperpage{35}
+    \subitem {checkNumberOfConstructors}, \hyperpage{35}
+    \subitem {commitChanges}, \hyperpage{36}
+    \subitem {compilationUnit}, \hyperpage{42}
+    \subitem {constructorDeclarations}, \hyperpage{42}
+    \subitem {constructors}, \hyperpage{42}
+    \subitem {constructorsOverlapAssignments}, \hyperpage{36}
+    \subitem {createChange}, \hyperpage{36}
+    \subitem {createConstructorBody}, \hyperpage{37}
+    \subitem {createMasterConstructor}, \hyperpage{37}
+    \subitem {createMasterConstructorCall}, \hyperpage{37}
+    \subitem {fieldsInConstructorAssignments}, \hyperpage{42}
+    \subitem {getConstructorContainingAllAssignedFields}, 
+		\hyperpage{38}
+    \subitem {getFieldAssignments}, \hyperpage{38}
+    \subitem {getFieldsAssignedInAnyConstructor}, \hyperpage{38}
+    \subitem {getFieldsFromParameterList}, \hyperpage{39}
+    \subitem {getName}, \hyperpage{39}
+    \subitem {helperFunctionName}, \hyperpage{42}
+    \subitem {initializeConstructors}, \hyperpage{39}
+    \subitem {isDependency}, \hyperpage{39}
+    \subitem {isEmptyEdit}, \hyperpage{40}
+    \subitem {mergeInvalidNameError}, \hyperpage{40}
+    \subitem {otherConstructorsCallConstructors}, \hyperpage{40}
+    \subitem {parameterFieldsInConstructorAssignments}, \hyperpage{43}
+    \subitem {parent}, \hyperpage{43}
+    \subitem {RemoveDuplicateCodeInConstructorsRefactoring}, 
+		\hyperpage{33, 34}
+    \subitem {removeFinalFieldAssignments}, \hyperpage{40}
+    \subitem {rewriteAST}, \hyperpage{41}
+    \subitem {setAccessModifier}, \hyperpage{41}
+    \subitem {setHelperFunctionName}, \hyperpage{41}
+    \subitem {setUseHelperFunction}, \hyperpage{41}
+    \subitem {useHelperFunction}, \hyperpage{43}
   \item {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsWizard}, 
-		\hyperpage{37}
-    \subitem {addUserInputPages}, \hyperpage{38}
-    \subitem {constructors}, \hyperpage{38}
-    \subitem {RemoveDuplicateCodeInConstructorsWizard}, \hyperpage{37}
+		\hyperpage{43}
+    \subitem {addUserInputPages}, \hyperpage{44}
+    \subitem {constructors}, \hyperpage{44}
+    \subitem {RemoveDuplicateCodeInConstructorsWizard}, \hyperpage{44}
   \item {edu::illinois::canistelCassabanana::utility::Utility}, 
-		\hyperpage{40}
-    \subitem {fullyQualifiedName}, \hyperpage{40}
-    \subitem {getConstructors}, \hyperpage{40}
-    \subitem {getPairs}, \hyperpage{41}
-    \subitem {getParent}, \hyperpage{41}
-    \subitem {lookupIType}, \hyperpage{41}
+		\hyperpage{46}
+    \subitem {createDefaultValue}, \hyperpage{46}
+    \subitem {fullyQualifiedName}, \hyperpage{47}
+    \subitem {getConstructors}, \hyperpage{47}
+    \subitem {getFieldAssignmentsInConstructors}, \hyperpage{48}
+    \subitem {getMethods}, \hyperpage{48}
+    \subitem {getPairs}, \hyperpage{48}
+    \subitem {getParent}, \hyperpage{48}
+    \subitem {lookupIType}, \hyperpage{49}
   \item {edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor}, 
 		\hyperpage{11}
     \subitem {AssignmentExpressionVisitor}, \hyperpage{11}
@@ -277,49 +308,67 @@
     \subitem {visit}, \hyperpage{14}
   \item {edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}, 
 		\hyperpage{15}
-    \subitem {fieldAssignmentStatements}, \hyperpage{16}
-    \subitem {fields}, \hyperpage{16}
+    \subitem {checkFieldAssignsParameter}, \hyperpage{16}
+    \subitem {fields}, \hyperpage{17}
+    \subitem {fieldsAssigningParameters}, \hyperpage{17}
     \subitem {FieldVariableVisitor}, \hyperpage{16}
-    \subitem {getFieldAssignmentStatements}, \hyperpage{16}
     \subitem {getFields}, \hyperpage{16}
-    \subitem {setFieldAssignmentStatements}, \hyperpage{16}
-    \subitem {visit}, \hyperpage{16}
+    \subitem {getFieldsAssigningParameters}, \hyperpage{16}
+    \subitem {getParametersToFieldBindings}, \hyperpage{17}
+    \subitem {parameterNames}, \hyperpage{17}
+    \subitem {parameterToFieldBindings}, \hyperpage{17}
+    \subitem {visit}, \hyperpage{17}
+  \item {edu::illinois::canistelCassabanana::visitors::MethodDeclarationVisitor}, 
+		\hyperpage{18}
+    \subitem {getMethodDeclarations}, \hyperpage{19}
+    \subitem {methodDeclarations}, \hyperpage{19}
+    \subitem {MethodDeclarationVisitor}, \hyperpage{18}
+    \subitem {visit}, \hyperpage{19}
+  \item {edu::illinois::canistelCassabanana::visitors::NameBindingVisitor}, 
+		\hyperpage{19}
+    \subitem {getIBindings}, \hyperpage{20}
+    \subitem {iBindings}, \hyperpage{20}
+    \subitem {NameBindingVisitor}, \hyperpage{20}
+    \subitem {visit}, \hyperpage{20}
   \item {edu::illinois::canistelCassabanana::visitors::TypeDeclarationVisitor}, 
-		\hyperpage{38}
-    \subitem {getTypes}, \hyperpage{39}
-    \subitem {TypeDeclarationVisitor}, \hyperpage{39}
-    \subitem {types}, \hyperpage{39}
-    \subitem {visit}, \hyperpage{39}
+		\hyperpage{45}
+    \subitem {getTypes}, \hyperpage{45}
+    \subitem {TypeDeclarationVisitor}, \hyperpage{45}
+    \subitem {types}, \hyperpage{46}
+    \subitem {visit}, \hyperpage{45}
   \item {enableDisableHelperMethodTextBox}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}, 
-		\hyperpage{25}
+		\hyperpage{29}
+  \item {ERROR\_\discretionary {-}{}{}REFACTORING\_\discretionary {-}{}{}MESSAGE}
+    \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsConstants}, 
+		\hyperpage{24}
 
   \indexspace
 
-  \item {fieldAssignmentStatements}
-    \subitem {edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}, 
-		\hyperpage{16}
   \item {fields}
     \subitem {edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}, 
-		\hyperpage{16}
+		\hyperpage{17}
+  \item {fieldsAssigningParameters}
+    \subitem {edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}, 
+		\hyperpage{17}
   \item {fieldsInConstructorAssignments}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{36}
+		\hyperpage{42}
   \item {FieldVariableVisitor}
     \subitem {edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}, 
 		\hyperpage{16}
   \item {fullyQualifiedName}
     \subitem {edu::illinois::canistelCassabanana::utility::Utility}, 
-		\hyperpage{40}
+		\hyperpage{47}
 
   \indexspace
 
   \item {getArguments}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsDescriptor}, 
-		\hyperpage{22}
+		\hyperpage{27}
   \item {getConstructorContainingAllAssignedFields}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{32}
+		\hyperpage{38}
   \item {getConstructorDeclarations}
     \subitem {edu::illinois::canistelCassabanana::visitors::ConstructorDeclarationVisitor}, 
 		\hyperpage{13}
@@ -327,118 +376,170 @@
     \subitem {edu::illinois::canistelCassabanana::visitors::ConstructorInvocationVisitor}, 
 		\hyperpage{14}
   \item {getConstructors}
-    \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{32}
     \subitem {edu::illinois::canistelCassabanana::utility::Utility}, 
-		\hyperpage{40}
+		\hyperpage{47}
   \item {getDefault}
     \subitem {edu::illinois::canistelCassabanana::Activator}, 
 		\hyperpage{10}
   \item {getFieldAssignments}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{32}
+		\hyperpage{38}
   \item {getFieldAssignmentsInConstructors}
-    \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{33}
-  \item {getFieldAssignmentStatements}
-    \subitem {edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}, 
-		\hyperpage{16}
+    \subitem {edu::illinois::canistelCassabanana::utility::Utility}, 
+		\hyperpage{48}
   \item {getFields}
     \subitem {edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}, 
 		\hyperpage{16}
   \item {getFieldsAssignedInAnyConstructor}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{33}
+		\hyperpage{38}
+  \item {getFieldsAssigningParameters}
+    \subitem {edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}, 
+		\hyperpage{16}
+  \item {getFieldsFromParameterList}
+    \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
+		\hyperpage{39}
   \item {getHelperMethodCheckBoxListener}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}, 
-		\hyperpage{25}
+		\hyperpage{29}
+  \item {getIBindings}
+    \subitem {edu::illinois::canistelCassabanana::visitors::NameBindingVisitor}, 
+		\hyperpage{20}
   \item {getLeftHandSideAssigmentExpressions}
     \subitem {edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor}, 
 		\hyperpage{11}
+  \item {getMethodDeclarations}
+    \subitem {edu::illinois::canistelCassabanana::visitors::MethodDeclarationVisitor}, 
+		\hyperpage{19}
+  \item {getMethods}
+    \subitem {edu::illinois::canistelCassabanana::utility::Utility}, 
+		\hyperpage{48}
+  \item {getModifyListener}
+    \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}, 
+		\hyperpage{30}
   \item {getName}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{33}
+		\hyperpage{39}
   \item {getPairs}
     \subitem {edu::illinois::canistelCassabanana::utility::Utility}, 
-		\hyperpage{41}
+		\hyperpage{48}
+  \item {getParametersToFieldBindings}
+    \subitem {edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}, 
+		\hyperpage{17}
   \item {getParent}
     \subitem {edu::illinois::canistelCassabanana::utility::Utility}, 
-		\hyperpage{41}
+		\hyperpage{48}
   \item {getRemoveDuplicateCodeInConstructorsRefactoring}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}, 
-		\hyperpage{25}
+		\hyperpage{30}
   \item {getRightHandSideAssignmentExpressions}
     \subitem {edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor}, 
 		\hyperpage{11}
   \item {getTypes}
     \subitem {edu::illinois::canistelCassabanana::visitors::TypeDeclarationVisitor}, 
-		\hyperpage{39}
+		\hyperpage{45}
 
   \indexspace
 
   \item {handleInput}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}, 
-		\hyperpage{25}
+		\hyperpage{30}
+  \item {HELPER\_\discretionary {-}{}{}FUNCTION\_\discretionary {-}{}{}BAD\_\discretionary {-}{}{}NAME\_\discretionary {-}{}{}MESSAGE}
+    \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsConstants}, 
+		\hyperpage{24}
+  \item {HELPER\_\discretionary {-}{}{}FUNCTION\_\discretionary {-}{}{}EXISTING\_\discretionary {-}{}{}NAME\_\discretionary {-}{}{}MESSAGE}
+    \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsConstants}, 
+		\hyperpage{24}
   \item {helperFunctionName}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{36}
+		\hyperpage{42}
   \item {helperMethodCheckBox}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}, 
-		\hyperpage{26}
+		\hyperpage{31}
   \item {helperMethodTextBox}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}, 
-		\hyperpage{26}
+		\hyperpage{31}
 
   \indexspace
 
+  \item {iBindings}
+    \subitem {edu::illinois::canistelCassabanana::visitors::NameBindingVisitor}, 
+		\hyperpage{20}
   \item {init}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}, 
-		\hyperpage{17}
+		\hyperpage{21}
   \item {initializeConstructors}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{34}
+		\hyperpage{39}
+  \item {isDependency}
+    \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
+		\hyperpage{39}
   \item {isEmptyEdit}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{34}
+		\hyperpage{40}
 
   \indexspace
 
   \item {launchRefactoring}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}, 
-		\hyperpage{18}
+		\hyperpage{21}
   \item {leftHandSideAssignmentExpressions}
     \subitem {edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor}, 
 		\hyperpage{12}
   \item {lookupIType}
     \subitem {edu::illinois::canistelCassabanana::utility::Utility}, 
-		\hyperpage{41}
+		\hyperpage{49}
 
   \indexspace
 
+  \item {mergeInvalidNameError}
+    \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
+		\hyperpage{40}
+  \item {methodDeclarations}
+    \subitem {edu::illinois::canistelCassabanana::visitors::MethodDeclarationVisitor}, 
+		\hyperpage{19}
+  \item {MethodDeclarationVisitor}
+    \subitem {edu::illinois::canistelCassabanana::visitors::MethodDeclarationVisitor}, 
+		\hyperpage{18}
+
+  \indexspace
+
+  \item {NameBindingVisitor}
+    \subitem {edu::illinois::canistelCassabanana::visitors::NameBindingVisitor}, 
+		\hyperpage{20}
   \item {NO\_\discretionary {-}{}{}CONSTRUCTORS\_\discretionary {-}{}{}MESSAGE}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsConstants}, 
-		\hyperpage{20}
+		\hyperpage{24}
   \item {NO\_\discretionary {-}{}{}DUPLICATE\_\discretionary {-}{}{}CODE\_\discretionary {-}{}{}MESSAGE}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsConstants}, 
-		\hyperpage{20}
+		\hyperpage{24}
   \item {NULL\_\discretionary {-}{}{}CONSTRUCTORS\_\discretionary {-}{}{}MESSAGE}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsConstants}, 
-		\hyperpage{20}
+		\hyperpage{24}
 
   \indexspace
 
   \item {ONE\_\discretionary {-}{}{}CONSTRUCTOR\_\discretionary {-}{}{}MESSAGE}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsConstants}, 
-		\hyperpage{20}
+		\hyperpage{25}
   \item {otherConstructorsCallConstructors}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{34}
+		\hyperpage{40}
 
   \indexspace
 
+  \item {parameterFieldsInConstructorAssignments}
+    \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
+		\hyperpage{43}
+  \item {parameterNames}
+    \subitem {edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}, 
+		\hyperpage{17}
+  \item {parameterToFieldBindings}
+    \subitem {edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}, 
+		\hyperpage{17}
   \item {parent}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{36}
+		\hyperpage{43}
   \item {plugin}
     \subitem {edu::illinois::canistelCassabanana::Activator}, 
 		\hyperpage{10}
@@ -450,63 +551,60 @@
 
   \item {refactoring}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}, 
-		\hyperpage{26}
+		\hyperpage{31}
   \item {REFACTORING\_\discretionary {-}{}{}DESCRIPTION}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsConstants}, 
-		\hyperpage{20}
+		\hyperpage{25}
   \item {REFACTORING\_\discretionary {-}{}{}ID}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsConstants}, 
-		\hyperpage{20}
+		\hyperpage{25}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsDescriptor}, 
-		\hyperpage{22}
+		\hyperpage{27}
   \item {REFACTORING\_\discretionary {-}{}{}NAME}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsConstants}, 
-		\hyperpage{20}
+		\hyperpage{25}
   \item {refactorTreeSelection}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}, 
-		\hyperpage{18}
+		\hyperpage{22}
   \item {RemoveDuplicateCodeInConstructorsDescriptor}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsDescriptor}, 
-		\hyperpage{22}
+		\hyperpage{26}
   \item {RemoveDuplicateCodeInConstructorsInputPage}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsInputPage}, 
-		\hyperpage{24}
+		\hyperpage{28}
   \item {RemoveDuplicateCodeInConstructorsRefactoring}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{28}
+		\hyperpage{33, 34}
   \item {RemoveDuplicateCodeInConstructorsWizard}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsWizard}, 
-		\hyperpage{37}
+		\hyperpage{44}
   \item {removeFinalFieldAssignments}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{34}
+		\hyperpage{40}
   \item {rewriteAST}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{34}
+		\hyperpage{41}
   \item {rightHandSideAssignmentExpressions}
     \subitem {edu::illinois::canistelCassabanana::visitors::AssignmentExpressionVisitor}, 
 		\hyperpage{12}
   \item {run}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}, 
-		\hyperpage{18}
+		\hyperpage{22}
 
   \indexspace
 
   \item {selectionChanged}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}, 
-		\hyperpage{18}
+		\hyperpage{22}
   \item {setAccessModifier}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{35}
-  \item {setFieldAssignmentStatements}
-    \subitem {edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}, 
-		\hyperpage{16}
+		\hyperpage{41}
   \item {setHelperFunctionName}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{35}
+		\hyperpage{41}
   \item {setUseHelperFunction}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{35}
+		\hyperpage{41}
   \item {start}
     \subitem {edu::illinois::canistelCassabanana::Activator}, 
 		\hyperpage{10}
@@ -518,25 +616,25 @@
 
   \item {TypeDeclarationVisitor}
     \subitem {edu::illinois::canistelCassabanana::visitors::TypeDeclarationVisitor}, 
-		\hyperpage{39}
+		\hyperpage{45}
   \item {types}
     \subitem {edu::illinois::canistelCassabanana::visitors::TypeDeclarationVisitor}, 
-		\hyperpage{39}
+		\hyperpage{46}
 
   \indexspace
 
   \item {UNABLE\_\discretionary {-}{}{}TO\_\discretionary {-}{}{}REFACTOR}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsConstants}, 
-		\hyperpage{21}
+		\hyperpage{25}
   \item {UNEXPECTED\_\discretionary {-}{}{}ERROR\_\discretionary {-}{}{}MESSAGE}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsConstants}, 
-		\hyperpage{21}
+		\hyperpage{25}
   \item {unit}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}, 
-		\hyperpage{18}
+		\hyperpage{22}
   \item {useHelperFunction}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsRefactoring}, 
-		\hyperpage{36}
+		\hyperpage{43}
 
   \indexspace
 
@@ -548,14 +646,18 @@
     \subitem {edu::illinois::canistelCassabanana::visitors::ConstructorInvocationVisitor}, 
 		\hyperpage{14}
     \subitem {edu::illinois::canistelCassabanana::visitors::FieldVariableVisitor}, 
-		\hyperpage{16}
+		\hyperpage{17}
+    \subitem {edu::illinois::canistelCassabanana::visitors::MethodDeclarationVisitor}, 
+		\hyperpage{19}
+    \subitem {edu::illinois::canistelCassabanana::visitors::NameBindingVisitor}, 
+		\hyperpage{20}
     \subitem {edu::illinois::canistelCassabanana::visitors::TypeDeclarationVisitor}, 
-		\hyperpage{39}
+		\hyperpage{45}
 
   \indexspace
 
   \item {window}
     \subitem {edu::illinois::canistelCassabanana::RemoveDuplicateCodeInConstructorsAction}, 
-		\hyperpage{18}
+		\hyperpage{22}
 
 \end{theindex}

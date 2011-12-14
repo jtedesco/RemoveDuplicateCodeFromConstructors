@@ -95,13 +95,53 @@ Static Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static ICompilationUnit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a45eff2f6304ebeb68bc077e77faaf41c">getParent</a> (List&lt; IMethod &gt; constructors)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static List&lt; IMethod &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a6cd2cf1ed4823a36a63fb36b4c31cdea">getConstructors</a> (ICompilationUnit unit)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static&lt; T &gt; Set&lt; Set&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#aa8be57d974d02d56e0ae832bedcdee08">getPairs</a> (Set&lt; T &gt; originalSet)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static ASTNode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a4dac6bf635efbf16177f98b50f2d8418">createDefaultValue</a> (IVariableBinding field, AST ast)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#af883c4cac9ba8bbed2dbf096ed94a9fb">getFieldAssignmentsInConstructors</a> (Set&lt; MethodDeclaration &gt; constructorDeclarations, Map&lt; MethodDeclaration, Set&lt; IVariableBinding &gt;&gt; constructorParameterAssignmentsExpressions, Map&lt; MethodDeclaration, Set&lt; IVariableBinding &gt;&gt; constructorAssignmentsExpressions)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static Set&lt; MethodDeclaration &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a44aa27794a29b6d115d3ca5e3f18dd3c">getConstructors</a> (CompilationUnit ast)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static Set&lt; MethodDeclaration &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html#a92d592b310010b841d64d461e0a6ab75">getMethods</a> (CompilationUnit ast)</td></tr>
 </table>
 <hr/><a name="_details"></a><h2>Detailed Description</h2>
-<div class="textblock"><p>A utility class that contains shared static methods for the plugin.</p>
-<dl class="author"><dt><b>Author:</b></dt><dd>jon </dd></dl>
-
-<p>Definition at line <a class="el" href="Utility_8java_source.html#l00021">21</a> of file <a class="el" href="Utility_8java_source.html">Utility.java</a>.</p>
+<div class="textblock">
+<p>Definition at line <a class="el" href="Utility_8java_source.html#l00033">33</a> of file <a class="el" href="Utility_8java_source.html">Utility.java</a>.</p>
 </div><hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a4dac6bf635efbf16177f98b50f2d8418"></a><!-- doxytag: member="edu::illinois::canistelCassabanana::utility::Utility::createDefaultValue" ref="a4dac6bf635efbf16177f98b50f2d8418" args="(IVariableBinding field, AST ast)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static ASTNode edu.illinois.canistelCassabanana.utility.Utility.createDefaultValue </td>
+          <td>(</td>
+          <td class="paramtype">IVariableBinding&#160;</td>
+          <td class="paramname"><em>field</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AST&#160;</td>
+          <td class="paramname"><em>ast</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Creates the default value ASTNode for a particular field, given the AST.</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">field</td><td>The field for which to get the default value </td></tr>
+    <tr><td class="paramname">ast</td><td>The AST to use to create this default value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The ASTNode representing the literal default value for this field </dd></dl>
+
+<p>Definition at line <a class="el" href="Utility_8java_source.html#l00220">220</a> of file <a class="el" href="Utility_8java_source.html">Utility.java</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a7ad7b01b4ac985f843daae80a9b530f6"></a><!-- doxytag: member="edu::illinois::canistelCassabanana::utility::Utility::fullyQualifiedName" ref="a7ad7b01b4ac985f843daae80a9b530f6" args="(ITypeBinding type)" -->
 <div class="memitem">
 <div class="memproto">
@@ -125,7 +165,7 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>The fully qualified name of the binding. </dd></dl>
 
-<p>Definition at line <a class="el" href="Utility_8java_source.html#l00030">30</a> of file <a class="el" href="Utility_8java_source.html">Utility.java</a>.</p>
+<p>Definition at line <a class="el" href="Utility_8java_source.html#l00043">43</a> of file <a class="el" href="Utility_8java_source.html">Utility.java</a>.</p>
 
 </div>
 </div>
@@ -153,7 +193,97 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>The list of methods in this compilation unit </dd></dl>
 
-<p>Definition at line <a class="el" href="Utility_8java_source.html#l00138">138</a> of file <a class="el" href="Utility_8java_source.html">Utility.java</a>.</p>
+<p>Definition at line <a class="el" href="Utility_8java_source.html#l00153">153</a> of file <a class="el" href="Utility_8java_source.html">Utility.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a44aa27794a29b6d115d3ca5e3f18dd3c"></a><!-- doxytag: member="edu::illinois::canistelCassabanana::utility::Utility::getConstructors" ref="a44aa27794a29b6d115d3ca5e3f18dd3c" args="(CompilationUnit ast)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Set&lt;MethodDeclaration&gt; edu.illinois.canistelCassabanana.utility.Utility.getConstructors </td>
+          <td>(</td>
+          <td class="paramtype">CompilationUnit&#160;</td>
+          <td class="paramname"><em>ast</em></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Helper function to recursively retrieve all the constructors in some compilation unit</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">unit</td><td>The compilation unit from which to retrieve the constructors </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The list of methods in this compilation unit </dd></dl>
+
+<p>Definition at line <a class="el" href="Utility_8java_source.html#l00293">293</a> of file <a class="el" href="Utility_8java_source.html">Utility.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af883c4cac9ba8bbed2dbf096ed94a9fb"></a><!-- doxytag: member="edu::illinois::canistelCassabanana::utility::Utility::getFieldAssignmentsInConstructors" ref="af883c4cac9ba8bbed2dbf096ed94a9fb" args="(Set&lt; MethodDeclaration &gt; constructorDeclarations, Map&lt; MethodDeclaration, Set&lt; IVariableBinding &gt;&gt; constructorParameterAssignmentsExpressions, Map&lt; MethodDeclaration, Set&lt; IVariableBinding &gt;&gt; constructorAssignmentsExpressions)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void edu.illinois.canistelCassabanana.utility.Utility.getFieldAssignmentsInConstructors </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; MethodDeclaration &gt;&#160;</td>
+          <td class="paramname"><em>constructorDeclarations</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; MethodDeclaration, Set&lt; IVariableBinding &gt;&gt;&#160;</td>
+          <td class="paramname"><em>constructorParameterAssignmentsExpressions</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; MethodDeclaration, Set&lt; IVariableBinding &gt;&gt;&#160;</td>
+          <td class="paramname"><em>constructorAssignmentsExpressions</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Helper function to extract the set of fields that appear in assignment (from parameters and from anything) in each constructor </p>
+
+<p>Definition at line <a class="el" href="Utility_8java_source.html#l00246">246</a> of file <a class="el" href="Utility_8java_source.html">Utility.java</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a92d592b310010b841d64d461e0a6ab75"></a><!-- doxytag: member="edu::illinois::canistelCassabanana::utility::Utility::getMethods" ref="a92d592b310010b841d64d461e0a6ab75" args="(CompilationUnit ast)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Set&lt;MethodDeclaration&gt; edu.illinois.canistelCassabanana.utility.Utility.getMethods </td>
+          <td>(</td>
+          <td class="paramtype">CompilationUnit&#160;</td>
+          <td class="paramname"><em>ast</em></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Get the set of top-level method names declared</p>
+<dl><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">unit</td><td>The compilation unit from which to retrieve the methods </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>Returns:</b></dt><dd>The list of methods in this compilation unit </dd></dl>
+
+<p>Definition at line <a class="el" href="Utility_8java_source.html#l00307">307</a> of file <a class="el" href="Utility_8java_source.html">Utility.java</a>.</p>
 
 </div>
 </div>
@@ -179,9 +309,9 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>A set of every possible pair from the original set</dd></dl>
-<dl class="see"><dt><b>See also:</b></dt><dd><a href="http://stackoverflow.com/questions/1670862/obtaining-powerset-of-a-set-in-java">http://stackoverflow.com/questions/1670862/obtaining-powerset-of-a-set-in-java</a> </dd></dl>
+<dl class="see"><dt><b>See also:</b></dt><dd>http ://stackoverflow.com/questions/1670862/obtaining-powerset-of-a-set -in-java </dd></dl>
 
-<p>Definition at line <a class="el" href="Utility_8java_source.html#l00172">172</a> of file <a class="el" href="Utility_8java_source.html">Utility.java</a>.</p>
+<p>Definition at line <a class="el" href="Utility_8java_source.html#l00190">190</a> of file <a class="el" href="Utility_8java_source.html">Utility.java</a>.</p>
 
 </div>
 </div>
@@ -208,7 +338,7 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>The compilation unit containing the given constructors. If the constructors do not share the same compilation unit, this method will return null. </dd></dl>
 
-<p>Definition at line <a class="el" href="Utility_8java_source.html#l00114">114</a> of file <a class="el" href="Utility_8java_source.html">Utility.java</a>.</p>
+<p>Definition at line <a class="el" href="Utility_8java_source.html#l00129">129</a> of file <a class="el" href="Utility_8java_source.html">Utility.java</a>.</p>
 
 </div>
 </div>
@@ -246,7 +376,7 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="return"><dt><b>Returns:</b></dt><dd>The IType corresponding to binding, or null. </dd></dl>
 
-<p>Definition at line <a class="el" href="Utility_8java_source.html#l00078">78</a> of file <a class="el" href="Utility_8java_source.html">Utility.java</a>.</p>
+<p>Definition at line <a class="el" href="Utility_8java_source.html#l00094">94</a> of file <a class="el" href="Utility_8java_source.html">Utility.java</a>.</p>
 
 </div>
 </div>
@@ -262,7 +392,7 @@ Static Public Member Functions</h2></td></tr>
       <li class="navelem"><a class="el" href="namespaceedu_1_1illinois_1_1canistelCassabanana.html">canistelCassabanana</a>      </li>
       <li class="navelem"><a class="el" href="namespaceedu_1_1illinois_1_1canistelCassabanana_1_1utility.html">utility</a>      </li>
       <li class="navelem"><a class="el" href="classedu_1_1illinois_1_1canistelCassabanana_1_1utility_1_1Utility.html">Utility</a>      </li>
-      <li class="footer">Generated on Tue Nov 29 2011 01:50:54 for Remove Duplicate Code From Constructors Refactoring by&#160;
+      <li class="footer">Generated on Sun Dec 11 2011 22:25:12 for Remove Duplicate Code From Constructors Refactoring by&#160;
 <a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.3 </li>
     </ul>

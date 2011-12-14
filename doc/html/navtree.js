@@ -7,6 +7,8 @@ var NAVTREE =
       [ "edu.illinois.canistelCassabanana.visitors.ConstructorDeclarationVisitor", "classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorDeclarationVisitor.html", null ],
       [ "edu.illinois.canistelCassabanana.visitors.ConstructorInvocationVisitor", "classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1ConstructorInvocationVisitor.html", null ],
       [ "edu.illinois.canistelCassabanana.visitors.FieldVariableVisitor", "classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1FieldVariableVisitor.html", null ],
+      [ "edu.illinois.canistelCassabanana.visitors.MethodDeclarationVisitor", "classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1MethodDeclarationVisitor.html", null ],
+      [ "edu.illinois.canistelCassabanana.visitors.NameBindingVisitor", "classedu_1_1illinois_1_1canistelCassabanana_1_1visitors_1_1NameBindingVisitor.html", null ],
       [ "edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsAction", "classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsAction.html", null ],
       [ "edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsConstants", "classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsConstants.html", null ],
       [ "edu.illinois.canistelCassabanana.RemoveDuplicateCodeInConstructorsDescriptor", "classedu_1_1illinois_1_1canistelCassabanana_1_1RemoveDuplicateCodeInConstructorsDescriptor.html", null ],
@@ -38,6 +40,8 @@ var NAVTREE =
       [ "/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/ConstructorDeclarationVisitor.java", "ConstructorDeclarationVisitor_8java.html", null ],
       [ "/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/ConstructorInvocationVisitor.java", "ConstructorInvocationVisitor_8java.html", null ],
       [ "/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/FieldVariableVisitor.java", "FieldVariableVisitor_8java.html", null ],
+      [ "/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/MethodDeclarationVisitor.java", "MethodDeclarationVisitor_8java.html", null ],
+      [ "/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/NameBindingVisitor.java", "NameBindingVisitor_8java.html", null ],
       [ "/media/Documents/Documents/Dropbox/16 - College - Senior/CS 427 - Software Engineering I/edu.illinois.canistelCassabanana/src/edu/illinois/canistelCassabanana/visitors/TypeDeclarationVisitor.java", "TypeDeclarationVisitor_8java.html", null ]
     ] ]
   ] ]
